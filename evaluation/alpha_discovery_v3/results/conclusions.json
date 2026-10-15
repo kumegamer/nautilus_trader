@@ -1,0 +1,23 @@
+{
+  "adaptive_controller_exercised": false,
+  "automatic_activation": false,
+  "classification": "ALPHA_DISCOVERY_WEAK",
+  "data_status": "CONSUMED_THROUGH_2026_09",
+  "economic_hypotheses": 12,
+  "initial_forward_eligible_profiles": [],
+  "material_difference_checks": [],
+  "native_runs": 396,
+  "paths": 44,
+  "primary_treatments": 16,
+  "prospective_performance_observed": false,
+  "real_money_enabled": false,
+  "research_candidates": [],
+  "validated_profiles": [],
+  "weak_signals": [
+    "MHT_LONG",
+    "BQ_LONG",
+    "CROSS_LONG",
+    "ML_LONG",
+    "ML_SHORT"
+  ]
+}

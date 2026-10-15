@@ -1,0 +1,8 @@
+{
+  "chronology": "every signal before fill",
+  "closed_trades": 61621,
+  "decimal_account_tolerance": "0.00001 USDT",
+  "fills": 123242,
+  "passed": true,
+  "runs": 396
+}

@@ -1,0 +1,334 @@
+{
+  "budget": {
+    "exit_diagnostics": 4,
+    "maximum_native_runs": 396,
+    "neighbors": 24,
+    "primary": 16,
+    "result_driven_revisions": 0,
+    "total_paths": 44
+  },
+  "budget_exhausted": true,
+  "explanation": "Research judgment predeclares mechanisms; deterministic observations and followups cannot optimize until success.",
+  "iterations": [
+    {
+      "automatic_activation": false,
+      "classification": "WEAK_SIGNAL",
+      "deterministic_gate_failures": [
+        "economics",
+        "cost",
+        "stability",
+        "resampling",
+        "multiple_testing",
+        "concentration",
+        "symbol_transfer"
+      ],
+      "diagnosis": "Positive historical economics require independent cost, chronology, stability and concentration gates.",
+      "falsifiable_next_hypothesis": "Economic participation should transfer across chronological blocks if it is persistent.",
+      "hypothesis_id": "MHT_LONG",
+      "next_version_proposal": "Collect forward unchanged-profile observations; reconsider mechanism only in a newly frozen version.",
+      "predeclared_followups": [
+        "MHT_LONG_LOW",
+        "MHT_LONG_HIGH"
+      ],
+      "proposal_status": "INERT_BUDGET_EXHAUSTED",
+      "step": "experiment_result_diagnosis"
+    },
+    {
+      "automatic_activation": false,
+      "classification": "REJECTED",
+      "deterministic_gate_failures": [
+        "economics",
+        "sample",
+        "chronology",
+        "cost",
+        "stability",
+        "resampling",
+        "multiple_testing",
+        "concentration",
+        "symbol_transfer"
+      ],
+      "diagnosis": "Directional or entry mechanism has nonpositive chronological economics.",
+      "falsifiable_next_hypothesis": "Economic participation should transfer across chronological blocks if it is persistent.",
+      "hypothesis_id": "MHT_SHORT",
+      "next_version_proposal": "Collect forward unchanged-profile observations; reconsider mechanism only in a newly frozen version.",
+      "predeclared_followups": [
+        "MHT_SHORT_LOW",
+        "MHT_SHORT_HIGH"
+      ],
+      "proposal_status": "INERT_BUDGET_EXHAUSTED",
+      "step": "experiment_result_diagnosis"
+    },
+    {
+      "automatic_activation": false,
+      "classification": "WEAK_SIGNAL",
+      "deterministic_gate_failures": [
+        "chronology",
+        "resampling",
+        "multiple_testing"
+      ],
+      "diagnosis": "Positive historical economics require independent cost, chronology, stability and concentration gates.",
+      "falsifiable_next_hypothesis": "Economic participation should transfer across chronological blocks if it is persistent.",
+      "hypothesis_id": "BQ_LONG",
+      "next_version_proposal": "Collect forward unchanged-profile observations; reconsider mechanism only in a newly frozen version.",
+      "predeclared_followups": [
+        "BQ_LONG_LOW",
+        "BQ_LONG_HIGH"
+      ],
+      "proposal_status": "INERT_BUDGET_EXHAUSTED",
+      "step": "experiment_result_diagnosis"
+    },
+    {
+      "automatic_activation": false,
+      "classification": "REJECTED",
+      "deterministic_gate_failures": [
+        "economics",
+        "chronology",
+        "cost",
+        "stability",
+        "resampling",
+        "multiple_testing",
+        "concentration",
+        "symbol_transfer"
+      ],
+      "diagnosis": "Gross mechanism insufficient to cover trading friction.",
+      "falsifiable_next_hypothesis": "Economic participation should transfer across chronological blocks if it is persistent.",
+      "hypothesis_id": "BQ_SHORT",
+      "next_version_proposal": "Collect forward unchanged-profile observations; reconsider mechanism only in a newly frozen version.",
+      "predeclared_followups": [
+        "BQ_SHORT_LOW",
+        "BQ_SHORT_HIGH"
+      ],
+      "proposal_status": "INERT_BUDGET_EXHAUSTED",
+      "step": "experiment_result_diagnosis"
+    },
+    {
+      "automatic_activation": false,
+      "classification": "WEAK_SIGNAL",
+      "deterministic_gate_failures": [
+        "economics",
+        "chronology",
+        "cost",
+        "resampling",
+        "multiple_testing",
+        "symbol_transfer"
+      ],
+      "diagnosis": "Positive historical economics require independent cost, chronology, stability and concentration gates.",
+      "falsifiable_next_hypothesis": "Economic participation should transfer across chronological blocks if it is persistent.",
+      "hypothesis_id": "CROSS_LONG",
+      "next_version_proposal": "Collect forward unchanged-profile observations; reconsider mechanism only in a newly frozen version.",
+      "predeclared_followups": [
+        "CROSS_LONG_LOW",
+        "CROSS_LONG_HIGH"
+      ],
+      "proposal_status": "INERT_BUDGET_EXHAUSTED",
+      "step": "experiment_result_diagnosis"
+    },
+    {
+      "automatic_activation": false,
+      "classification": "REJECTED",
+      "deterministic_gate_failures": [
+        "economics",
+        "chronology",
+        "cost",
+        "stability",
+        "resampling",
+        "multiple_testing",
+        "concentration",
+        "symbol_transfer"
+      ],
+      "diagnosis": "Gross mechanism insufficient to cover trading friction.",
+      "falsifiable_next_hypothesis": "Economic participation should transfer across chronological blocks if it is persistent.",
+      "hypothesis_id": "CROSS_SHORT",
+      "next_version_proposal": "Collect forward unchanged-profile observations; reconsider mechanism only in a newly frozen version.",
+      "predeclared_followups": [
+        "CROSS_SHORT_LOW",
+        "CROSS_SHORT_HIGH"
+      ],
+      "proposal_status": "INERT_BUDGET_EXHAUSTED",
+      "step": "experiment_result_diagnosis"
+    },
+    {
+      "automatic_activation": false,
+      "classification": "REJECTED",
+      "deterministic_gate_failures": [
+        "economics",
+        "chronology",
+        "cost",
+        "stability",
+        "resampling",
+        "multiple_testing",
+        "concentration",
+        "symbol_transfer"
+      ],
+      "diagnosis": "Directional or entry mechanism has nonpositive chronological economics.",
+      "falsifiable_next_hypothesis": "Economic participation should transfer across chronological blocks if it is persistent.",
+      "hypothesis_id": "FUND_LONG",
+      "next_version_proposal": "Collect forward unchanged-profile observations; reconsider mechanism only in a newly frozen version.",
+      "predeclared_followups": [
+        "FUND_LONG_LOW",
+        "FUND_LONG_HIGH"
+      ],
+      "proposal_status": "INERT_BUDGET_EXHAUSTED",
+      "step": "experiment_result_diagnosis"
+    },
+    {
+      "automatic_activation": false,
+      "classification": "REJECTED",
+      "deterministic_gate_failures": [
+        "economics",
+        "sample",
+        "chronology",
+        "cost",
+        "stability",
+        "resampling",
+        "multiple_testing",
+        "concentration",
+        "symbol_transfer"
+      ],
+      "diagnosis": "Sparse activity: hypothesis not falsified reliably; no sample waiver.",
+      "falsifiable_next_hypothesis": "Economic participation should transfer across chronological blocks if it is persistent.",
+      "hypothesis_id": "FUND_SHORT",
+      "next_version_proposal": "Collect forward unchanged-profile observations; reconsider mechanism only in a newly frozen version.",
+      "predeclared_followups": [
+        "FUND_SHORT_LOW",
+        "FUND_SHORT_HIGH"
+      ],
+      "proposal_status": "INERT_BUDGET_EXHAUSTED",
+      "step": "experiment_result_diagnosis"
+    },
+    {
+      "automatic_activation": false,
+      "classification": "REJECTED",
+      "deterministic_gate_failures": [
+        "economics",
+        "chronology",
+        "cost",
+        "stability",
+        "resampling",
+        "multiple_testing",
+        "concentration",
+        "symbol_transfer"
+      ],
+      "diagnosis": "Gross mechanism insufficient to cover trading friction.",
+      "falsifiable_next_hypothesis": "Economic participation should transfer across chronological blocks if it is persistent.",
+      "hypothesis_id": "VOL_LONG",
+      "next_version_proposal": "Collect forward unchanged-profile observations; reconsider mechanism only in a newly frozen version.",
+      "predeclared_followups": [
+        "VOL_LONG_LOW",
+        "VOL_LONG_HIGH"
+      ],
+      "proposal_status": "INERT_BUDGET_EXHAUSTED",
+      "step": "experiment_result_diagnosis"
+    },
+    {
+      "automatic_activation": false,
+      "classification": "REJECTED",
+      "deterministic_gate_failures": [
+        "economics",
+        "sample",
+        "chronology",
+        "cost",
+        "stability",
+        "resampling",
+        "multiple_testing",
+        "concentration",
+        "symbol_transfer"
+      ],
+      "diagnosis": "Sparse activity: hypothesis not falsified reliably; no sample waiver.",
+      "falsifiable_next_hypothesis": "Economic participation should transfer across chronological blocks if it is persistent.",
+      "hypothesis_id": "VOL_SHORT",
+      "next_version_proposal": "Collect forward unchanged-profile observations; reconsider mechanism only in a newly frozen version.",
+      "predeclared_followups": [
+        "VOL_SHORT_LOW",
+        "VOL_SHORT_HIGH"
+      ],
+      "proposal_status": "INERT_BUDGET_EXHAUSTED",
+      "step": "experiment_result_diagnosis"
+    },
+    {
+      "automatic_activation": false,
+      "classification": "REJECTED",
+      "deterministic_gate_failures": [
+        "economics",
+        "chronology",
+        "cost",
+        "stability",
+        "resampling",
+        "multiple_testing",
+        "concentration",
+        "symbol_transfer"
+      ],
+      "diagnosis": "Gross mechanism insufficient to cover trading friction.",
+      "falsifiable_next_hypothesis": "Economic participation should transfer across chronological blocks if it is persistent.",
+      "hypothesis_id": "RANGE_LONG",
+      "next_version_proposal": "Collect forward unchanged-profile observations; reconsider mechanism only in a newly frozen version.",
+      "predeclared_followups": [
+        "RANGE_LONG_LOW",
+        "RANGE_LONG_HIGH"
+      ],
+      "proposal_status": "INERT_BUDGET_EXHAUSTED",
+      "step": "experiment_result_diagnosis"
+    },
+    {
+      "automatic_activation": false,
+      "classification": "REJECTED",
+      "deterministic_gate_failures": [
+        "economics",
+        "chronology",
+        "cost",
+        "stability",
+        "resampling",
+        "multiple_testing",
+        "concentration",
+        "symbol_transfer"
+      ],
+      "diagnosis": "Directional or entry mechanism has nonpositive chronological economics.",
+      "falsifiable_next_hypothesis": "Economic participation should transfer across chronological blocks if it is persistent.",
+      "hypothesis_id": "RANGE_SHORT",
+      "next_version_proposal": "Collect forward unchanged-profile observations; reconsider mechanism only in a newly frozen version.",
+      "predeclared_followups": [
+        "RANGE_SHORT_LOW",
+        "RANGE_SHORT_HIGH"
+      ],
+      "proposal_status": "INERT_BUDGET_EXHAUSTED",
+      "step": "experiment_result_diagnosis"
+    },
+    {
+      "automatic_activation": false,
+      "classification": "WEAK_SIGNAL",
+      "deterministic_gate_failures": [
+        "sample",
+        "stability",
+        "resampling",
+        "multiple_testing",
+        "concentration",
+        "symbol_transfer"
+      ],
+      "diagnosis": "Positive result depends excessively on an individual outcome.",
+      "falsifiable_next_hypothesis": "Economic participation should transfer across chronological blocks if it is persistent.",
+      "hypothesis_id": "ML_LONG",
+      "next_version_proposal": "Collect forward unchanged-profile observations; reconsider mechanism only in a newly frozen version.",
+      "predeclared_followups": [],
+      "proposal_status": "INERT_BUDGET_EXHAUSTED",
+      "step": "experiment_result_diagnosis"
+    },
+    {
+      "automatic_activation": false,
+      "classification": "WEAK_SIGNAL",
+      "deterministic_gate_failures": [
+        "chronology",
+        "stability",
+        "resampling",
+        "multiple_testing"
+      ],
+      "diagnosis": "Positive historical economics require independent cost, chronology, stability and concentration gates.",
+      "falsifiable_next_hypothesis": "Economic participation should transfer across chronological blocks if it is persistent.",
+      "hypothesis_id": "ML_SHORT",
+      "next_version_proposal": "Collect forward unchanged-profile observations; reconsider mechanism only in a newly frozen version.",
+      "predeclared_followups": [],
+      "proposal_status": "INERT_BUDGET_EXHAUSTED",
+      "step": "experiment_result_diagnosis"
+    }
+  ],
+  "result_driven_revisions_executed": 0
+}

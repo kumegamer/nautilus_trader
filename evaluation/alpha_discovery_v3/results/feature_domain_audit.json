@@ -1,0 +1,26 @@
+[
+  {
+    "symbol": "BTCUSDT",
+    "bars_5m": 300672,
+    "features_15m": 100224,
+    "taker_ratio_min": 0.12114685593539558,
+    "taker_ratio_max": 0.8890685920577617,
+    "ready_rows": 96380
+  },
+  {
+    "symbol": "ETHUSDT",
+    "bars_5m": 300672,
+    "features_15m": 100224,
+    "taker_ratio_min": 0.16119125471438658,
+    "taker_ratio_max": 0.8572352449052248,
+    "ready_rows": 96380
+  },
+  {
+    "symbol": "SOLUSDT",
+    "bars_5m": 300672,
+    "features_15m": 100224,
+    "taker_ratio_min": 0.14414198974931614,
+    "taker_ratio_max": 0.8889534951989586,
+    "ready_rows": 96380
+  }
+]

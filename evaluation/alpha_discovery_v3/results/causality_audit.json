@@ -1,0 +1,12 @@
+{
+  "actual_history_native_prefix_fills": 98,
+  "cutoff_ns": 1744848000000000000,
+  "feature_prefix_symbols": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "SOLUSDT"
+  ],
+  "fixture_is_performance_evidence": false,
+  "future_tail_mutation": "all earlier features and ML scores unchanged",
+  "passed": true
+}

@@ -1,0 +1,3 @@
+8acc5c4c3138b8057dc1da9f853b9a3a4bb9c4e9	refs/heads/evaluation/adaptive-trading-v1
+57703f7b5f77fed476adef323dc23e43f5a753b0	refs/heads/evaluation/adaptive-trading-v2
+3c669f91dd195266107a2f5b77c5c991565840a8	refs/heads/evaluation/edge-discovery-v1

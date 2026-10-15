@@ -1,0 +1,28 @@
+{
+  "adaptive_v1": {
+    "commit": "8acc5c4c3138b8057dc1da9f853b9a3a4bb9c4e9",
+    "files": 710,
+    "merged": false,
+    "tree_listing_sha256": "4cf93297010f94cb1d56833617781e3b250c2da3aff18c83cf0da88e3107155e",
+    "unchanged": true
+  },
+  "adaptive_v2": {
+    "commit": "57703f7b5f77fed476adef323dc23e43f5a753b0",
+    "files": 444,
+    "merged": false,
+    "tree_listing_sha256": "558b067eb2d825a747c24a15e3573a78d9274495ebeb51d6e77d731226b1ab18",
+    "unchanged": true
+  },
+  "edge_v1": {
+    "commit": "3c669f91dd195266107a2f5b77c5c991565840a8",
+    "files": 634,
+    "merged": false,
+    "tree_listing_sha256": "0da6a8b4c98f01004e24b7de40150fd0e5168bfd0bdd89a6c27d6f1fa02cc8c3",
+    "unchanged": true
+  },
+  "v2_prospective_freeze": {
+    "eligible": [],
+    "status": "NOT_STARTED_NO_FORWARD_PERFORMANCE_CLAIM",
+    "verified_files": 35
+  }
+}

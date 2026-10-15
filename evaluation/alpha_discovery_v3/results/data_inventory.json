@@ -1,0 +1,9 @@
+{
+  "audits": 3,
+  "unique_5m_bars": 902016,
+  "funding_events": 9036,
+  "funding_mark_proxy_rows": 9,
+  "maximum_reporting_jitter_ms": 26,
+  "parameter_revisions_after_scoring": 0,
+  "engineering_runs": "Fixture, prefix audit, and duplicate performance probe; never independent alpha evidence"
+}

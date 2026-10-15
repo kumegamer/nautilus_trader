@@ -1,0 +1,47 @@
+[
+  {
+    "path": "data/cache/BTCUSDT_features.parquet",
+    "rows": 100224,
+    "sha256": "41e8c6bfc6d82a50c8fd3f491e8ea5df167ba66dd23488a523e3c68dccbb53e2"
+  },
+  {
+    "path": "data/cache/BTCUSDT_bars.parquet",
+    "rows": 300672,
+    "sha256": "fdc5061cd98a337a80c3bf82ce9e3bac10e9b281bff91a734ff063a5e78efe12"
+  },
+  {
+    "path": "data/cache/BTCUSDT_rates.parquet",
+    "rows": 3012,
+    "sha256": "2888c46b3973cb05cdc79b0a53eb1e930a3582e6b42c705b34e6ae28704fa904"
+  },
+  {
+    "path": "data/cache/ETHUSDT_features.parquet",
+    "rows": 100224,
+    "sha256": "9cb0766ef7d973888e8f77ce12d69b5ad03540a27e66331110292447f3596952"
+  },
+  {
+    "path": "data/cache/ETHUSDT_bars.parquet",
+    "rows": 300672,
+    "sha256": "cbfd76cee4924a45340ec525b2e5a49846611cf8a8b6a545178ee531eeb857ad"
+  },
+  {
+    "path": "data/cache/ETHUSDT_rates.parquet",
+    "rows": 3012,
+    "sha256": "568d44e7ebe8d4b3351093883fc4aa154a7b231cbcab95f80ec4b3ad0fb6fc14"
+  },
+  {
+    "path": "data/cache/SOLUSDT_features.parquet",
+    "rows": 100224,
+    "sha256": "3b4ab8555c75e40d33cbd8bf647ffca5e013168615c4cfd84717c83be8646999"
+  },
+  {
+    "path": "data/cache/SOLUSDT_bars.parquet",
+    "rows": 300672,
+    "sha256": "c311f86c0b03e583ed6febe48824b9fcdcc962916073856be7b8df7abae53637"
+  },
+  {
+    "path": "data/cache/SOLUSDT_rates.parquet",
+    "rows": 3012,
+    "sha256": "bdb5cbaf03a7a3c2582f77b3bdb4858e15e5049be81ec19febb21c91ac4cc561"
+  }
+]

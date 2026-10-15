@@ -1,0 +1,822 @@
+{
+  "budget": {
+    "exit_diagnostics": 4,
+    "maximum_native_runs": 396,
+    "neighbors": 24,
+    "primary": 16,
+    "result_driven_revisions": 0,
+    "total_paths": 44
+  },
+  "created_utc": "2026-10-15T22:20:50.358701+00:00",
+  "evidence_class": "RETROSPECTIVE_EVIDENCE",
+  "files": {
+    "FEATURES.md": "821f31034f8f1ca260dd59da01a62f004e0da0d7e66a0683ee3cd331b8f292f7",
+    "GATES.md": "c7ff979b7fd73095b2e1a753eaf6f9a6c0f0e3259fc33d1826fb85b4865a9a42",
+    "PROTOCOL.md": "f73a63da37d13b04d469adfebd3b28bcd9752f011bc1892f516777f87713fbdc",
+    "alpha/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "alpha/analysis.py": "5e4661bcc5e26870c39cdbd44c1dddb29fda71c37d1dac736fd68655a346ffd9",
+    "alpha/audit.py": "1a6a8e8cbdeab3f38c1f5e420c9d6ab3a1859884446f6344ffa2f39d48617d96",
+    "alpha/common.py": "0e50daeec405e75d8f7d1172dd04a5ad57c7c2db707fa0dd31550afb532b49ad",
+    "alpha/data.py": "477a7b588bfe561ac76e81b588c07c13c4b34d239ad482328371c3a9ba5f682c",
+    "alpha/evaluate.py": "3fae8f682fd11b9bfb33e317d3c7cd3015457e1066dc47f07ac5e57ad152d82f",
+    "alpha/features.py": "ec8f264fb3ca5bda80908a1982d8b07b9a5cd90f70243e3990040ed23dc5e7f6",
+    "alpha/metrics.py": "179e32c657b939d2ae38a0460b5bc96d95b519278bea848e36e09c95b463b63d",
+    "alpha/ml.py": "e8b1497882728c8332f43e816592aefc01a9b45b01a8bc52f0733247e825e402",
+    "alpha/native.py": "ad15a714900bba554c50a7d6ce7365240127baca5dde8c7fa16fa2b71732890d",
+    "alpha/profiles.py": "94f218b57c190b4b494bc1e9d02e3111b2e7998248b36f93fcaa53a49785163d",
+    "alpha/report.py": "aa33b01bcc70534b30598d5c7e541ce18ef3f57e5df27e156d62eee2c18ab999",
+    "alpha/research.py": "12ce61bdb829a1de7753535573117d345990b10718c2196b7dddaf9ef482f4d8",
+    "alpha/restore.py": "11b5da2ecb3c56e90b3ea155cd632b4cbb6d5303640773b46441072087501113",
+    "alpha/strategy.py": "dbb70df2427b233e65de89c405982557fd4eea063af13de631282978d87a8475",
+    "alpha/workflow.py": "b4ea00fb9c887e99e5d003abf2483ce80493292ddb8ae5bd8f0f5854eabea4fa",
+    "config.json": "74654f90950f4e56ab927e525e2653e10c66ba62cca383290d1135608c4a3337"
+  },
+  "profiles": [
+    {
+      "exit": "trailing",
+      "family": "multi_horizon_trend",
+      "id": "MHT_LONG",
+      "lookback": 96,
+      "max_age": 96,
+      "minutes": 15,
+      "parent": null,
+      "role": "primary",
+      "side": 1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 0.5
+    },
+    {
+      "exit": "trailing",
+      "family": "multi_horizon_trend",
+      "id": "MHT_SHORT",
+      "lookback": 96,
+      "max_age": 64,
+      "minutes": 15,
+      "parent": null,
+      "role": "primary",
+      "side": -1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 0.7
+    },
+    {
+      "exit": "trailing",
+      "family": "breakout_quality",
+      "id": "BQ_LONG",
+      "lookback": 96,
+      "max_age": 96,
+      "minutes": 15,
+      "parent": null,
+      "role": "primary",
+      "side": 1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 1.3
+    },
+    {
+      "exit": "trailing",
+      "family": "breakout_quality",
+      "id": "BQ_SHORT",
+      "lookback": 96,
+      "max_age": 64,
+      "minutes": 15,
+      "parent": null,
+      "role": "primary",
+      "side": -1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 1.5
+    },
+    {
+      "exit": "trailing",
+      "family": "cross_asset_strength",
+      "id": "CROSS_LONG",
+      "lookback": 96,
+      "max_age": 96,
+      "minutes": 15,
+      "parent": null,
+      "role": "primary",
+      "side": 1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 0.01
+    },
+    {
+      "exit": "trailing",
+      "family": "cross_asset_strength",
+      "id": "CROSS_SHORT",
+      "lookback": 96,
+      "max_age": 64,
+      "minutes": 15,
+      "parent": null,
+      "role": "primary",
+      "side": -1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 0.015
+    },
+    {
+      "exit": "time",
+      "family": "funding_crowding",
+      "id": "FUND_LONG",
+      "lookback": 96,
+      "max_age": 32,
+      "minutes": 15,
+      "parent": null,
+      "role": "primary",
+      "side": 1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 0.0001
+    },
+    {
+      "exit": "time",
+      "family": "funding_crowding",
+      "id": "FUND_SHORT",
+      "lookback": 96,
+      "max_age": 32,
+      "minutes": 15,
+      "parent": null,
+      "role": "primary",
+      "side": -1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 0.0003
+    },
+    {
+      "exit": "trailing",
+      "family": "volatility_regime",
+      "id": "VOL_LONG",
+      "lookback": 96,
+      "max_age": 96,
+      "minutes": 15,
+      "parent": null,
+      "role": "primary",
+      "side": 1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 0.7
+    },
+    {
+      "exit": "trailing",
+      "family": "volatility_regime",
+      "id": "VOL_SHORT",
+      "lookback": 96,
+      "max_age": 64,
+      "minutes": 15,
+      "parent": null,
+      "role": "primary",
+      "side": -1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 1.4
+    },
+    {
+      "exit": "equilibrium",
+      "family": "liquidity_reversal",
+      "id": "RANGE_LONG",
+      "lookback": 96,
+      "max_age": 16,
+      "minutes": 15,
+      "parent": null,
+      "role": "primary",
+      "side": 1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 2.0
+    },
+    {
+      "exit": "equilibrium",
+      "family": "liquidity_reversal",
+      "id": "RANGE_SHORT",
+      "lookback": 96,
+      "max_age": 12,
+      "minutes": 15,
+      "parent": null,
+      "role": "primary",
+      "side": -1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 2.5
+    },
+    {
+      "exit": "trailing",
+      "family": "raw_breakout",
+      "id": "RAW_LONG",
+      "lookback": 96,
+      "max_age": 96,
+      "minutes": 15,
+      "parent": null,
+      "role": "control",
+      "side": 1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 0
+    },
+    {
+      "exit": "trailing",
+      "family": "raw_breakout",
+      "id": "RAW_SHORT",
+      "lookback": 96,
+      "max_age": 64,
+      "minutes": 15,
+      "parent": null,
+      "role": "control",
+      "side": -1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 0
+    },
+    {
+      "exit": "trailing",
+      "family": "logistic_quality",
+      "id": "ML_LONG",
+      "lookback": 96,
+      "max_age": 96,
+      "minutes": 15,
+      "parent": null,
+      "role": "ml",
+      "side": 1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 0.55
+    },
+    {
+      "exit": "trailing",
+      "family": "logistic_quality",
+      "id": "ML_SHORT",
+      "lookback": 96,
+      "max_age": 64,
+      "minutes": 15,
+      "parent": null,
+      "role": "ml",
+      "side": -1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 0.55
+    },
+    {
+      "exit": "trailing",
+      "family": "multi_horizon_trend",
+      "id": "MHT_LONG_LOW",
+      "lookback": 96,
+      "max_age": 96,
+      "minutes": 15,
+      "parent": "MHT_LONG",
+      "role": "neighbor",
+      "side": 1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 0.4
+    },
+    {
+      "exit": "trailing",
+      "family": "multi_horizon_trend",
+      "id": "MHT_LONG_HIGH",
+      "lookback": 96,
+      "max_age": 96,
+      "minutes": 15,
+      "parent": "MHT_LONG",
+      "role": "neighbor",
+      "side": 1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 0.6
+    },
+    {
+      "exit": "trailing",
+      "family": "multi_horizon_trend",
+      "id": "MHT_SHORT_LOW",
+      "lookback": 96,
+      "max_age": 64,
+      "minutes": 15,
+      "parent": "MHT_SHORT",
+      "role": "neighbor",
+      "side": -1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 0.5599999999999999
+    },
+    {
+      "exit": "trailing",
+      "family": "multi_horizon_trend",
+      "id": "MHT_SHORT_HIGH",
+      "lookback": 96,
+      "max_age": 64,
+      "minutes": 15,
+      "parent": "MHT_SHORT",
+      "role": "neighbor",
+      "side": -1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 0.84
+    },
+    {
+      "exit": "trailing",
+      "family": "breakout_quality",
+      "id": "BQ_LONG_LOW",
+      "lookback": 96,
+      "max_age": 96,
+      "minutes": 15,
+      "parent": "BQ_LONG",
+      "role": "neighbor",
+      "side": 1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 1.04
+    },
+    {
+      "exit": "trailing",
+      "family": "breakout_quality",
+      "id": "BQ_LONG_HIGH",
+      "lookback": 96,
+      "max_age": 96,
+      "minutes": 15,
+      "parent": "BQ_LONG",
+      "role": "neighbor",
+      "side": 1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 1.56
+    },
+    {
+      "exit": "trailing",
+      "family": "breakout_quality",
+      "id": "BQ_SHORT_LOW",
+      "lookback": 96,
+      "max_age": 64,
+      "minutes": 15,
+      "parent": "BQ_SHORT",
+      "role": "neighbor",
+      "side": -1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 1.2000000000000002
+    },
+    {
+      "exit": "trailing",
+      "family": "breakout_quality",
+      "id": "BQ_SHORT_HIGH",
+      "lookback": 96,
+      "max_age": 64,
+      "minutes": 15,
+      "parent": "BQ_SHORT",
+      "role": "neighbor",
+      "side": -1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 1.7999999999999998
+    },
+    {
+      "exit": "trailing",
+      "family": "cross_asset_strength",
+      "id": "CROSS_LONG_LOW",
+      "lookback": 96,
+      "max_age": 96,
+      "minutes": 15,
+      "parent": "CROSS_LONG",
+      "role": "neighbor",
+      "side": 1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 0.008
+    },
+    {
+      "exit": "trailing",
+      "family": "cross_asset_strength",
+      "id": "CROSS_LONG_HIGH",
+      "lookback": 96,
+      "max_age": 96,
+      "minutes": 15,
+      "parent": "CROSS_LONG",
+      "role": "neighbor",
+      "side": 1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 0.012
+    },
+    {
+      "exit": "trailing",
+      "family": "cross_asset_strength",
+      "id": "CROSS_SHORT_LOW",
+      "lookback": 96,
+      "max_age": 64,
+      "minutes": 15,
+      "parent": "CROSS_SHORT",
+      "role": "neighbor",
+      "side": -1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 0.012
+    },
+    {
+      "exit": "trailing",
+      "family": "cross_asset_strength",
+      "id": "CROSS_SHORT_HIGH",
+      "lookback": 96,
+      "max_age": 64,
+      "minutes": 15,
+      "parent": "CROSS_SHORT",
+      "role": "neighbor",
+      "side": -1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 0.018
+    },
+    {
+      "exit": "time",
+      "family": "funding_crowding",
+      "id": "FUND_LONG_LOW",
+      "lookback": 96,
+      "max_age": 32,
+      "minutes": 15,
+      "parent": "FUND_LONG",
+      "role": "neighbor",
+      "side": 1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 8e-05
+    },
+    {
+      "exit": "time",
+      "family": "funding_crowding",
+      "id": "FUND_LONG_HIGH",
+      "lookback": 96,
+      "max_age": 32,
+      "minutes": 15,
+      "parent": "FUND_LONG",
+      "role": "neighbor",
+      "side": 1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 0.00012
+    },
+    {
+      "exit": "time",
+      "family": "funding_crowding",
+      "id": "FUND_SHORT_LOW",
+      "lookback": 96,
+      "max_age": 32,
+      "minutes": 15,
+      "parent": "FUND_SHORT",
+      "role": "neighbor",
+      "side": -1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 0.00023999999999999998
+    },
+    {
+      "exit": "time",
+      "family": "funding_crowding",
+      "id": "FUND_SHORT_HIGH",
+      "lookback": 96,
+      "max_age": 32,
+      "minutes": 15,
+      "parent": "FUND_SHORT",
+      "role": "neighbor",
+      "side": -1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 0.00035999999999999997
+    },
+    {
+      "exit": "trailing",
+      "family": "volatility_regime",
+      "id": "VOL_LONG_LOW",
+      "lookback": 96,
+      "max_age": 96,
+      "minutes": 15,
+      "parent": "VOL_LONG",
+      "role": "neighbor",
+      "side": 1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 0.5599999999999999
+    },
+    {
+      "exit": "trailing",
+      "family": "volatility_regime",
+      "id": "VOL_LONG_HIGH",
+      "lookback": 96,
+      "max_age": 96,
+      "minutes": 15,
+      "parent": "VOL_LONG",
+      "role": "neighbor",
+      "side": 1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 0.84
+    },
+    {
+      "exit": "trailing",
+      "family": "volatility_regime",
+      "id": "VOL_SHORT_LOW",
+      "lookback": 96,
+      "max_age": 64,
+      "minutes": 15,
+      "parent": "VOL_SHORT",
+      "role": "neighbor",
+      "side": -1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 1.1199999999999999
+    },
+    {
+      "exit": "trailing",
+      "family": "volatility_regime",
+      "id": "VOL_SHORT_HIGH",
+      "lookback": 96,
+      "max_age": 64,
+      "minutes": 15,
+      "parent": "VOL_SHORT",
+      "role": "neighbor",
+      "side": -1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 1.68
+    },
+    {
+      "exit": "equilibrium",
+      "family": "liquidity_reversal",
+      "id": "RANGE_LONG_LOW",
+      "lookback": 96,
+      "max_age": 16,
+      "minutes": 15,
+      "parent": "RANGE_LONG",
+      "role": "neighbor",
+      "side": 1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 1.6
+    },
+    {
+      "exit": "equilibrium",
+      "family": "liquidity_reversal",
+      "id": "RANGE_LONG_HIGH",
+      "lookback": 96,
+      "max_age": 16,
+      "minutes": 15,
+      "parent": "RANGE_LONG",
+      "role": "neighbor",
+      "side": 1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 2.4
+    },
+    {
+      "exit": "equilibrium",
+      "family": "liquidity_reversal",
+      "id": "RANGE_SHORT_LOW",
+      "lookback": 96,
+      "max_age": 12,
+      "minutes": 15,
+      "parent": "RANGE_SHORT",
+      "role": "neighbor",
+      "side": -1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 2.0
+    },
+    {
+      "exit": "equilibrium",
+      "family": "liquidity_reversal",
+      "id": "RANGE_SHORT_HIGH",
+      "lookback": 96,
+      "max_age": 12,
+      "minutes": 15,
+      "parent": "RANGE_SHORT",
+      "role": "neighbor",
+      "side": -1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 3.0
+    },
+    {
+      "exit": "structure",
+      "family": "multi_horizon_trend",
+      "id": "MHT_LONG_STRUCTURE",
+      "lookback": 96,
+      "max_age": 96,
+      "minutes": 15,
+      "parent": "MHT_LONG",
+      "role": "exit_diagnostic",
+      "side": 1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 0.5
+    },
+    {
+      "exit": "contraction",
+      "family": "multi_horizon_trend",
+      "id": "MHT_LONG_CONTRACTION",
+      "lookback": 96,
+      "max_age": 96,
+      "minutes": 15,
+      "parent": "MHT_LONG",
+      "role": "exit_diagnostic",
+      "side": 1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 0.5
+    },
+    {
+      "exit": "structure",
+      "family": "multi_horizon_trend",
+      "id": "MHT_SHORT_STRUCTURE",
+      "lookback": 96,
+      "max_age": 64,
+      "minutes": 15,
+      "parent": "MHT_SHORT",
+      "role": "exit_diagnostic",
+      "side": -1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 0.7
+    },
+    {
+      "exit": "contraction",
+      "family": "multi_horizon_trend",
+      "id": "MHT_SHORT_CONTRACTION",
+      "lookback": 96,
+      "max_age": 64,
+      "minutes": 15,
+      "parent": "MHT_SHORT",
+      "role": "exit_diagnostic",
+      "side": -1,
+      "stop_atr": 3.0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "threshold": 0.7
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "all_path_classification_counts": {
+    "REJECTED": 39,
+    "WEAK_SIGNAL": 5
+  },
+  "central_economic_hypotheses": 12,
+  "matrix_runs": 396,
+  "maximum_table_sum_error_USDT": 7.275957614183426e-12,
+  "note": "Costs, symbol runs, neighbors and engineering replays are not independent market samples.",
+  "paths": 44,
+  "precision_and_fill_chronology_checks": 123242,
+  "primary_treatments_including_controls": 16,
+  "profile_classification_counts": {
+    "REJECTED": 9,
+    "WEAK_SIGNAL": 5
+  },
+  "prospective_performance_claimed": false,
+  "real_money_enabled": false,
+  "required_artifacts_checked": 18,
+  "status": "PASS",
+  "validated_profile_ids": []
+}
