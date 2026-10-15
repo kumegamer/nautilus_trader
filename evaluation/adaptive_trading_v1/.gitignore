@@ -2,3 +2,6 @@ __pycache__/
 .pytest_cache/
 data/raw/
 *.part
+
+# Preserve experiment console evidence despite the repository-wide *.log rule.
+!results/execution_logs/*.log

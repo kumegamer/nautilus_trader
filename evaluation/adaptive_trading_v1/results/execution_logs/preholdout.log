@@ -1,0 +1,191 @@
+static research TB48 base BTCUSDT: 59 trades (6.0s)
+static research TB48 base ETHUSDT: 66 trades (6.0s)
+static research TB48 base SOLUSDT: 55 trades (5.7s)
+static research TB48 cost1.5x BTCUSDT: 59 trades (5.9s)
+static research TB48 cost1.5x ETHUSDT: 66 trades (6.0s)
+static research TB48 cost1.5x SOLUSDT: 55 trades (5.7s)
+static research TB48 cost2x BTCUSDT: 59 trades (6.0s)
+static research TB48 cost2x ETHUSDT: 66 trades (6.1s)
+static research TB48 cost2x SOLUSDT: 55 trades (5.7s)
+static research TP24 base BTCUSDT: 1 trades (4.9s)
+static research TP24 base ETHUSDT: 0 trades (6.7s)
+static research TP24 base SOLUSDT: 1 trades (7.5s)
+static research TP24 cost1.5x BTCUSDT: 1 trades (5.1s)
+static research TP24 cost1.5x ETHUSDT: 0 trades (6.2s)
+static research TP24 cost1.5x SOLUSDT: 1 trades (7.5s)
+static research TP24 cost2x BTCUSDT: 1 trades (5.6s)
+static research TP24 cost2x ETHUSDT: 0 trades (5.8s)
+static research TP24 cost2x SOLUSDT: 1 trades (5.6s)
+static research MR48 base BTCUSDT: 169 trades (22.8s)
+static research MR48 base ETHUSDT: 163 trades (31.7s)
+static research MR48 base SOLUSDT: 176 trades (43.3s)
+static research MR48 cost1.5x BTCUSDT: 165 trades (28.7s)
+static research MR48 cost1.5x ETHUSDT: 164 trades (12.8s)
+static research MR48 cost1.5x SOLUSDT: 176 trades (14.9s)
+static research MR48 cost2x BTCUSDT: 163 trades (19.2s)
+static research MR48 cost2x ETHUSDT: 164 trades (42.5s)
+static research MR48 cost2x SOLUSDT: 176 trades (50.0s)
+static research VB48 base BTCUSDT: 36 trades (33.0s)
+2024-06-12T13:59:59.999000000Z [ERROR] TRADER-001.nautilus_common::actor::data_actor: Python on_bar failed:
+Traceback (most recent call last):
+  File "/workspace/nautilus_trader/evaluation/adaptive_trading_v1/adaptive/runtime.py", line 56, in on_bar
+KeyboardInterrupt
+
+static research VB48 base ETHUSDT: 42 trades (53.1s)
+static research VB48 base SOLUSDT: 31 trades (43.9s)
+static research VB48 cost1.5x BTCUSDT: 36 trades (56.8s)
+static research VB48 cost1.5x ETHUSDT: 42 trades (39.0s)
+static research VB48 cost1.5x SOLUSDT: 31 trades (26.0s)
+static research VB48 cost2x BTCUSDT: 36 trades (49.1s)
+static research VB48 cost2x ETHUSDT: 42 trades (37.9s)
+static research VB48 cost2x SOLUSDT: 31 trades (20.2s)
+static research TB48_STOP base BTCUSDT: 59 trades (19.3s)
+static research TB48_STOP base ETHUSDT: 66 trades (18.6s)
+static research TB48_STOP base SOLUSDT: 55 trades (17.7s)
+static research TB48_WINDOW base BTCUSDT: 59 trades (18.3s)
+static research TB48_WINDOW base ETHUSDT: 66 trades (18.7s)
+static research TB48_WINDOW base SOLUSDT: 55 trades (18.8s)
+static research TP24_STOP base BTCUSDT: 1 trades (17.5s)
+static research TP24_STOP base ETHUSDT: 0 trades (19.9s)
+static research TP24_STOP base SOLUSDT: 1 trades (20.8s)
+static research TP24_WINDOW base BTCUSDT: 1 trades (17.7s)
+static research TP24_WINDOW base ETHUSDT: 0 trades (12.5s)
+static research TP24_WINDOW base SOLUSDT: 1 trades (16.5s)
+static research MR48_STOP base BTCUSDT: 171 trades (16.0s)
+static research MR48_STOP base ETHUSDT: 159 trades (19.6s)
+static research MR48_STOP base SOLUSDT: 174 trades (22.5s)
+static research MR48_WINDOW base BTCUSDT: 135 trades (19.1s)
+static research MR48_WINDOW base ETHUSDT: 137 trades (13.2s)
+static research MR48_WINDOW base SOLUSDT: 145 trades (17.8s)
+static research VB48_STOP base BTCUSDT: 36 trades (9.8s)
+static research VB48_STOP base ETHUSDT: 40 trades (8.5s)
+static research VB48_STOP base SOLUSDT: 28 trades (6.5s)
+static research VB48_WINDOW base BTCUSDT: 26 trades (6.4s)
+static research VB48_WINDOW base ETHUSDT: 34 trades (7.5s)
+static research VB48_WINDOW base SOLUSDT: 28 trades (6.6s)
+static research TB48_SHORT base BTCUSDT: 21 trades (8.0s)
+static research TB48_SHORT base ETHUSDT: 25 trades (6.4s)
+static research TB48_SHORT base SOLUSDT: 21 trades (7.4s)
+static research TB48_SHORT cost1.5x BTCUSDT: 21 trades (8.1s)
+static research TB48_SHORT cost1.5x ETHUSDT: 25 trades (9.8s)
+static research TB48_SHORT cost1.5x SOLUSDT: 21 trades (7.6s)
+static research TB48_SHORT cost2x BTCUSDT: 21 trades (10.7s)
+static research TB48_SHORT cost2x ETHUSDT: 25 trades (8.2s)
+static research TB48_SHORT cost2x SOLUSDT: 21 trades (7.1s)
+static research TB48_FUNDING base BTCUSDT: 57 trades (10.8s)
+static research TB48_FUNDING base ETHUSDT: 62 trades (10.8s)
+static research TB48_FUNDING base SOLUSDT: 51 trades (9.7s)
+static research TB48_FUNDING cost1.5x BTCUSDT: 57 trades (10.7s)
+static research TB48_FUNDING cost1.5x ETHUSDT: 62 trades (13.5s)
+static research TB48_FUNDING cost1.5x SOLUSDT: 51 trades (10.8s)
+static research TB48_FUNDING cost2x BTCUSDT: 57 trades (12.8s)
+static research TB48_FUNDING cost2x ETHUSDT: 62 trades (11.4s)
+static research TB48_FUNDING cost2x SOLUSDT: 51 trades (11.3s)
+ADAPTIVE research base BTCUSDT: 0 trades, 91 research events
+BUY_HOLD research base BTCUSDT: 1 trades, 0 research events
+NO_TRADE research base BTCUSDT: 0 trades, 0 research events
+ADAPTIVE research base ETHUSDT: 0 trades, 84 research events
+BUY_HOLD research base ETHUSDT: 1 trades, 0 research events
+NO_TRADE research base ETHUSDT: 0 trades, 0 research events
+ADAPTIVE research base SOLUSDT: 0 trades, 84 research events
+BUY_HOLD research base SOLUSDT: 1 trades, 0 research events
+NO_TRADE research base SOLUSDT: 0 trades, 0 research events
+ADAPTIVE research cost1.5x BTCUSDT: 0 trades, 91 research events
+BUY_HOLD research cost1.5x BTCUSDT: 1 trades, 0 research events
+NO_TRADE research cost1.5x BTCUSDT: 0 trades, 0 research events
+ADAPTIVE research cost1.5x ETHUSDT: 0 trades, 84 research events
+BUY_HOLD research cost1.5x ETHUSDT: 1 trades, 0 research events
+NO_TRADE research cost1.5x ETHUSDT: 0 trades, 0 research events
+ADAPTIVE research cost1.5x SOLUSDT: 0 trades, 84 research events
+BUY_HOLD research cost1.5x SOLUSDT: 1 trades, 0 research events
+NO_TRADE research cost1.5x SOLUSDT: 0 trades, 0 research events
+ADAPTIVE research cost2x BTCUSDT: 0 trades, 91 research events
+BUY_HOLD research cost2x BTCUSDT: 1 trades, 0 research events
+NO_TRADE research cost2x BTCUSDT: 0 trades, 0 research events
+ADAPTIVE research cost2x ETHUSDT: 0 trades, 84 research events
+BUY_HOLD research cost2x ETHUSDT: 1 trades, 0 research events
+NO_TRADE research cost2x ETHUSDT: 0 trades, 0 research events
+ADAPTIVE research cost2x SOLUSDT: 0 trades, 84 research events
+BUY_HOLD research cost2x SOLUSDT: 1 trades, 0 research events
+NO_TRADE research cost2x SOLUSDT: 0 trades, 0 research events
+ADAPTIVE validation base BTCUSDT: 0 trades, 42 research events
+BUY_HOLD validation base BTCUSDT: 1 trades, 0 research events
+NO_TRADE validation base BTCUSDT: 0 trades, 0 research events
+ADAPTIVE validation base ETHUSDT: 0 trades, 42 research events
+BUY_HOLD validation base ETHUSDT: 1 trades, 0 research events
+NO_TRADE validation base ETHUSDT: 0 trades, 0 research events
+ADAPTIVE validation base SOLUSDT: 0 trades, 42 research events
+BUY_HOLD validation base SOLUSDT: 1 trades, 0 research events
+NO_TRADE validation base SOLUSDT: 0 trades, 0 research events
+ADAPTIVE validation cost1.5x BTCUSDT: 0 trades, 42 research events
+BUY_HOLD validation cost1.5x BTCUSDT: 1 trades, 0 research events
+NO_TRADE validation cost1.5x BTCUSDT: 0 trades, 0 research events
+ADAPTIVE validation cost1.5x ETHUSDT: 0 trades, 42 research events
+BUY_HOLD validation cost1.5x ETHUSDT: 1 trades, 0 research events
+NO_TRADE validation cost1.5x ETHUSDT: 0 trades, 0 research events
+ADAPTIVE validation cost1.5x SOLUSDT: 0 trades, 42 research events
+BUY_HOLD validation cost1.5x SOLUSDT: 1 trades, 0 research events
+NO_TRADE validation cost1.5x SOLUSDT: 0 trades, 0 research events
+ADAPTIVE validation cost2x BTCUSDT: 0 trades, 42 research events
+BUY_HOLD validation cost2x BTCUSDT: 1 trades, 0 research events
+NO_TRADE validation cost2x BTCUSDT: 0 trades, 0 research events
+ADAPTIVE validation cost2x ETHUSDT: 0 trades, 42 research events
+BUY_HOLD validation cost2x ETHUSDT: 1 trades, 0 research events
+NO_TRADE validation cost2x ETHUSDT: 0 trades, 0 research events
+ADAPTIVE validation cost2x SOLUSDT: 0 trades, 42 research events
+BUY_HOLD validation cost2x SOLUSDT: 1 trades, 0 research events
+NO_TRADE validation cost2x SOLUSDT: 0 trades, 0 research events
+ADAPTIVE wf1 base BTCUSDT: 0 trades, 49 research events
+BUY_HOLD wf1 base BTCUSDT: 1 trades, 0 research events
+NO_TRADE wf1 base BTCUSDT: 0 trades, 0 research events
+ADAPTIVE wf1 base ETHUSDT: 0 trades, 49 research events
+BUY_HOLD wf1 base ETHUSDT: 1 trades, 0 research events
+NO_TRADE wf1 base ETHUSDT: 0 trades, 0 research events
+ADAPTIVE wf1 base SOLUSDT: 0 trades, 49 research events
+BUY_HOLD wf1 base SOLUSDT: 1 trades, 0 research events
+NO_TRADE wf1 base SOLUSDT: 0 trades, 0 research events
+ADAPTIVE wf1 cost1.5x BTCUSDT: 0 trades, 49 research events
+BUY_HOLD wf1 cost1.5x BTCUSDT: 1 trades, 0 research events
+NO_TRADE wf1 cost1.5x BTCUSDT: 0 trades, 0 research events
+ADAPTIVE wf1 cost1.5x ETHUSDT: 0 trades, 49 research events
+BUY_HOLD wf1 cost1.5x ETHUSDT: 1 trades, 0 research events
+NO_TRADE wf1 cost1.5x ETHUSDT: 0 trades, 0 research events
+ADAPTIVE wf1 cost1.5x SOLUSDT: 0 trades, 49 research events
+BUY_HOLD wf1 cost1.5x SOLUSDT: 1 trades, 0 research events
+NO_TRADE wf1 cost1.5x SOLUSDT: 0 trades, 0 research events
+ADAPTIVE wf1 cost2x BTCUSDT: 0 trades, 49 research events
+BUY_HOLD wf1 cost2x BTCUSDT: 1 trades, 0 research events
+NO_TRADE wf1 cost2x BTCUSDT: 0 trades, 0 research events
+ADAPTIVE wf1 cost2x ETHUSDT: 0 trades, 49 research events
+BUY_HOLD wf1 cost2x ETHUSDT: 1 trades, 0 research events
+NO_TRADE wf1 cost2x ETHUSDT: 0 trades, 0 research events
+ADAPTIVE wf1 cost2x SOLUSDT: 0 trades, 49 research events
+BUY_HOLD wf1 cost2x SOLUSDT: 1 trades, 0 research events
+NO_TRADE wf1 cost2x SOLUSDT: 0 trades, 0 research events
+ADAPTIVE wf2 base BTCUSDT: 0 trades, 42 research events
+BUY_HOLD wf2 base BTCUSDT: 1 trades, 0 research events
+NO_TRADE wf2 base BTCUSDT: 0 trades, 0 research events
+ADAPTIVE wf2 base ETHUSDT: 0 trades, 42 research events
+BUY_HOLD wf2 base ETHUSDT: 1 trades, 0 research events
+NO_TRADE wf2 base ETHUSDT: 0 trades, 0 research events
+ADAPTIVE wf2 base SOLUSDT: 0 trades, 42 research events
+BUY_HOLD wf2 base SOLUSDT: 1 trades, 0 research events
+NO_TRADE wf2 base SOLUSDT: 0 trades, 0 research events
+ADAPTIVE wf2 cost1.5x BTCUSDT: 0 trades, 42 research events
+BUY_HOLD wf2 cost1.5x BTCUSDT: 1 trades, 0 research events
+NO_TRADE wf2 cost1.5x BTCUSDT: 0 trades, 0 research events
+ADAPTIVE wf2 cost1.5x ETHUSDT: 0 trades, 42 research events
+BUY_HOLD wf2 cost1.5x ETHUSDT: 1 trades, 0 research events
+NO_TRADE wf2 cost1.5x ETHUSDT: 0 trades, 0 research events
+ADAPTIVE wf2 cost1.5x SOLUSDT: 0 trades, 42 research events
+BUY_HOLD wf2 cost1.5x SOLUSDT: 1 trades, 0 research events
+NO_TRADE wf2 cost1.5x SOLUSDT: 0 trades, 0 research events
+ADAPTIVE wf2 cost2x BTCUSDT: 0 trades, 42 research events
+BUY_HOLD wf2 cost2x BTCUSDT: 1 trades, 0 research events
+NO_TRADE wf2 cost2x BTCUSDT: 0 trades, 0 research events
+ADAPTIVE wf2 cost2x ETHUSDT: 0 trades, 42 research events
+BUY_HOLD wf2 cost2x ETHUSDT: 1 trades, 0 research events
+NO_TRADE wf2 cost2x ETHUSDT: 0 trades, 0 research events
+ADAPTIVE wf2 cost2x SOLUSDT: 0 trades, 42 research events
+BUY_HOLD wf2 cost2x SOLUSDT: 1 trades, 0 research events
+NO_TRADE wf2 cost2x SOLUSDT: 0 trades, 0 research events

@@ -1,0 +1,81 @@
+sealed static TB48 base BTCUSDT
+sealed static TB48 base ETHUSDT
+sealed static TB48 base SOLUSDT
+sealed static TB48 cost1.5x BTCUSDT
+sealed static TB48 cost1.5x ETHUSDT
+sealed static TB48 cost1.5x SOLUSDT
+sealed static TB48 cost2x BTCUSDT
+sealed static TB48 cost2x ETHUSDT
+sealed static TB48 cost2x SOLUSDT
+sealed static TP24 base BTCUSDT
+sealed static TP24 base ETHUSDT
+sealed static TP24 base SOLUSDT
+sealed static TP24 cost1.5x BTCUSDT
+sealed static TP24 cost1.5x ETHUSDT
+sealed static TP24 cost1.5x SOLUSDT
+sealed static TP24 cost2x BTCUSDT
+sealed static TP24 cost2x ETHUSDT
+sealed static TP24 cost2x SOLUSDT
+sealed static MR48 base BTCUSDT
+sealed static MR48 base ETHUSDT
+sealed static MR48 base SOLUSDT
+sealed static MR48 cost1.5x BTCUSDT
+sealed static MR48 cost1.5x ETHUSDT
+sealed static MR48 cost1.5x SOLUSDT
+sealed static MR48 cost2x BTCUSDT
+sealed static MR48 cost2x ETHUSDT
+sealed static MR48 cost2x SOLUSDT
+sealed static VB48 base BTCUSDT
+sealed static VB48 base ETHUSDT
+sealed static VB48 base SOLUSDT
+sealed static VB48 cost1.5x BTCUSDT
+sealed static VB48 cost1.5x ETHUSDT
+sealed static VB48 cost1.5x SOLUSDT
+sealed static VB48 cost2x BTCUSDT
+sealed static VB48 cost2x ETHUSDT
+sealed static VB48 cost2x SOLUSDT
+sealed static TB48_SHORT base BTCUSDT
+sealed static TB48_SHORT base ETHUSDT
+sealed static TB48_SHORT base SOLUSDT
+sealed static TB48_SHORT cost1.5x BTCUSDT
+sealed static TB48_SHORT cost1.5x ETHUSDT
+sealed static TB48_SHORT cost1.5x SOLUSDT
+sealed static TB48_SHORT cost2x BTCUSDT
+sealed static TB48_SHORT cost2x ETHUSDT
+sealed static TB48_SHORT cost2x SOLUSDT
+sealed static TB48_FUNDING base BTCUSDT
+sealed static TB48_FUNDING base ETHUSDT
+sealed static TB48_FUNDING base SOLUSDT
+sealed static TB48_FUNDING cost1.5x BTCUSDT
+sealed static TB48_FUNDING cost1.5x ETHUSDT
+sealed static TB48_FUNDING cost1.5x SOLUSDT
+sealed static TB48_FUNDING cost2x BTCUSDT
+sealed static TB48_FUNDING cost2x ETHUSDT
+sealed static TB48_FUNDING cost2x SOLUSDT
+ADAPTIVE holdout base BTCUSDT: 0 trades, 21 research events
+BUY_HOLD holdout base BTCUSDT: 1 trades, 0 research events
+NO_TRADE holdout base BTCUSDT: 0 trades, 0 research events
+ADAPTIVE holdout base ETHUSDT: 0 trades, 21 research events
+BUY_HOLD holdout base ETHUSDT: 1 trades, 0 research events
+NO_TRADE holdout base ETHUSDT: 0 trades, 0 research events
+ADAPTIVE holdout base SOLUSDT: 0 trades, 21 research events
+BUY_HOLD holdout base SOLUSDT: 1 trades, 0 research events
+NO_TRADE holdout base SOLUSDT: 0 trades, 0 research events
+ADAPTIVE holdout cost1.5x BTCUSDT: 0 trades, 21 research events
+BUY_HOLD holdout cost1.5x BTCUSDT: 1 trades, 0 research events
+NO_TRADE holdout cost1.5x BTCUSDT: 0 trades, 0 research events
+ADAPTIVE holdout cost1.5x ETHUSDT: 0 trades, 21 research events
+BUY_HOLD holdout cost1.5x ETHUSDT: 1 trades, 0 research events
+NO_TRADE holdout cost1.5x ETHUSDT: 0 trades, 0 research events
+ADAPTIVE holdout cost1.5x SOLUSDT: 0 trades, 21 research events
+BUY_HOLD holdout cost1.5x SOLUSDT: 1 trades, 0 research events
+NO_TRADE holdout cost1.5x SOLUSDT: 0 trades, 0 research events
+ADAPTIVE holdout cost2x BTCUSDT: 0 trades, 21 research events
+BUY_HOLD holdout cost2x BTCUSDT: 1 trades, 0 research events
+NO_TRADE holdout cost2x BTCUSDT: 0 trades, 0 research events
+ADAPTIVE holdout cost2x ETHUSDT: 0 trades, 21 research events
+BUY_HOLD holdout cost2x ETHUSDT: 1 trades, 0 research events
+NO_TRADE holdout cost2x ETHUSDT: 0 trades, 0 research events
+ADAPTIVE holdout cost2x SOLUSDT: 0 trades, 21 research events
+BUY_HOLD holdout cost2x SOLUSDT: 1 trades, 0 research events
+NO_TRADE holdout cost2x SOLUSDT: 0 trades, 0 research events

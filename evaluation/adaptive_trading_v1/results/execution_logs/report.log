@@ -1,0 +1,1 @@
+{"classification": "ADAPTIVE_NO_EDGE", "comparison": {"net_difference_vs_static": 63.686808400000004, "adaptive_underperforms_static_net": false, "adaptive_sharpe": null, "static_sharpe": -4.056530843239996, "claim": "No demonstrated adaptive edge"}, "run_count": 501}
