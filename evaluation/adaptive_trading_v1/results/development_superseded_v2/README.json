@@ -1,0 +1,4 @@
+{
+  "reason": "Pre-freeze audit revision: independent periodic timer/trade checkpoint, complete regime diagnostics, and explicit quarantine state added after regression review. Same fixed candidates and economics; retained, excluded from final conclusions.",
+  "run_count": 36
+}

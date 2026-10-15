@@ -1,0 +1,15 @@
+{
+  "checks": [
+    "gross-fees-slippage+funding = net",
+    "native final balance-initial balance = sum closed net PnL",
+    "signal before execution",
+    "adverse slippage",
+    "seven-day research embargo"
+  ],
+  "closed_trades": 12374,
+  "maximum_account_error": "0E-8",
+  "maximum_trade_identity_error": "0E-8",
+  "native_runs": 501,
+  "status": "PASS",
+  "tolerance_USDT": "0.00001"
+}

@@ -1,0 +1,49 @@
+{
+  "experiment": "nautilus-adaptive-trading-v1",
+  "baseline_commit": "de794053685c3a3b7ae74eb995e2b31215786b25",
+  "prior_commit": "3c669f91dd195266107a2f5b77c5c991565840a8",
+  "symbols": ["BTCUSDT", "ETHUSDT", "SOLUSDT"],
+  "periods": {
+    "research": ["2024-01-01", "2025-01-01"],
+    "validation": ["2025-01-01", "2025-07-01"],
+    "wf1": ["2025-07-01", "2026-01-01"],
+    "wf2": ["2026-01-01", "2026-07-01"],
+    "holdout": ["2026-07-01", "2026-10-01"]
+  },
+  "warmup_days": 30,
+  "capital_per_symbol": 10000,
+  "risk_per_trade": 0.0025,
+  "notional_cap_fraction": 0.9,
+  "minimum_notional": 100,
+  "participation_cap": 0.001,
+  "taker_fee": "0.0005",
+  "scenarios": {
+    "base": {"slippage_bps": 1, "fee_multiplier": 1},
+    "cost1.5x": {"slippage_bps": 1.5, "fee_multiplier": 1.5},
+    "cost2x": {"slippage_bps": 2, "fee_multiplier": 2}
+  },
+  "instrument_specs": {
+    "BTCUSDT": {"tick": "0.1", "step": "0.001"},
+    "ETHUSDT": {"tick": "0.01", "step": "0.001"},
+    "SOLUSDT": {"tick": "0.001", "step": "0.1"}
+  },
+  "policy": {
+    "minimum_trades": 60,
+    "minimum_symbol_trades": 10,
+    "minimum_profit_factor": 1.05,
+    "maximum_drawdown": 0.15,
+    "minimum_positive_symbols": 2,
+    "minimum_positive_neighbor_fraction": 0.5,
+    "minimum_positive_wf_fraction": 0.6,
+    "maximum_top10_positive_profit_share": 0.5,
+    "minimum_switch_hours": 24,
+    "minimum_regime_bars": 4,
+    "minimum_regime_confidence": 0.55,
+    "research_cooldown_days": 30,
+    "evaluation_hours": 24,
+    "minimum_decay_trades": 20,
+    "risk_bounds": [0.0, 0.5, 1.0],
+    "maximum_switches_per_month": 12,
+    "mode": "historical_shadow_only"
+  }
+}

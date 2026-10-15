@@ -1,0 +1,14 @@
+{
+  "corrections": [
+    "Reference trades inherit symbol/profile/strategy from their immutable run before grouping.",
+    "Assert per-symbol counts and PnL sum exactly to each system/scenario total.",
+    "Distinguish CANDIDATE/REJECTED state events from successful SHADOW promotions.",
+    "NO_TRADE descriptive expected frequency and R band are zero; generic frozen defaults did not affect execution."
+  ],
+  "economic_results_changed": false,
+  "frozen_manifest_sha256": "a233c8e7ea62675991f3b772d494e4b7b9a2245f268a1dba984adce7638c36e9",
+  "original_reports": "results/reporting_superseded",
+  "runtime_source_changed": false,
+  "scope": "derived descriptive metadata only; experiment remains frozen and unchanged",
+  "successful_shadow_promotions": 0
+}

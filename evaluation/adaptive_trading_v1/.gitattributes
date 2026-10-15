@@ -1,0 +1,3 @@
+# Preserve frozen evidence byte-for-byte, including CSV CRLF line endings.
+* -text
+*.gz binary

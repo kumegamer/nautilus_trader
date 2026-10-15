@@ -1,0 +1,42 @@
+{
+  "classification": "ADAPTIVE_NO_EDGE",
+  "comparison": {
+    "adaptive_sharpe": null,
+    "adaptive_underperforms_static_net": false,
+    "claim": "No demonstrated adaptive edge",
+    "net_difference_vs_static": 63.686808400000004,
+    "static_sharpe": -4.056530843239996
+  },
+  "eligible_preholdout": [],
+  "event_counts": {
+    "decisions": 12321,
+    "degradation": 12321,
+    "promotions": 3906,
+    "regime_transitions": 131648,
+    "research": 2142,
+    "switches": 0
+  },
+  "forward_shadow_observed": false,
+  "gates": {
+    "positive_sealed_economics": false,
+    "validated_profile_exists": false
+  },
+  "promotion_gate_failures": {
+    "concentration": 14,
+    "cost_stress": 13,
+    "drawdown": 1,
+    "neighbors": 6,
+    "profit_factor": 8,
+    "regimes": 14,
+    "sample": 3,
+    "sealed_oos": 11,
+    "sides": 12,
+    "symbols": 10,
+    "validation_positive": 9,
+    "walk_forward": 14
+  },
+  "real_money_enabled": false,
+  "static_choice": "TB48_SHORT",
+  "strongest_failure_mode": "concentration",
+  "worth_v2": "Engineering yes; trading-edge advancement requires a new validated hypothesis and fresh untouched OOS"
+}

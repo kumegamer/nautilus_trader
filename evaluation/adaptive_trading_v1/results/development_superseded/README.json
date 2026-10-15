@@ -1,0 +1,4 @@
+{
+  "reason": "Pre-freeze development batch used old worker without state continuation. Superseded, never valid promotion or sealed OOS evidence. Retained for audit.",
+  "run_count": 36
+}

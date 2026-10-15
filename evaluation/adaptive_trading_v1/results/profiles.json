@@ -1,0 +1,718 @@
+{
+  "MR48": {
+    "allow_long": true,
+    "allow_short": true,
+    "band_k": 2.5,
+    "compatible_regimes": [
+      "RANGE_LOW_VOL",
+      "VOLATILITY_COMPRESSION"
+    ],
+    "compression": 0.8,
+    "expected_net_r_band": [
+      -0.5,
+      0.5
+    ],
+    "expected_range_status": "provisional hypothesis; calibrated only by validation",
+    "expected_trades_per_symbol_month": [
+      2,
+      50
+    ],
+    "family": "mean_reversion",
+    "funding_filter": false,
+    "historical_expected_band": {
+      "expectancy_lower": -0.312043592350687,
+      "expectancy_upper": -0.11369087872674524
+    },
+    "id": "MR48",
+    "incompatible_regimes": [
+      "TREND_LOW_VOL",
+      "TREND_HIGH_VOL",
+      "RANGE_HIGH_VOL",
+      "VOLATILITY_EXPANSION",
+      "MARKET_STRESS",
+      "UNKNOWN"
+    ],
+    "lookback": 48,
+    "maximum_age": 96,
+    "minutes": 15,
+    "preholdout_validated": false,
+    "pullback_atr": 1.0,
+    "risk_allocation": 0.0025,
+    "risk_bounds": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "sizing": "fixed initial capital risk / stop; 90% notional; 0.1% last closed volume cap",
+    "stop_atr": 2.0,
+    "stop_methodology": "close-observed ATR trailing stop, next-open exit; 96 signal bars max"
+  },
+  "MR48_STOP": {
+    "allow_long": true,
+    "allow_short": true,
+    "band_k": 2.5,
+    "compatible_regimes": [
+      "RANGE_LOW_VOL",
+      "VOLATILITY_COMPRESSION"
+    ],
+    "compression": 0.8,
+    "expected_net_r_band": [
+      -0.5,
+      0.5
+    ],
+    "expected_range_status": "provisional hypothesis; calibrated only by validation",
+    "expected_trades_per_symbol_month": [
+      2,
+      50
+    ],
+    "family": "mean_reversion",
+    "funding_filter": false,
+    "historical_expected_band": {
+      "expectancy_lower": -0.22965618041616662,
+      "expectancy_upper": -0.06431884631146281
+    },
+    "id": "MR48_STOP",
+    "incompatible_regimes": [
+      "TREND_LOW_VOL",
+      "TREND_HIGH_VOL",
+      "RANGE_HIGH_VOL",
+      "VOLATILITY_EXPANSION",
+      "MARKET_STRESS",
+      "UNKNOWN"
+    ],
+    "lookback": 48,
+    "maximum_age": 96,
+    "minutes": 15,
+    "preholdout_validated": false,
+    "pullback_atr": 1.0,
+    "risk_allocation": 0.0025,
+    "risk_bounds": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "sizing": "fixed initial capital risk / stop; 90% notional; 0.1% last closed volume cap",
+    "stop_atr": 2.5,
+    "stop_methodology": "close-observed ATR trailing stop, next-open exit; 96 signal bars max"
+  },
+  "MR48_WINDOW": {
+    "allow_long": true,
+    "allow_short": true,
+    "band_k": 2.5,
+    "compatible_regimes": [
+      "RANGE_LOW_VOL",
+      "VOLATILITY_COMPRESSION"
+    ],
+    "compression": 0.8,
+    "expected_net_r_band": [
+      -0.5,
+      0.5
+    ],
+    "expected_range_status": "provisional hypothesis; calibrated only by validation",
+    "expected_trades_per_symbol_month": [
+      2,
+      50
+    ],
+    "family": "mean_reversion",
+    "funding_filter": false,
+    "historical_expected_band": {
+      "expectancy_lower": -0.26470972589877473,
+      "expectancy_upper": -0.040244065319148745
+    },
+    "id": "MR48_WINDOW",
+    "incompatible_regimes": [
+      "TREND_LOW_VOL",
+      "TREND_HIGH_VOL",
+      "RANGE_HIGH_VOL",
+      "VOLATILITY_EXPANSION",
+      "MARKET_STRESS",
+      "UNKNOWN"
+    ],
+    "lookback": 60,
+    "maximum_age": 96,
+    "minutes": 15,
+    "preholdout_validated": false,
+    "pullback_atr": 1.0,
+    "risk_allocation": 0.0025,
+    "risk_bounds": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "sizing": "fixed initial capital risk / stop; 90% notional; 0.1% last closed volume cap",
+    "stop_atr": 2.0,
+    "stop_methodology": "close-observed ATR trailing stop, next-open exit; 96 signal bars max"
+  },
+  "NO_TRADE": {
+    "allow_long": false,
+    "allow_short": false,
+    "band_k": 2.5,
+    "compatible_regimes": [
+      "TREND_LOW_VOL",
+      "TREND_HIGH_VOL",
+      "RANGE_LOW_VOL",
+      "RANGE_HIGH_VOL",
+      "VOLATILITY_EXPANSION",
+      "VOLATILITY_COMPRESSION",
+      "MARKET_STRESS",
+      "UNKNOWN"
+    ],
+    "compression": 0.8,
+    "expected_net_r_band": [
+      0,
+      0
+    ],
+    "expected_range_status": "zero exposure by construction; no expectancy claim",
+    "expected_trades_per_symbol_month": [
+      0,
+      0
+    ],
+    "family": "no_trade",
+    "funding_filter": false,
+    "historical_expected_band": null,
+    "id": "NO_TRADE",
+    "incompatible_regimes": [],
+    "lookback": 48,
+    "maximum_age": 96,
+    "minutes": 60,
+    "preholdout_validated": false,
+    "pullback_atr": 1.0,
+    "risk_allocation": 0,
+    "risk_bounds": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "sizing": "fixed initial capital risk / stop; 90% notional; 0.1% last closed volume cap",
+    "stop_atr": 2.0,
+    "stop_methodology": "close-observed ATR trailing stop, next-open exit; 96 signal bars max"
+  },
+  "TB48": {
+    "allow_long": true,
+    "allow_short": true,
+    "band_k": 2.5,
+    "compatible_regimes": [
+      "TREND_LOW_VOL",
+      "TREND_HIGH_VOL"
+    ],
+    "compression": 0.8,
+    "expected_net_r_band": [
+      -0.5,
+      0.5
+    ],
+    "expected_range_status": "provisional hypothesis; calibrated only by validation",
+    "expected_trades_per_symbol_month": [
+      2,
+      50
+    ],
+    "family": "trend_breakout",
+    "funding_filter": false,
+    "historical_expected_band": {
+      "expectancy_lower": -0.10038278689085048,
+      "expectancy_upper": 0.20358540050215704
+    },
+    "id": "TB48",
+    "incompatible_regimes": [
+      "RANGE_LOW_VOL",
+      "RANGE_HIGH_VOL",
+      "VOLATILITY_EXPANSION",
+      "VOLATILITY_COMPRESSION",
+      "MARKET_STRESS",
+      "UNKNOWN"
+    ],
+    "lookback": 48,
+    "maximum_age": 96,
+    "minutes": 60,
+    "preholdout_validated": false,
+    "pullback_atr": 1.0,
+    "risk_allocation": 0.0025,
+    "risk_bounds": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "sizing": "fixed initial capital risk / stop; 90% notional; 0.1% last closed volume cap",
+    "stop_atr": 2.0,
+    "stop_methodology": "close-observed ATR trailing stop, next-open exit; 96 signal bars max"
+  },
+  "TB48_FUNDING": {
+    "allow_long": true,
+    "allow_short": true,
+    "band_k": 2.5,
+    "compatible_regimes": [
+      "TREND_LOW_VOL",
+      "TREND_HIGH_VOL"
+    ],
+    "compression": 0.8,
+    "expected_net_r_band": [
+      -0.5,
+      0.5
+    ],
+    "expected_range_status": "provisional hypothesis; calibrated only by validation",
+    "expected_trades_per_symbol_month": [
+      2,
+      50
+    ],
+    "family": "trend_breakout",
+    "funding_filter": true,
+    "historical_expected_band": {
+      "expectancy_lower": -0.10038278689085048,
+      "expectancy_upper": 0.20358540050215704
+    },
+    "id": "TB48_FUNDING",
+    "incompatible_regimes": [
+      "RANGE_LOW_VOL",
+      "RANGE_HIGH_VOL",
+      "VOLATILITY_EXPANSION",
+      "VOLATILITY_COMPRESSION",
+      "MARKET_STRESS",
+      "UNKNOWN"
+    ],
+    "lookback": 48,
+    "maximum_age": 96,
+    "minutes": 60,
+    "preholdout_validated": false,
+    "pullback_atr": 1.0,
+    "risk_allocation": 0.0025,
+    "risk_bounds": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "sizing": "fixed initial capital risk / stop; 90% notional; 0.1% last closed volume cap",
+    "stop_atr": 2.0,
+    "stop_methodology": "close-observed ATR trailing stop, next-open exit; 96 signal bars max"
+  },
+  "TB48_SHORT": {
+    "allow_long": false,
+    "allow_short": true,
+    "band_k": 2.5,
+    "compatible_regimes": [
+      "TREND_LOW_VOL",
+      "TREND_HIGH_VOL"
+    ],
+    "compression": 0.8,
+    "expected_net_r_band": [
+      -0.5,
+      0.5
+    ],
+    "expected_range_status": "provisional hypothesis; calibrated only by validation",
+    "expected_trades_per_symbol_month": [
+      2,
+      50
+    ],
+    "family": "trend_breakout",
+    "funding_filter": false,
+    "historical_expected_band": {
+      "expectancy_lower": -0.08881732483653493,
+      "expectancy_upper": 0.34175183193248193
+    },
+    "id": "TB48_SHORT",
+    "incompatible_regimes": [
+      "RANGE_LOW_VOL",
+      "RANGE_HIGH_VOL",
+      "VOLATILITY_EXPANSION",
+      "VOLATILITY_COMPRESSION",
+      "MARKET_STRESS",
+      "UNKNOWN"
+    ],
+    "lookback": 48,
+    "maximum_age": 96,
+    "minutes": 60,
+    "preholdout_validated": false,
+    "pullback_atr": 1.0,
+    "risk_allocation": 0.0025,
+    "risk_bounds": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "sizing": "fixed initial capital risk / stop; 90% notional; 0.1% last closed volume cap",
+    "stop_atr": 2.0,
+    "stop_methodology": "close-observed ATR trailing stop, next-open exit; 96 signal bars max"
+  },
+  "TB48_STOP": {
+    "allow_long": true,
+    "allow_short": true,
+    "band_k": 2.5,
+    "compatible_regimes": [
+      "TREND_LOW_VOL",
+      "TREND_HIGH_VOL"
+    ],
+    "compression": 0.8,
+    "expected_net_r_band": [
+      -0.5,
+      0.5
+    ],
+    "expected_range_status": "provisional hypothesis; calibrated only by validation",
+    "expected_trades_per_symbol_month": [
+      2,
+      50
+    ],
+    "family": "trend_breakout",
+    "funding_filter": false,
+    "historical_expected_band": {
+      "expectancy_lower": -0.08421888606581623,
+      "expectancy_upper": 0.15943549906991566
+    },
+    "id": "TB48_STOP",
+    "incompatible_regimes": [
+      "RANGE_LOW_VOL",
+      "RANGE_HIGH_VOL",
+      "VOLATILITY_EXPANSION",
+      "VOLATILITY_COMPRESSION",
+      "MARKET_STRESS",
+      "UNKNOWN"
+    ],
+    "lookback": 48,
+    "maximum_age": 96,
+    "minutes": 60,
+    "preholdout_validated": false,
+    "pullback_atr": 1.0,
+    "risk_allocation": 0.0025,
+    "risk_bounds": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "sizing": "fixed initial capital risk / stop; 90% notional; 0.1% last closed volume cap",
+    "stop_atr": 2.5,
+    "stop_methodology": "close-observed ATR trailing stop, next-open exit; 96 signal bars max"
+  },
+  "TB48_WINDOW": {
+    "allow_long": true,
+    "allow_short": true,
+    "band_k": 2.5,
+    "compatible_regimes": [
+      "TREND_LOW_VOL",
+      "TREND_HIGH_VOL"
+    ],
+    "compression": 0.8,
+    "expected_net_r_band": [
+      -0.5,
+      0.5
+    ],
+    "expected_range_status": "provisional hypothesis; calibrated only by validation",
+    "expected_trades_per_symbol_month": [
+      2,
+      50
+    ],
+    "family": "trend_breakout",
+    "funding_filter": false,
+    "historical_expected_band": {
+      "expectancy_lower": -0.09998355190370846,
+      "expectancy_upper": 0.20723936687014127
+    },
+    "id": "TB48_WINDOW",
+    "incompatible_regimes": [
+      "RANGE_LOW_VOL",
+      "RANGE_HIGH_VOL",
+      "VOLATILITY_EXPANSION",
+      "VOLATILITY_COMPRESSION",
+      "MARKET_STRESS",
+      "UNKNOWN"
+    ],
+    "lookback": 60,
+    "maximum_age": 96,
+    "minutes": 60,
+    "preholdout_validated": false,
+    "pullback_atr": 1.0,
+    "risk_allocation": 0.0025,
+    "risk_bounds": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "sizing": "fixed initial capital risk / stop; 90% notional; 0.1% last closed volume cap",
+    "stop_atr": 2.0,
+    "stop_methodology": "close-observed ATR trailing stop, next-open exit; 96 signal bars max"
+  },
+  "TP24": {
+    "allow_long": true,
+    "allow_short": true,
+    "band_k": 2.5,
+    "compatible_regimes": [
+      "TREND_LOW_VOL"
+    ],
+    "compression": 0.8,
+    "expected_net_r_band": [
+      -0.5,
+      0.5
+    ],
+    "expected_range_status": "provisional hypothesis; calibrated only by validation",
+    "expected_trades_per_symbol_month": [
+      2,
+      50
+    ],
+    "family": "trend_pullback",
+    "funding_filter": false,
+    "historical_expected_band": {
+      "expectancy_lower": -0.21930738893227242,
+      "expectancy_upper": 0.15037490651016439
+    },
+    "id": "TP24",
+    "incompatible_regimes": [
+      "TREND_HIGH_VOL",
+      "RANGE_LOW_VOL",
+      "RANGE_HIGH_VOL",
+      "VOLATILITY_EXPANSION",
+      "VOLATILITY_COMPRESSION",
+      "MARKET_STRESS",
+      "UNKNOWN"
+    ],
+    "lookback": 24,
+    "maximum_age": 96,
+    "minutes": 60,
+    "preholdout_validated": false,
+    "pullback_atr": 1.0,
+    "risk_allocation": 0.0025,
+    "risk_bounds": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "sizing": "fixed initial capital risk / stop; 90% notional; 0.1% last closed volume cap",
+    "stop_atr": 2.5,
+    "stop_methodology": "close-observed ATR trailing stop, next-open exit; 96 signal bars max"
+  },
+  "TP24_STOP": {
+    "allow_long": true,
+    "allow_short": true,
+    "band_k": 2.5,
+    "compatible_regimes": [
+      "TREND_LOW_VOL"
+    ],
+    "compression": 0.8,
+    "expected_net_r_band": [
+      -0.5,
+      0.5
+    ],
+    "expected_range_status": "provisional hypothesis; calibrated only by validation",
+    "expected_trades_per_symbol_month": [
+      2,
+      50
+    ],
+    "family": "trend_pullback",
+    "funding_filter": false,
+    "historical_expected_band": {
+      "expectancy_lower": -0.175445911196992,
+      "expectancy_upper": 0.12029992513696823
+    },
+    "id": "TP24_STOP",
+    "incompatible_regimes": [
+      "TREND_HIGH_VOL",
+      "RANGE_LOW_VOL",
+      "RANGE_HIGH_VOL",
+      "VOLATILITY_EXPANSION",
+      "VOLATILITY_COMPRESSION",
+      "MARKET_STRESS",
+      "UNKNOWN"
+    ],
+    "lookback": 24,
+    "maximum_age": 96,
+    "minutes": 60,
+    "preholdout_validated": false,
+    "pullback_atr": 1.0,
+    "risk_allocation": 0.0025,
+    "risk_bounds": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "sizing": "fixed initial capital risk / stop; 90% notional; 0.1% last closed volume cap",
+    "stop_atr": 3.125,
+    "stop_methodology": "close-observed ATR trailing stop, next-open exit; 96 signal bars max"
+  },
+  "TP24_WINDOW": {
+    "allow_long": true,
+    "allow_short": true,
+    "band_k": 2.5,
+    "compatible_regimes": [
+      "TREND_LOW_VOL"
+    ],
+    "compression": 0.8,
+    "expected_net_r_band": [
+      -0.5,
+      0.5
+    ],
+    "expected_range_status": "provisional hypothesis; calibrated only by validation",
+    "expected_trades_per_symbol_month": [
+      2,
+      50
+    ],
+    "family": "trend_pullback",
+    "funding_filter": false,
+    "historical_expected_band": {
+      "expectancy_lower": -0.23139370700243359,
+      "expectancy_upper": 0.10733123639831174
+    },
+    "id": "TP24_WINDOW",
+    "incompatible_regimes": [
+      "TREND_HIGH_VOL",
+      "RANGE_LOW_VOL",
+      "RANGE_HIGH_VOL",
+      "VOLATILITY_EXPANSION",
+      "VOLATILITY_COMPRESSION",
+      "MARKET_STRESS",
+      "UNKNOWN"
+    ],
+    "lookback": 30,
+    "maximum_age": 96,
+    "minutes": 60,
+    "preholdout_validated": false,
+    "pullback_atr": 1.0,
+    "risk_allocation": 0.0025,
+    "risk_bounds": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "sizing": "fixed initial capital risk / stop; 90% notional; 0.1% last closed volume cap",
+    "stop_atr": 2.5,
+    "stop_methodology": "close-observed ATR trailing stop, next-open exit; 96 signal bars max"
+  },
+  "VB48": {
+    "allow_long": true,
+    "allow_short": true,
+    "band_k": 2.5,
+    "compatible_regimes": [
+      "VOLATILITY_EXPANSION",
+      "TREND_HIGH_VOL"
+    ],
+    "compression": 0.8,
+    "expected_net_r_band": [
+      -0.5,
+      0.5
+    ],
+    "expected_range_status": "provisional hypothesis; calibrated only by validation",
+    "expected_trades_per_symbol_month": [
+      2,
+      50
+    ],
+    "family": "volatility_breakout",
+    "funding_filter": false,
+    "historical_expected_band": {
+      "expectancy_lower": -0.19932435255168507,
+      "expectancy_upper": 0.24027747621668616
+    },
+    "id": "VB48",
+    "incompatible_regimes": [
+      "TREND_LOW_VOL",
+      "RANGE_LOW_VOL",
+      "RANGE_HIGH_VOL",
+      "VOLATILITY_COMPRESSION",
+      "MARKET_STRESS",
+      "UNKNOWN"
+    ],
+    "lookback": 48,
+    "maximum_age": 96,
+    "minutes": 15,
+    "preholdout_validated": false,
+    "pullback_atr": 1.0,
+    "risk_allocation": 0.0025,
+    "risk_bounds": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "sizing": "fixed initial capital risk / stop; 90% notional; 0.1% last closed volume cap",
+    "stop_atr": 2.5,
+    "stop_methodology": "close-observed ATR trailing stop, next-open exit; 96 signal bars max"
+  },
+  "VB48_STOP": {
+    "allow_long": true,
+    "allow_short": true,
+    "band_k": 2.5,
+    "compatible_regimes": [
+      "VOLATILITY_EXPANSION",
+      "TREND_HIGH_VOL"
+    ],
+    "compression": 0.8,
+    "expected_net_r_band": [
+      -0.5,
+      0.5
+    ],
+    "expected_range_status": "provisional hypothesis; calibrated only by validation",
+    "expected_trades_per_symbol_month": [
+      2,
+      50
+    ],
+    "family": "volatility_breakout",
+    "funding_filter": false,
+    "historical_expected_band": {
+      "expectancy_lower": -0.17426056215862204,
+      "expectancy_upper": 0.19677778912256474
+    },
+    "id": "VB48_STOP",
+    "incompatible_regimes": [
+      "TREND_LOW_VOL",
+      "RANGE_LOW_VOL",
+      "RANGE_HIGH_VOL",
+      "VOLATILITY_COMPRESSION",
+      "MARKET_STRESS",
+      "UNKNOWN"
+    ],
+    "lookback": 48,
+    "maximum_age": 96,
+    "minutes": 15,
+    "preholdout_validated": false,
+    "pullback_atr": 1.0,
+    "risk_allocation": 0.0025,
+    "risk_bounds": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "sizing": "fixed initial capital risk / stop; 90% notional; 0.1% last closed volume cap",
+    "stop_atr": 3.125,
+    "stop_methodology": "close-observed ATR trailing stop, next-open exit; 96 signal bars max"
+  },
+  "VB48_WINDOW": {
+    "allow_long": true,
+    "allow_short": true,
+    "band_k": 2.5,
+    "compatible_regimes": [
+      "VOLATILITY_EXPANSION",
+      "TREND_HIGH_VOL"
+    ],
+    "compression": 0.8,
+    "expected_net_r_band": [
+      -0.5,
+      0.5
+    ],
+    "expected_range_status": "provisional hypothesis; calibrated only by validation",
+    "expected_trades_per_symbol_month": [
+      2,
+      50
+    ],
+    "family": "volatility_breakout",
+    "funding_filter": false,
+    "historical_expected_band": {
+      "expectancy_lower": -0.1738394126206053,
+      "expectancy_upper": 0.3678314133566617
+    },
+    "id": "VB48_WINDOW",
+    "incompatible_regimes": [
+      "TREND_LOW_VOL",
+      "RANGE_LOW_VOL",
+      "RANGE_HIGH_VOL",
+      "VOLATILITY_COMPRESSION",
+      "MARKET_STRESS",
+      "UNKNOWN"
+    ],
+    "lookback": 60,
+    "maximum_age": 96,
+    "minutes": 15,
+    "preholdout_validated": false,
+    "pullback_atr": 1.0,
+    "risk_allocation": 0.0025,
+    "risk_bounds": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "sizing": "fixed initial capital risk / stop; 90% notional; 0.1% last closed volume cap",
+    "stop_atr": 2.5,
+    "stop_methodology": "close-observed ATR trailing stop, next-open exit; 96 signal bars max"
+  }
+}

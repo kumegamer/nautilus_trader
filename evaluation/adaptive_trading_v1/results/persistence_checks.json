@@ -1,0 +1,16 @@
+{
+  "baseline_commit": "de794053685c3a3b7ae74eb995e2b31215786b25",
+  "branch": "evaluation/adaptive-trading-v1",
+  "core_source_changed": false,
+  "frozen_evidence_unchanged": true,
+  "frozen_manifest_sha256": "a233c8e7ea62675991f3b772d494e4b7b9a2245f268a1dba984adce7638c36e9",
+  "independent_ledger_audit": "PASS",
+  "line_endings": "byte-preserved by scoped .gitattributes",
+  "merge_or_pr_requested": false,
+  "native_runs": 501,
+  "prior_research_commit": "3c669f91dd195266107a2f5b77c5c991565840a8",
+  "raw_archives": 306,
+  "raw_market_data_policy": "excluded; restore from committed publisher URLs and SHA256s",
+  "scope": "evaluation/adaptive_trading_v1/",
+  "test_result": "22 passed"
+}

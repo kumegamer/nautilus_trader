@@ -1,0 +1,27 @@
+{
+  "native_fill_count": 24748,
+  "native_reconciliation_tolerance": "0.00001 USDT",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "prior_commit": "3c669f91dd195266107a2f5b77c5c991565840a8",
+  "python": "3.13.16",
+  "run_count": 501,
+  "source_hashes": {
+    "PROTOCOL.md": "91edc2febf55a0aa9fb38725ff64bf26d4e1ef7da1ff851da7f89fc396920c18",
+    "adaptive/__init__.py": "48acf366ce909a2d5194520e514fd1445e407a6fef345d7888bad5734dd34875",
+    "adaptive/common.py": "e0d52288809911c61bb81751bf716dcb240be7b60bf538092a7da363b600345b",
+    "adaptive/controller.py": "3d8cf968a5f51201d6429f480f6bbbb61dc64b585361eaf85ee2bb1992f99ada",
+    "adaptive/data.py": "828cd2d1cbdee7e1bf43ed509de3f417ed82413521c2cd38444eed98166cd33b",
+    "adaptive/evidence.py": "d91c8733405db2025d8c94127915fc50db288222b5938db03a376cffb9c837ec",
+    "adaptive/features.py": "79188adcb80a4cb1a13351fa9a5907b942622ed6953791d66824825269e78f83",
+    "adaptive/native.py": "b5d09fed74fedb67e616cad3c7017e5330cafa2577810d21e34ddc608243eebd",
+    "adaptive/performance.py": "9ed9bd7b80763a9c23418355c99afc032a1d334c6164491584b32b9400aba3e4",
+    "adaptive/profiles.py": "e6d30438a8530d71377a7339d00eddd45f03ce341796ecf793d482d4ddd762df",
+    "adaptive/report.py": "baa527315a7b192a62fc9fc77c2657ca5ec1e5ab0c55e99d753a4943e99bcf54",
+    "adaptive/reproduce.py": "1f10f604c7ce1e27a6146106b1ddd48a10b0f3db8c5fa4ecea11911d3eb7e753",
+    "adaptive/research.py": "4be5eb00e4b3f73e34e1a0dc427f22185e9d05ccc988f722190ae32b63fbdf46",
+    "adaptive/runtime.py": "ef948270afff605e962708d0b9a44355d95ca4fd9391578fa188e16b166c174b",
+    "adaptive/workflow.py": "bc42b539aef32f8070e535487f4bde0b4909bb23638f9e1c3ded6a9b71acccf3",
+    "config.json": "8f009b6db87f9e839538d562a195aa5a7428b2cfdb5cd4b198a2566a095c1e96",
+    "tests/test_system.py": "86d9e10072367b0c796373e4d9bec315710dd4fa1be41f7934ae8853634e901a"
+  }
+}
