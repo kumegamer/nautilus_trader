@@ -1,0 +1,10 @@
+{
+  "base_revision": "de794053685c3a3b7ae74eb995e2b31215786b25",
+  "branch": "evaluation/edge-discovery-v1",
+  "cargo_lock_sha256": "7395312e931de874f6dc5673bf939f3a57241cd82e702462e912e20dad5dcfe4",
+  "native_extension": "/workspace/nautilus_trader/python/nautilus_trader/_libnautilus.cpython-313-x86_64-linux-gnu.so",
+  "native_extension_sha256": "34cc655ee6bf35cfe8e31282c44b51af428520858909b7c272400015346efbe9",
+  "python_executable": "/workspace/nautilus_trader/python/.venv/bin/python",
+  "python_uv_lock_sha256": "075288ab00ba96a25a618c101b642555e4d79112a4ce7486be435bb629da91de",
+  "tracked_core_diff": []
+}

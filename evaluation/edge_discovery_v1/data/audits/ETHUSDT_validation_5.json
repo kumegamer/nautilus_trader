@@ -1,0 +1,13 @@
+{
+  "bar_rows": 114048,
+  "expected_5m_rows": 114048,
+  "first_bar_ns": 1701475200000000000,
+  "funding_mark_proxy_rows": 0,
+  "funding_rows": 1098,
+  "gaps": 0,
+  "last_bar_ns": 1735689300000000000,
+  "max_reporting_jitter_ms": 15,
+  "minutes": 5,
+  "period": "validation",
+  "symbol": "ETHUSDT"
+}

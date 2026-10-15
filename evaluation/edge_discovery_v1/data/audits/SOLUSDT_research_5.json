@@ -1,0 +1,13 @@
+{
+  "bar_rows": 218880,
+  "expected_5m_rows": 218880,
+  "first_bar_ns": 1638403200000000000,
+  "funding_mark_proxy_rows": 6,
+  "funding_rows": 2265,
+  "gaps": 0,
+  "last_bar_ns": 1704066900000000000,
+  "max_reporting_jitter_ms": 31,
+  "minutes": 5,
+  "period": "research",
+  "symbol": "SOLUSDT"
+}

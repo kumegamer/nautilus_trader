@@ -1,0 +1,2 @@
+# Frozen evidence checksums require exact bytes on every platform.
+* -text

@@ -1,0 +1,13 @@
+{
+  "bar_rows": 20256,
+  "expected_5m_rows": 60768,
+  "first_bar_ns": 1764633600000000000,
+  "funding_mark_proxy_rows": 3,
+  "funding_rows": 543,
+  "gaps": 0,
+  "last_bar_ns": 1782863100000000000,
+  "max_reporting_jitter_ms": 16,
+  "minutes": 15,
+  "period": "holdout",
+  "symbol": "BTCUSDT"
+}

@@ -1,0 +1,14 @@
+{
+  "execution_sources_all_match_freeze": true,
+  "fill_precision_fees_slippage_and_causality_passed": true,
+  "final_metrics_recomputed_from_saved_native_runs": true,
+  "final_representatives_equal_frozen_decisions": true,
+  "native_accounts_reconciled": true,
+  "native_extension_unchanged": true,
+  "original_full_execution_signature_sets": 3,
+  "passed": true,
+  "publisher_checksums_verified": true,
+  "saved_runs": 548,
+  "selection_histories_are_chronological": true,
+  "verified_archives": 500
+}

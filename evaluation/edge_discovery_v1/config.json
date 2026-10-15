@@ -1,0 +1,47 @@
+{
+  "experiment": "nautilus-only-edge-discovery-v1",
+  "symbols": ["BTCUSDT", "ETHUSDT", "SOLUSDT"],
+  "periods": {
+    "research": ["2022-01-01", "2024-01-01"],
+    "validation": ["2024-01-01", "2025-01-01"],
+    "wf1": ["2025-01-01", "2025-07-01"],
+    "wf2": ["2025-07-01", "2026-01-01"],
+    "holdout": ["2026-01-01", "2026-07-01"]
+  },
+  "warmup_days": 30,
+  "capital_per_symbol": 10000,
+  "risk_per_trade": 0.0025,
+  "notional_cap_fraction": 0.9,
+  "minimum_notional": 100,
+  "participation_cap": 0.001,
+  "taker_fee": "0.0005",
+  "scenarios": {
+    "base": {"slippage_bps": 1, "fee_multiplier": 1},
+    "slip2": {"slippage_bps": 2, "fee_multiplier": 1},
+    "slip3": {"slippage_bps": 3, "fee_multiplier": 1},
+    "cost2x": {"slippage_bps": 2, "fee_multiplier": 2}
+  },
+  "instrument_specs": {
+    "BTCUSDT": {"tick": "0.1", "step": "0.001"},
+    "ETHUSDT": {"tick": "0.01", "step": "0.001"},
+    "SOLUSDT": {"tick": "0.001", "step": "0.1"}
+  },
+  "grids": {
+    "trend_breakout": {"minutes": [15, 60], "lookback": [24, 48], "stop_atr": [2.0, 3.0]},
+    "trend_pullback": {"minutes": [15, 60], "lookback": [24, 48], "pullback_atr": [0.5, 1.0]},
+    "mean_reversion": {"minutes": [5, 15], "lookback": [24, 48], "band_k": [2.0, 2.5]},
+    "volatility_breakout": {"minutes": [5, 15], "lookback": [24, 48], "compression": [0.6, 0.8]}
+  },
+  "selection": {
+    "minimum_trades": 60,
+    "minimum_symbol_trades": 10,
+    "minimum_profit_factor": 1.05,
+    "maximum_drawdown": 0.20,
+    "minimum_positive_symbols": 2,
+    "minimum_positive_neighbor_fraction": 0.5,
+    "maximum_best_trade_profit_share": 0.25,
+    "maximum_best_month_profit_share": 0.5,
+    "rank": "equal_weight_daily_sharpe_then_net_pnl_then_candidate_id",
+    "freeze_rule": "one representative per family; promotion eligibility from validation and selected WF OOS only; holdout never ranks or replaces representatives"
+  }
+}

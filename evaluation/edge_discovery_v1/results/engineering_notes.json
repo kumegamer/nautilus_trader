@@ -1,0 +1,20 @@
+{
+  "corrections": [
+    "Matched synthetic quote size precision to native instrument precision",
+    "Assigned a unique native hedging-OMS position ID to each nonoverlapping round trip",
+    "Repaired five missing SOL kline days from publisher-checksummed daily archives",
+    "Used explicitly audited trade-open mark proxies at missing historical funding marks",
+    "Created results directory before standalone integrity stage",
+    "Mapped hourly bars to the native v2 1-HOUR aggregation; 60-MINUTE is rejected by v2",
+    "Converted Binance funding interval hours to native interval minutes; explicit settlement timestamps preserve timing",
+    "Bounded grid worker batches so a failed candidate surfaces promptly",
+    "Corrected multi-period equity aggregation before freeze: chain-link normalized period returns instead of allowing additive equity to cross zero; native executions unchanged, all summaries/selections rebuilt"
+  ],
+  "obsolete_runs": [
+    "work/obsolete-runs-before-integrity-fix",
+    "work/obsolete-runs-before-v2-timeframe-fix"
+  ],
+  "reading_clarifications": "READING_NOTES.md",
+  "scope": "Corrections before final grid/holdout; no strategy or parameter-grid changes based on performance",
+  "execution_cache_admission": "Original raw signatures retained; only unchanged config/common/data/engine/package sources may resume, while metrics/report/selection changes rebuild summaries"
+}

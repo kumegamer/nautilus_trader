@@ -1,0 +1,53 @@
+{
+  "checks": [
+    {
+      "compared_fills": 140,
+      "family": "trend_breakout",
+      "future_tail_mutation_consistent": true,
+      "native_account_and_positions_reconciled": true,
+      "prefix_consistent": true
+    },
+    {
+      "compared_fills": 166,
+      "family": "trend_pullback",
+      "future_tail_mutation_consistent": true,
+      "native_account_and_positions_reconciled": true,
+      "prefix_consistent": true
+    },
+    {
+      "compared_fills": 94,
+      "family": "mean_reversion",
+      "future_tail_mutation_consistent": true,
+      "native_account_and_positions_reconciled": true,
+      "prefix_consistent": true
+    },
+    {
+      "compared_fills": 59,
+      "family": "volatility_breakout",
+      "future_tail_mutation_consistent": true,
+      "native_account_and_positions_reconciled": true,
+      "prefix_consistent": true
+    }
+  ],
+  "holdout_archives_absent": true,
+  "limitations": [
+    "Probes detect obvious future dependence; not a proof against every bias"
+  ],
+  "passed": true,
+  "pytest": "..........                                                               [100%]\n10 passed in 0.74s",
+  "source_hashes": {
+    "PROTOCOL.md": "0857c64803c1154fcace7220afd26d8c9adf55a55681dedaec10a2fed529acf4",
+    "README.md": "0db28d95f22adcc4312182c7daedb147e0c8a737216bddf1b0631bf20f022fa9",
+    "config.json": "f63fdc7bf7038490a6514f28628bcc425c35da67a4d0476d9df5c025df17179b",
+    "edge_discovery/__init__.py": "1593243448731af6403f450d9f69d006f857d79a16c37ba9519b5fbde7138219",
+    "edge_discovery/checks.py": "1aad1eb1ac70d211e631b1986574702eea9213746e41e6d59a0160d9a9bd3fe4",
+    "edge_discovery/common.py": "792d33e8fc37e4743ae7a4e8ce77906e35b7cae79eda99ac1fb0e4310667dfe5",
+    "edge_discovery/data.py": "0de7921685c29546d56d00422975f05318a71f3f2f9ee9ae18884f54d35880f6",
+    "edge_discovery/engine.py": "5196e8b901de237f88523e13114d462047061389bc9aa1a8f5d04b33400eed12",
+    "edge_discovery/metrics.py": "6b4d7ecc6bdf9c8eebbbdb326236d623c4dbdd37b7701422ab5368b48f3293ee",
+    "edge_discovery/report.py": "a2a1cbd6b278de7960eeda47a5a48926b4cff916bcd76e1002f546e10493555f",
+    "edge_discovery/workflow.py": "d5eee571f7b475fffccf283583616de6bdadcfb7eaea303254435812e911f6a0",
+    "runtime-requirements.txt": "2ecd02506e88f604e025ceea30db62b87926fe334189550a0a2f08edec4ec88d",
+    "tests/test_experiment.py": "d9d0aa569e3d83e75dd9a8c4b6e96d55a048640a09793fcce9e83ac63dfba2e9"
+  }
+}

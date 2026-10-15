@@ -1,0 +1,13 @@
+{
+  "bar_rows": 72960,
+  "expected_5m_rows": 218880,
+  "first_bar_ns": 1638403200000000000,
+  "funding_mark_proxy_rows": 9,
+  "funding_rows": 2190,
+  "gaps": 0,
+  "last_bar_ns": 1704066300000000000,
+  "max_reporting_jitter_ms": 31,
+  "minutes": 15,
+  "period": "research",
+  "symbol": "BTCUSDT"
+}
