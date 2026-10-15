@@ -1,0 +1,11 @@
+{
+  "gate_rows": 168,
+  "input_commit": "8219e2f8747d77ece56398f8f150bd475dbe8b0a",
+  "new_backtests": 0,
+  "new_optimization_runs": 0,
+  "original_files_unchanged": true,
+  "original_tracked_files_checked": 686,
+  "profile_count": 14,
+  "sealed_use": "Already-produced final metric aggregates rendered separately, never supplied to preholdout ranking",
+  "strategy_or_threshold_changes": 0
+}

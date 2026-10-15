@@ -1,0 +1,462 @@
+{
+  "actual_changes_all_three_cost_repetitions": 12558,
+  "actual_changes_one_market_path": 4186,
+  "actual_profile_switches": 0,
+  "actual_trades": 0,
+  "assessed_research_records_base": 441,
+  "by_symbol_period": [
+    {
+      "actual_changes": 541,
+      "logged_records": 542,
+      "period": "research",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "actual_changes": 503,
+      "logged_records": 504,
+      "period": "research",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "actual_changes": 534,
+      "logged_records": 535,
+      "period": "research",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "actual_changes": 242,
+      "logged_records": 242,
+      "period": "validation",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "actual_changes": 238,
+      "logged_records": 238,
+      "period": "validation",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "actual_changes": 293,
+      "logged_records": 293,
+      "period": "validation",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "actual_changes": 259,
+      "logged_records": 259,
+      "period": "wf1",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "actual_changes": 259,
+      "logged_records": 259,
+      "period": "wf1",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "actual_changes": 247,
+      "logged_records": 247,
+      "period": "wf1",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "actual_changes": 282,
+      "logged_records": 282,
+      "period": "wf2",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "actual_changes": 241,
+      "logged_records": 241,
+      "period": "wf2",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "actual_changes": 247,
+      "logged_records": 247,
+      "period": "wf2",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "actual_changes": 106,
+      "logged_records": 106,
+      "period": "holdout",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "actual_changes": 84,
+      "logged_records": 84,
+      "period": "holdout",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "actual_changes": 110,
+      "logged_records": 110,
+      "period": "holdout",
+      "symbol": "SOLUSDT"
+    }
+  ],
+  "degradation_states_base": {
+    "INSUFFICIENT_DATA": 4107
+  },
+  "gate_failure_count_distribution": {
+    "1": 6,
+    "2": 33,
+    "3": 36,
+    "4": 63,
+    "5": 54,
+    "6": 30,
+    "7": 39,
+    "8": 15,
+    "9": 27,
+    "10": 87,
+    "11": 51
+  },
+  "logged_records_one_cost": 4189,
+  "near_miss_only_diagnostic": {
+    "additional_hypothetical_switches": 0,
+    "annotation_provenance": "Original frozen promotion gates are binary. Autopsy NEAR_MISS means failed PF floor with 1 < PF < 1.05, established using preholdout data only before clarification.",
+    "arbitrary_fail_waivers": 0,
+    "eligible_profiles_at_final_freeze": [],
+    "eligible_profiles_at_recorded_preholdout_requests": [],
+    "final_freeze_near_misses": [
+      {
+        "gates": [
+          "profit_factor"
+        ],
+        "profile": "VB48",
+        "profit_factor": 1.0444813217561744
+      },
+      {
+        "gates": [
+          "profit_factor"
+        ],
+        "profile": "VB48_STOP",
+        "profit_factor": 1.0275114141374169
+      }
+    ],
+    "holdout_used_for_eligibility": false,
+    "incremental_subsequent_net_pnl": 0,
+    "performance_effect": "UNCHANGED: no newly eligible profiles, so no additional positions or switches",
+    "records_checked": 392,
+    "rule": "Accept PASS or pre-established autopsy PF-margin NEAR_MISS only; every true FAIL blocks",
+    "thresholds_changed": false
+  },
+  "one_failed_gate_records": [
+    {
+      "failed_gate": [
+        "concentration"
+      ],
+      "metrics": {
+        "average_loss": -12.400443775416669,
+        "average_win": 32.98772277764705,
+        "consecutive_losses": 0,
+        "expectancy": 2.848544987470356,
+        "expectancy_r": 0.11252085675533113,
+        "fees": 329.60528708,
+        "funding": -12.82894109,
+        "gross_pnl": 1129.91531,
+        "mae": -12.741360079051379,
+        "marked_maximum_drawdown": 0.015628088373159654,
+        "maximum_drawdown": 0.010591268690185451,
+        "mfe": 27.477010948616606,
+        "monthly_net_pnl": {
+          "2024-11": -27.921796790000005,
+          "2024-12": -3.668494609999996,
+          "2025-01": -92.91536792000001,
+          "2025-02": 205.59090018000003,
+          "2025-03": -38.93700802,
+          "2025-04": 393.601092,
+          "2025-05": 154.73810645,
+          "2025-06": -51.56835239,
+          "2025-07": 223.35561674999997,
+          "2025-08": -97.66847481,
+          "2025-09": -5.654479280000004,
+          "2025-10": 72.40678598,
+          "2025-11": -107.53628489,
+          "2025-12": -27.398828359999992,
+          "2026-01": 61.28133557000001,
+          "2026-02": 62.97713197
+        },
+        "net_excluding_top10": -472.29330490999996,
+        "net_pnl": 720.6818818300001,
+        "number_of_trades": 253,
+        "profit_factor": 1.3459370635295513,
+        "slippage": 66.7992,
+        "top10_positive_profit_share": 0.42546138427146885,
+        "turnover": 21.973685809666666,
+        "win_rate": 0.3359683794466403
+      },
+      "period": "wf2",
+      "profile": "TB48",
+      "regime": "RANGE_LOW_VOL",
+      "symbol": "BTCUSDT",
+      "timestamp": 1771460099999000000
+    },
+    {
+      "failed_gate": [
+        "concentration"
+      ],
+      "metrics": {
+        "average_loss": -12.449195582455088,
+        "average_win": 32.98772277764705,
+        "consecutive_losses": 0,
+        "expectancy": 2.8767491025000003,
+        "expectancy_r": 0.11367130694346034,
+        "fees": 329.02919508,
+        "funding": -12.82894109,
+        "gross_pnl": 1133.47931,
+        "mae": -12.769947222222218,
+        "marked_maximum_drawdown": 0.012336153534637906,
+        "maximum_drawdown": 0.01058980885509564,
+        "mfe": 27.58340146825397,
+        "monthly_net_pnl": {
+          "2024-11": -23.662904790000006,
+          "2024-12": -3.668494609999996,
+          "2025-01": -92.91536792000001,
+          "2025-02": 205.59090018000003,
+          "2025-03": -38.93700802,
+          "2025-04": 393.601092,
+          "2025-05": 154.73810645,
+          "2025-06": -51.56835239,
+          "2025-07": 223.35561674999997,
+          "2025-08": -97.66847481,
+          "2025-09": -5.654479280000004,
+          "2025-10": 72.40678598,
+          "2025-11": -107.53628489,
+          "2025-12": -27.398828359999992,
+          "2026-01": 61.28133557000001,
+          "2026-02": 62.97713197
+        },
+        "net_excluding_top10": -468.03441291,
+        "net_pnl": 724.94077383,
+        "number_of_trades": 252,
+        "profit_factor": 1.3486942340003654,
+        "slippage": 66.6804,
+        "top10_positive_profit_share": 0.42546138427146885,
+        "turnover": 21.935279676333334,
+        "win_rate": 0.3373015873015873
+      },
+      "period": "wf2",
+      "profile": "TB48_FUNDING",
+      "regime": "RANGE_LOW_VOL",
+      "symbol": "BTCUSDT",
+      "timestamp": 1771460099999000000
+    },
+    {
+      "failed_gate": [
+        "concentration"
+      ],
+      "metrics": {
+        "average_loss": -12.400443775416669,
+        "average_win": 32.98772277764705,
+        "consecutive_losses": 0,
+        "expectancy": 2.848544987470356,
+        "expectancy_r": 0.11252085675533113,
+        "fees": 329.60528708,
+        "funding": -12.82894109,
+        "gross_pnl": 1129.91531,
+        "mae": -12.741360079051379,
+        "marked_maximum_drawdown": 0.015628088373159654,
+        "maximum_drawdown": 0.010591268690185451,
+        "mfe": 27.477010948616606,
+        "monthly_net_pnl": {
+          "2024-11": -27.921796790000005,
+          "2024-12": -3.668494609999996,
+          "2025-01": -92.91536792000001,
+          "2025-02": 205.59090018000003,
+          "2025-03": -38.93700802,
+          "2025-04": 393.601092,
+          "2025-05": 154.73810645,
+          "2025-06": -51.56835239,
+          "2025-07": 223.35561674999997,
+          "2025-08": -97.66847481,
+          "2025-09": -5.654479280000004,
+          "2025-10": 72.40678598,
+          "2025-11": -107.53628489,
+          "2025-12": -27.398828359999992,
+          "2026-01": 61.28133557000001,
+          "2026-02": 62.97713197
+        },
+        "net_excluding_top10": -472.29330490999996,
+        "net_pnl": 720.6818818300001,
+        "number_of_trades": 253,
+        "profit_factor": 1.3459370635295513,
+        "slippage": 66.7992,
+        "top10_positive_profit_share": 0.42546138427146885,
+        "turnover": 21.973685809666666,
+        "win_rate": 0.3359683794466403
+      },
+      "period": "wf2",
+      "profile": "TB48",
+      "regime": "RANGE_LOW_VOL",
+      "symbol": "ETHUSDT",
+      "timestamp": 1771460099999000000
+    },
+    {
+      "failed_gate": [
+        "concentration"
+      ],
+      "metrics": {
+        "average_loss": -12.449195582455088,
+        "average_win": 32.98772277764705,
+        "consecutive_losses": 0,
+        "expectancy": 2.8767491025000003,
+        "expectancy_r": 0.11367130694346034,
+        "fees": 329.02919508,
+        "funding": -12.82894109,
+        "gross_pnl": 1133.47931,
+        "mae": -12.769947222222218,
+        "marked_maximum_drawdown": 0.012336153534637906,
+        "maximum_drawdown": 0.01058980885509564,
+        "mfe": 27.58340146825397,
+        "monthly_net_pnl": {
+          "2024-11": -23.662904790000006,
+          "2024-12": -3.668494609999996,
+          "2025-01": -92.91536792000001,
+          "2025-02": 205.59090018000003,
+          "2025-03": -38.93700802,
+          "2025-04": 393.601092,
+          "2025-05": 154.73810645,
+          "2025-06": -51.56835239,
+          "2025-07": 223.35561674999997,
+          "2025-08": -97.66847481,
+          "2025-09": -5.654479280000004,
+          "2025-10": 72.40678598,
+          "2025-11": -107.53628489,
+          "2025-12": -27.398828359999992,
+          "2026-01": 61.28133557000001,
+          "2026-02": 62.97713197
+        },
+        "net_excluding_top10": -468.03441291,
+        "net_pnl": 724.94077383,
+        "number_of_trades": 252,
+        "profit_factor": 1.3486942340003654,
+        "slippage": 66.6804,
+        "top10_positive_profit_share": 0.42546138427146885,
+        "turnover": 21.935279676333334,
+        "win_rate": 0.3373015873015873
+      },
+      "period": "wf2",
+      "profile": "TB48_FUNDING",
+      "regime": "RANGE_LOW_VOL",
+      "symbol": "ETHUSDT",
+      "timestamp": 1771460099999000000
+    },
+    {
+      "failed_gate": [
+        "concentration"
+      ],
+      "metrics": {
+        "average_loss": -12.400443775416669,
+        "average_win": 32.98772277764705,
+        "consecutive_losses": 0,
+        "expectancy": 2.848544987470356,
+        "expectancy_r": 0.11252085675533113,
+        "fees": 329.60528708,
+        "funding": -12.82894109,
+        "gross_pnl": 1129.91531,
+        "mae": -12.741360079051379,
+        "marked_maximum_drawdown": 0.015628088373159654,
+        "maximum_drawdown": 0.010591268690185451,
+        "mfe": 27.477010948616606,
+        "monthly_net_pnl": {
+          "2024-11": -27.921796790000005,
+          "2024-12": -3.668494609999996,
+          "2025-01": -92.91536792000001,
+          "2025-02": 205.59090018000003,
+          "2025-03": -38.93700802,
+          "2025-04": 393.601092,
+          "2025-05": 154.73810645,
+          "2025-06": -51.56835239,
+          "2025-07": 223.35561674999997,
+          "2025-08": -97.66847481,
+          "2025-09": -5.654479280000004,
+          "2025-10": 72.40678598,
+          "2025-11": -107.53628489,
+          "2025-12": -27.398828359999992,
+          "2026-01": 61.28133557000001,
+          "2026-02": 62.97713197
+        },
+        "net_excluding_top10": -472.29330490999996,
+        "net_pnl": 720.6818818300001,
+        "number_of_trades": 253,
+        "profit_factor": 1.3459370635295513,
+        "slippage": 66.7992,
+        "top10_positive_profit_share": 0.42546138427146885,
+        "turnover": 21.973685809666666,
+        "win_rate": 0.3359683794466403
+      },
+      "period": "wf2",
+      "profile": "TB48",
+      "regime": "RANGE_LOW_VOL",
+      "symbol": "SOLUSDT",
+      "timestamp": 1771460099999000000
+    },
+    {
+      "failed_gate": [
+        "concentration"
+      ],
+      "metrics": {
+        "average_loss": -12.449195582455088,
+        "average_win": 32.98772277764705,
+        "consecutive_losses": 0,
+        "expectancy": 2.8767491025000003,
+        "expectancy_r": 0.11367130694346034,
+        "fees": 329.02919508,
+        "funding": -12.82894109,
+        "gross_pnl": 1133.47931,
+        "mae": -12.769947222222218,
+        "marked_maximum_drawdown": 0.012336153534637906,
+        "maximum_drawdown": 0.01058980885509564,
+        "mfe": 27.58340146825397,
+        "monthly_net_pnl": {
+          "2024-11": -23.662904790000006,
+          "2024-12": -3.668494609999996,
+          "2025-01": -92.91536792000001,
+          "2025-02": 205.59090018000003,
+          "2025-03": -38.93700802,
+          "2025-04": 393.601092,
+          "2025-05": 154.73810645,
+          "2025-06": -51.56835239,
+          "2025-07": 223.35561674999997,
+          "2025-08": -97.66847481,
+          "2025-09": -5.654479280000004,
+          "2025-10": 72.40678598,
+          "2025-11": -107.53628489,
+          "2025-12": -27.398828359999992,
+          "2026-01": 61.28133557000001,
+          "2026-02": 62.97713197
+        },
+        "net_excluding_top10": -468.03441291,
+        "net_pnl": 724.94077383,
+        "number_of_trades": 252,
+        "profit_factor": 1.3486942340003654,
+        "slippage": 66.6804,
+        "top10_positive_profit_share": 0.42546138427146885,
+        "turnover": 21.935279676333334,
+        "win_rate": 0.3373015873015873
+      },
+      "period": "wf2",
+      "profile": "TB48_FUNDING",
+      "regime": "RANGE_LOW_VOL",
+      "symbol": "SOLUSDT",
+      "timestamp": 1771460099999000000
+    }
+  ],
+  "proposed_profiles": [
+    "MR48",
+    "TB48",
+    "TB48_FUNDING",
+    "TB48_SHORT",
+    "TB48_STOP",
+    "TP24",
+    "VB48"
+  ],
+  "recorded_promotions": {
+    "CANDIDATE": 441,
+    "REJECTED": 441,
+    "RESEARCH": 420
+  },
+  "research_records_base": 714
+}

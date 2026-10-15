@@ -1,0 +1,43 @@
+{
+  "gate_failure_counts": {
+    "concentration": 14,
+    "cost_stress": 13,
+    "drawdown": 1,
+    "neighbors": 6,
+    "profit_factor": 8,
+    "regimes": 14,
+    "sample": 3,
+    "sealed_oos": 11,
+    "sides": 12,
+    "symbols": 10,
+    "validation_positive": 9,
+    "walk_forward": 14
+  },
+  "missing_stress_profiles": [
+    "MR48_STOP",
+    "MR48_WINDOW",
+    "TB48_STOP",
+    "TB48_WINDOW",
+    "TP24_STOP",
+    "TP24_WINDOW",
+    "VB48_STOP",
+    "VB48_WINDOW"
+  ],
+  "ranking_by_original_failed_gate_count": [
+    "TB48_SHORT",
+    "VB48_WINDOW",
+    "TB48",
+    "TB48_FUNDING",
+    "TB48_STOP",
+    "TB48_WINDOW",
+    "VB48",
+    "VB48_STOP",
+    "MR48_STOP",
+    "MR48_WINDOW",
+    "MR48",
+    "TP24",
+    "TP24_STOP",
+    "TP24_WINDOW"
+  ],
+  "selection_scope": "Saved preholdout evidence only; no sealed observations used"
+}

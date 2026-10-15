@@ -1,0 +1,574 @@
+{
+  "buy_hold": [
+    {
+      "capital": 10000,
+      "entry_notional": 8969.472,
+      "entry_price": 58624.0,
+      "entry_utc": "2026-07-01T00:15:00.001000+00:00",
+      "exit_price": 83576.7,
+      "exit_utc": "2026-09-30T23:45:00.001000+00:00",
+      "fees": 10.87835355,
+      "fraction_of_period_holding": 0.9997735507246377,
+      "funding": -176.74243155,
+      "gross": 3819.951,
+      "net": 3630.1423149,
+      "quantity": 0.153,
+      "slippage": 2.1879,
+      "symbol": "BTCUSDT"
+    },
+    {
+      "capital": 10000,
+      "entry_notional": 8999.58997,
+      "entry_price": 1573.63,
+      "entry_utc": "2026-07-01T00:15:00.001000+00:00",
+      "exit_price": 2687.81,
+      "exit_utc": "2026-09-30T23:45:00.001000+00:00",
+      "fees": 12.18558768,
+      "fraction_of_period_holding": 0.9997735507246377,
+      "funding": -155.29016204,
+      "gross": 6374.45459,
+      "net": 6204.51967028,
+      "quantity": 5.719,
+      "slippage": 2.45917,
+      "symbol": "ETHUSDT"
+    },
+    {
+      "capital": 10000,
+      "entry_notional": 8999.7468,
+      "entry_price": 73.708,
+      "entry_utc": "2026-07-01T00:15:00.001000+00:00",
+      "exit_price": 118.148,
+      "exit_utc": "2026-09-30T23:45:00.001000+00:00",
+      "fees": 11.7128088,
+      "fraction_of_period_holding": 0.9997735507246377,
+      "funding": -93.78268831,
+      "gross": 5428.566,
+      "net": 5320.62850289,
+      "quantity": 122.1,
+      "slippage": 2.442,
+      "symbol": "SOLUSDT"
+    }
+  ],
+  "buy_hold_totals": {
+    "fees": "34.77675003",
+    "funding": "-425.81528190",
+    "gross": "15622.97159",
+    "net": "15155.29048807",
+    "slippage": "7.08907"
+  },
+  "completed_holdout_exposure": {
+    "BUY_HOLD": {
+      "duration_weighted_entry_notional_to_initial_capital": 0.8987567234265549,
+      "position_time_fraction_across_three_sleeves": 0.9997735507246377,
+      "scope": "COMPLETED_HOLDOUT_DESCRIPTIVE_ONLY",
+      "trades": 3
+    },
+    "TB48_SHORT": {
+      "duration_weighted_entry_notional_to_initial_capital": 0.001360955183423913,
+      "position_time_fraction_across_three_sleeves": 0.006038647342995169,
+      "scope": "COMPLETED_HOLDOUT_DESCRIPTIVE_ONLY",
+      "trades": 6
+    }
+  },
+  "concentration_share_failures": [
+    "TB48_SHORT",
+    "TP24",
+    "TP24_STOP",
+    "TP24_WINDOW",
+    "VB48_WINDOW"
+  ],
+  "exit_coincidence": [
+    {
+      "exit_coincides_with_incompatible_regime": 41,
+      "fraction": 0.03295819935691318,
+      "median_holding_hours": 3.0,
+      "profile": "MR48",
+      "trades": 1244
+    },
+    {
+      "exit_coincides_with_incompatible_regime": 41,
+      "fraction": 0.03322528363047002,
+      "median_holding_hours": 3.5,
+      "profile": "MR48_STOP",
+      "trades": 1234
+    },
+    {
+      "exit_coincides_with_incompatible_regime": 29,
+      "fraction": 0.028712871287128714,
+      "median_holding_hours": 3.25,
+      "profile": "MR48_WINDOW",
+      "trades": 1010
+    },
+    {
+      "exit_coincides_with_incompatible_regime": 429,
+      "fraction": 0.9285714285714286,
+      "median_holding_hours": 4.0,
+      "profile": "TB48",
+      "trades": 462
+    },
+    {
+      "exit_coincides_with_incompatible_regime": 421,
+      "fraction": 0.9314159292035398,
+      "median_holding_hours": 4.0,
+      "profile": "TB48_FUNDING",
+      "trades": 452
+    },
+    {
+      "exit_coincides_with_incompatible_regime": 213,
+      "fraction": 0.9726027397260274,
+      "median_holding_hours": 4.0,
+      "profile": "TB48_SHORT",
+      "trades": 219
+    },
+    {
+      "exit_coincides_with_incompatible_regime": 442,
+      "fraction": 0.9587852494577006,
+      "median_holding_hours": 4.0,
+      "profile": "TB48_STOP",
+      "trades": 461
+    },
+    {
+      "exit_coincides_with_incompatible_regime": 426,
+      "fraction": 0.9281045751633987,
+      "median_holding_hours": 4.0,
+      "profile": "TB48_WINDOW",
+      "trades": 459
+    },
+    {
+      "exit_coincides_with_incompatible_regime": 14,
+      "fraction": 0.9333333333333333,
+      "median_holding_hours": 1.0,
+      "profile": "TP24",
+      "trades": 15
+    },
+    {
+      "exit_coincides_with_incompatible_regime": 14,
+      "fraction": 0.9333333333333333,
+      "median_holding_hours": 1.0,
+      "profile": "TP24_STOP",
+      "trades": 15
+    },
+    {
+      "exit_coincides_with_incompatible_regime": 15,
+      "fraction": 0.9375,
+      "median_holding_hours": 1.0,
+      "profile": "TP24_WINDOW",
+      "trades": 16
+    },
+    {
+      "exit_coincides_with_incompatible_regime": 123,
+      "fraction": 0.43309859154929575,
+      "median_holding_hours": 3.25,
+      "profile": "VB48",
+      "trades": 284
+    },
+    {
+      "exit_coincides_with_incompatible_regime": 147,
+      "fraction": 0.5364963503649635,
+      "median_holding_hours": 4.5,
+      "profile": "VB48_STOP",
+      "trades": 274
+    },
+    {
+      "exit_coincides_with_incompatible_regime": 90,
+      "fraction": 0.410958904109589,
+      "median_holding_hours": 3.25,
+      "profile": "VB48_WINDOW",
+      "trades": 219
+    }
+  ],
+  "marked_and_closed_DD_differ": [
+    "MR48",
+    "MR48_STOP",
+    "MR48_WINDOW",
+    "TB48",
+    "TB48_FUNDING",
+    "TB48_SHORT",
+    "TB48_STOP",
+    "TB48_WINDOW",
+    "TP24",
+    "TP24_STOP",
+    "VB48",
+    "VB48_STOP",
+    "VB48_WINDOW"
+  ],
+  "net_after_top10_failures": [
+    "MR48",
+    "MR48_STOP",
+    "MR48_WINDOW",
+    "TB48",
+    "TB48_FUNDING",
+    "TB48_SHORT",
+    "TB48_STOP",
+    "TB48_WINDOW",
+    "TP24",
+    "TP24_STOP",
+    "TP24_WINDOW",
+    "VB48",
+    "VB48_STOP",
+    "VB48_WINDOW"
+  ],
+  "positive_developmental_regime_slices": [
+    {
+      "expectancy": 2.2582471817486343,
+      "net": 413.2592342600001,
+      "outer_period_nets": {
+        "research": -204.83732729000005,
+        "validation": 537.78598745,
+        "wf1": -7.1961008499999775,
+        "wf2": -113.52278960999998
+      },
+      "pf": 1.265107891044658,
+      "profile": "TB48",
+      "regime": "TREND_LOW_VOL",
+      "trades": 183
+    },
+    {
+      "expectancy": 2.2582471817486343,
+      "net": 413.2592342600001,
+      "outer_period_nets": {
+        "research": -101.19331527000008,
+        "validation": 537.78598745,
+        "wf1": -7.1961008499999775,
+        "wf2": -113.52278960999998
+      },
+      "pf": 1.265107891044658,
+      "profile": "TB48_FUNDING",
+      "regime": "TREND_LOW_VOL",
+      "trades": 183
+    },
+    {
+      "expectancy": 6.696866836976745,
+      "net": 575.93054798,
+      "outer_period_nets": {
+        "research": 77.65282220999995,
+        "validation": 535.4235413499999,
+        "wf1": -8.844983970000007,
+        "wf2": 53.15985333000002
+      },
+      "pf": 2.0240807909851743,
+      "profile": "TB48_SHORT",
+      "regime": "TREND_LOW_VOL",
+      "trades": 86
+    },
+    {
+      "expectancy": 1.6773630269398907,
+      "net": 306.95743393,
+      "outer_period_nets": {
+        "research": -193.32852286999997,
+        "validation": 435.3647586,
+        "wf1": -26.683014000000004,
+        "wf2": -98.75683772000001
+      },
+      "pf": 1.243239768957361,
+      "profile": "TB48_STOP",
+      "regime": "TREND_LOW_VOL",
+      "trades": 183
+    },
+    {
+      "expectancy": 2.352251027444445,
+      "net": 423.4051849400001,
+      "outer_period_nets": {
+        "research": -204.83732729000005,
+        "validation": 537.78598745,
+        "wf1": -7.1961008499999775,
+        "wf2": -103.37683893000005
+      },
+      "pf": 1.2736867575039863,
+      "profile": "TB48_WINDOW",
+      "regime": "TREND_LOW_VOL",
+      "trades": 180
+    },
+    {
+      "expectancy": 8.096128467076923,
+      "net": 526.24835036,
+      "outer_period_nets": {
+        "research": 96.06655036000001,
+        "validation": 172.40227903999997,
+        "wf1": 72.14602065,
+        "wf2": 182.5459393
+      },
+      "pf": 2.031459779375668,
+      "profile": "VB48",
+      "regime": "VOLATILITY_EXPANSION",
+      "trades": 65
+    },
+    {
+      "expectancy": 6.434023182656251,
+      "net": 411.77748369000005,
+      "outer_period_nets": {
+        "research": 134.17207645,
+        "validation": 115.37937355000003,
+        "wf1": 36.33076474,
+        "wf2": 175.97951026999996
+      },
+      "pf": 1.9159372724093464,
+      "profile": "VB48_STOP",
+      "regime": "VOLATILITY_EXPANSION",
+      "trades": 64
+    },
+    {
+      "expectancy": 7.509836711399999,
+      "net": 375.49183557,
+      "outer_period_nets": {
+        "research": 24.640099530000004,
+        "validation": 150.71215027,
+        "wf1": -34.686552879999994,
+        "wf2": 201.39398149
+      },
+      "pf": 1.9049299675145308,
+      "profile": "VB48_WINDOW",
+      "regime": "VOLATILITY_EXPANSION",
+      "trades": 50
+    }
+  ],
+  "primary_failure_classes": [
+    "STRATEGY_LIBRARY_WEAK",
+    "ADAPTIVE_CONTROLLER_UNDEREXERCISED"
+  ],
+  "qualified_concerns": {
+    "PARAMETER_INSTABILITY": "Localized volatility-breakout timing/sign sensitivity; not a universal cause",
+    "REGIME_MODEL_WEAK": "Strong evidence of regime/exit interaction; classifier predictive weakness itself cannot be isolated without an unfiltered control",
+    "VALIDATION_GATES_TOO_STRICT": "Concentration removal and all-regime/all-side requirements are conservative; not sufficient to explain multi-gate failures"
+  },
+  "risk_adjusted_comparison": [
+    {
+      "annualized_volatility": 0.0,
+      "maximum_drawdown": 0.0,
+      "net": 0.0,
+      "period": "research",
+      "return": 0.0,
+      "sharpe": null,
+      "sortino": null,
+      "system": "adaptive",
+      "trades": 0
+    },
+    {
+      "annualized_volatility": 0.007863031159481958,
+      "maximum_drawdown": 0.0045100403363333985,
+      "net": 254.01282356999997,
+      "period": "research",
+      "return": 0.00846709411899993,
+      "sharpe": 1.073288543035508,
+      "sortino": 2.26595856311592,
+      "system": "static_best",
+      "trades": 67
+    },
+    {
+      "annualized_volatility": 0.6011136119254281,
+      "maximum_drawdown": 0.36394157354065226,
+      "net": 17134.36862561,
+      "period": "research",
+      "return": 0.5711456208536667,
+      "sharpe": 1.0478428257839947,
+      "sortino": 1.601294534506969,
+      "system": "buy_hold",
+      "trades": 3
+    },
+    {
+      "annualized_volatility": 0.0,
+      "maximum_drawdown": 0.0,
+      "net": 0.0,
+      "period": "research",
+      "return": 0.0,
+      "sharpe": null,
+      "sortino": null,
+      "system": "no_trade",
+      "trades": 0
+    },
+    {
+      "annualized_volatility": 0.0,
+      "maximum_drawdown": 0.0,
+      "net": 0.0,
+      "period": "validation",
+      "return": 0.0,
+      "sharpe": null,
+      "sortino": null,
+      "system": "adaptive",
+      "trades": 0
+    },
+    {
+      "annualized_volatility": 0.014297315652342971,
+      "maximum_drawdown": 0.0026160371913815927,
+      "net": 538.24206043,
+      "period": "validation",
+      "return": 0.017941402014333363,
+      "sharpe": 2.5153376814988664,
+      "sortino": 9.740014036463045,
+      "system": "static_best",
+      "trades": 52
+    },
+    {
+      "annualized_volatility": 0.590499425955421,
+      "maximum_drawdown": 0.44261283632759396,
+      "net": -3085.19563173,
+      "period": "validation",
+      "return": -0.10283985439099996,
+      "sharpe": -0.07736504706276079,
+      "sortino": -0.11188199447270025,
+      "system": "buy_hold",
+      "trades": 3
+    },
+    {
+      "annualized_volatility": 0.0,
+      "maximum_drawdown": 0.0,
+      "net": 0.0,
+      "period": "validation",
+      "return": 0.0,
+      "sharpe": null,
+      "sortino": null,
+      "system": "no_trade",
+      "trades": 0
+    },
+    {
+      "annualized_volatility": 0.0,
+      "maximum_drawdown": 0.0,
+      "net": 0.0,
+      "period": "wf1",
+      "return": 0.0,
+      "sharpe": null,
+      "sortino": null,
+      "system": "adaptive",
+      "trades": 0
+    },
+    {
+      "annualized_volatility": 0.010254374671579128,
+      "maximum_drawdown": 0.0064207994092033704,
+      "net": -54.42358658,
+      "period": "wf1",
+      "return": -0.0018141195526666376,
+      "sharpe": -0.3461688669160281,
+      "sortino": -0.6851856612889389,
+      "system": "static_best",
+      "trades": 47
+    },
+    {
+      "annualized_volatility": 0.545124105833869,
+      "maximum_drawdown": 0.3830402235870316,
+      "net": -2328.88594659,
+      "period": "wf1",
+      "return": -0.07762953155300012,
+      "sharpe": -0.022007688935296654,
+      "sortino": -0.030941035881850206,
+      "system": "buy_hold",
+      "trades": 3
+    },
+    {
+      "annualized_volatility": 0.0,
+      "maximum_drawdown": 0.0,
+      "net": 0.0,
+      "period": "wf1",
+      "return": 0.0,
+      "sharpe": null,
+      "sortino": null,
+      "system": "no_trade",
+      "trades": 0
+    },
+    {
+      "annualized_volatility": 0.0,
+      "maximum_drawdown": 0.0,
+      "net": 0.0,
+      "period": "wf2",
+      "return": 0.0,
+      "sharpe": null,
+      "sortino": null,
+      "system": "adaptive",
+      "trades": 0
+    },
+    {
+      "annualized_volatility": 0.018790904517734765,
+      "maximum_drawdown": 0.010692319234732461,
+      "net": -11.306281340000002,
+      "period": "wf2",
+      "return": -0.00037687604466674074,
+      "sharpe": -0.03111613727892493,
+      "sortino": -0.04752672554543897,
+      "system": "static_best",
+      "trades": 53
+    },
+    {
+      "annualized_volatility": 0.5047515085900431,
+      "maximum_drawdown": 0.4491042489720737,
+      "net": -10917.91775126,
+      "period": "wf2",
+      "return": -0.36393059170866693,
+      "sharpe": -1.5525037269535653,
+      "sortino": -2.059738419585064,
+      "system": "buy_hold",
+      "trades": 3
+    },
+    {
+      "annualized_volatility": 0.0,
+      "maximum_drawdown": 0.0,
+      "net": 0.0,
+      "period": "wf2",
+      "return": 0.0,
+      "sharpe": null,
+      "sortino": null,
+      "system": "no_trade",
+      "trades": 0
+    },
+    {
+      "annualized_volatility": 0.0,
+      "maximum_drawdown": 0.0,
+      "net": 0.0,
+      "period": "holdout",
+      "return": 0.0,
+      "sharpe": null,
+      "sortino": null,
+      "system": "adaptive",
+      "trades": 0
+    },
+    {
+      "annualized_volatility": 0.002077900803343745,
+      "maximum_drawdown": 0.0021228936133333987,
+      "net": -63.686808400000004,
+      "period": "holdout",
+      "return": -0.0021228936133333987,
+      "sharpe": -4.056530843239996,
+      "sortino": -4.036335128256397,
+      "system": "static_best",
+      "trades": 6
+    },
+    {
+      "annualized_volatility": 0.43707319909653614,
+      "maximum_drawdown": 0.06835826528542788,
+      "net": 15155.29048807,
+      "period": "holdout",
+      "return": 0.5051763496023334,
+      "sharpe": 3.9303904779366032,
+      "sortino": 8.59426911377301,
+      "system": "buy_hold",
+      "trades": 3
+    },
+    {
+      "annualized_volatility": 0.0,
+      "maximum_drawdown": 0.0,
+      "net": 0.0,
+      "period": "holdout",
+      "return": 0.0,
+      "sharpe": null,
+      "sortino": null,
+      "system": "no_trade",
+      "trades": 0
+    }
+  ],
+  "sealed_used_to_select_profile_or_parameters": false,
+  "secondary_failure_classes": [
+    "COST_MODEL_DOMINANT",
+    "INSUFFICIENT_SAMPLE",
+    "SYMBOL_DEPENDENCE",
+    "OTHER"
+  ],
+  "unmeasured_cost_profiles": [
+    "MR48_STOP",
+    "MR48_WINDOW",
+    "TB48_STOP",
+    "TB48_WINDOW",
+    "TP24_STOP",
+    "TP24_WINDOW",
+    "VB48_STOP",
+    "VB48_WINDOW"
+  ],
+  "v2_proposals": []
+}
