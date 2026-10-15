@@ -1,0 +1,61 @@
+{
+  "schema": "btcusdt-repro-expected-v1",
+  "classification": "REPRODUCIBILITY_PARTIAL",
+  "canonical_schema": "btc-ema-replay-canonical-v1",
+  "expected_canonical_sha256": "ff16ab490258a4e6f7fa5e33207351432f25e786fc243e19a450c98ade15c201",
+  "historical_canonical_sha256": "7aecf9ac5050a5eb6c08ca36a32cd5bd29edf82c4c26d3df51799ea750f60814",
+  "historical_hash_status": "Unverifiable: historical canonicalization unavailable; this canonical schema is new.",
+  "runtime": {
+    "python": "3.13.16",
+    "nautilus_trader": "2.0.0rc7"
+  },
+  "nautilus_checkout_commit": "de794053685c3a3b7ae74eb995e2b31215786b25",
+  "data": {
+    "bars": 8928,
+    "archive_sha256": "0c99422d64fa3cc58564cf77969fc5a96d6f44783c79ecfcf94b103753bf7570",
+    "published_archive_checksum_verified": true,
+    "csv_sha256": "42041de841ce900c8209dec3524f70bb57bededef7923f4ac8bfa444f9a5f508",
+    "gaps": 0,
+    "duplicates": 0,
+    "source": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/5m/BTCUSDT-5m-2025-01.zip",
+    "first_open_utc": "2025-01-01T00:00:00Z",
+    "last_open_utc": "2025-01-31T23:55:00Z",
+    "last_completion_utc": "2025-02-01T00:00:00Z"
+  },
+  "metrics": {
+    "closed_trades": 172,
+    "long_trades": 86,
+    "short_trades": 86,
+    "orders": 344,
+    "fills": 344,
+    "wins": 39,
+    "final_balance": "9810.296225",
+    "gross_pnl_after_slippage": "-17.874",
+    "commissions": "171.829775",
+    "net_realized_pnl": "-189.703775",
+    "win_rate_pct": "22.67441860465116279069767442",
+    "max_drawdown_usdt": "233.238054",
+    "max_drawdown_pct": "2.327584266558649542559527313",
+    "profit_factor": "0.7377667683973586066655925317",
+    "gross_net_winning_pnl": "533.712452",
+    "gross_net_losing_pnl": "723.416227",
+    "final_exposure_btc": "0"
+  },
+  "validation": {
+    "signals": 172,
+    "canonical_bytes_identical": true,
+    "economics_exactly_identical": true,
+    "prior_report_metrics_match": true,
+    "historical_ratio_comparison": "Win rate, drawdown percentage and profit factor match at supplied report precision; original unrounded values unavailable.",
+    "engine_account_checks_per_run": 8929,
+    "equity_points_per_run": 8928,
+    "maximum_open_positions": 1,
+    "final_forced_close_buy_price": "102390.0",
+    "final_forced_close_fee_usdt": "0.51195"
+  },
+  "script_sha256": {
+    "btc_experiment.py": "3468540f688725d3d2841359b684c26f4b07aff1776e91c6913a6e6d6490c7a1",
+    "compare_runs.py": "e451af49aad9dc433f85d3734750c0abb07b68f68d8dbf5a4f691665946a410f",
+    "canonicalize.py": "9c5e60edaf2ae0b09ba90bec7899df9938b3f3bb8ad5eb5d68cabf9e66ec4d84"
+  }
+}
