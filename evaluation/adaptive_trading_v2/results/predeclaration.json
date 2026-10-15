@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-10-15T16:13:07.376987+00:00",
+  "evaluated_candidates": 0,
+  "historical_status": "ALL_CONSUMED",
+  "primary_policy": "ENTRY_ONLY",
+  "specification_hashes": {
+    "GATES.md": "e25964f8ca46f5759f5009dc62b1603c749835a9a97191b418b5143387512c60",
+    "PROTOCOL.md": "dda9c8f9f66a8d972d64b3c9b9099285c6e80fac570afb5ea729f6a8c010686b",
+    "config.json": "a9d8e815497a2d92fade86ce9a7c5a411c0f11b24a7b86b856b4b8d9a2f52372"
+  }
+}

@@ -1,0 +1,11 @@
+[Unit]
+Description=Poll public Binance data for the frozen V2 shadow experiment
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=1min
+AccuracySec=5s
+Persistent=true
+
+[Install]
+WantedBy=timers.target

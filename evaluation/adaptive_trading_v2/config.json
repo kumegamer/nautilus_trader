@@ -1,0 +1,46 @@
+{
+  "experiment": "nautilus-adaptive-trading-v2",
+  "evidence_class": "RETROSPECTIVE_EVIDENCE",
+  "baseline_commit": "de794053685c3a3b7ae74eb995e2b31215786b25",
+  "reference_commits": {"adaptive_v1": "8acc5c4c3138b8057dc1da9f853b9a3a4bb9c4e9", "edge_v1": "3c669f91dd195266107a2f5b77c5c991565840a8"},
+  "symbols": ["BTCUSDT", "ETHUSDT", "SOLUSDT"],
+  "periods": {"retrospective": ["2024-01-01", "2026-10-01"]},
+  "warmup_days": 40,
+  "capital_per_symbol": 10000,
+  "risk_per_trade": 0.0025,
+  "notional_cap_fraction": 0.9,
+  "minimum_notional": 100,
+  "participation_cap": 0.001,
+  "taker_fee": "0.0005",
+  "scenarios": {
+    "base": {"slippage_bps": 1, "fee_multiplier": 1},
+    "cost1.5x": {"slippage_bps": 1.5, "fee_multiplier": 1.5},
+    "cost2x": {"slippage_bps": 2, "fee_multiplier": 2}
+  },
+  "instrument_specs": {
+    "BTCUSDT": {"tick": "0.1", "step": "0.001"},
+    "ETHUSDT": {"tick": "0.01", "step": "0.001"},
+    "SOLUSDT": {"tick": "0.001", "step": "0.1"}
+  },
+  "regime": {"persistence_hours": 2, "minimum_dwell_hours": 4, "entry_confidence": 0.55},
+  "controller": {
+    "primary_exit_policy": "ENTRY_ONLY", "minimum_switch_hours": 24,
+    "maximum_switches_30d": 12, "rolling_days": 90,
+    "decay_minimum_trades": 20, "decay_minimum_days": 30,
+    "reduce_drawdown": 0.04, "disable_drawdown": 0.08,
+    "quarantine_days": 30, "execution_cost_bps": 15,
+    "priority": ["TB_SHORT", "TB_LONG", "VB_SHORT", "VB_LONG", "VST_SHORT", "VST_LONG"]
+  },
+  "validation": {
+    "training_days": 365, "embargo_days": 7, "minimum_trades": 60,
+    "minimum_profit_factor": 1.05, "maximum_drawdown": 0.15,
+    "minimum_symbol_trades": 10, "minimum_positive_symbols": 2,
+    "minimum_positive_blocks": 2, "blocks": 3,
+    "bootstrap_probability_positive": 0.8, "bootstrap_repetitions": 1000,
+    "maximum_top1_share": 0.25, "maximum_month_share": 0.6,
+    "maximum_symbol_share": 0.75, "minimum_positive_neighbors": 1,
+    "seed": 1701
+  },
+  "passive": {"annual_volatility_target": 0.1, "volatility_lookback_days": 30, "maximum_notional_fraction": 0.25},
+  "mode": "simulation_only"
+}

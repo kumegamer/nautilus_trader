@@ -1,0 +1,3 @@
+Validated path BTCUSDT TB_SHORT base
+{"completed_ns": 1792098716665101139, "eligible": []}
+PASS exact full-history prefix and mid-month initialization {'trades': 19, 'fills': 38, 'funding_events': 46}

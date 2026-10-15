@@ -1,0 +1,11 @@
+[Unit]
+Description=Nautilus Adaptive Trading v2 public-data shadow poll
+
+[Service]
+Type=oneshot
+WorkingDirectory=/path/to/nautilus_trader
+Environment=PYTHONPATH=evaluation/adaptive_trading_v2
+ExecStart=/path/to/nautilus_trader/python/.venv/bin/python -m ats.shadow poll --state /path/to/persistent/v2-state
+NoNewPrivileges=true
+PrivateTmp=true
+

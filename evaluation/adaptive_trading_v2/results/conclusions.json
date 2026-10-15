@@ -1,0 +1,202 @@
+{
+  "adaptive_beats_static_on_sharpe_and_return_drawdown": false,
+  "adaptive_exercised": false,
+  "all_primary_profiles_sample_blocked": true,
+  "any_historical_admissions": false,
+  "best_evaluation_static_hindsight_only": "VB_LONG",
+  "best_static_all_exit_policies_hindsight": {
+    "metrics": {
+      "annual_volatility": 0.008054039442287645,
+      "average_entry_notional_exposure": 0.0009308854229308168,
+      "average_exposure": 0.0009416991898456547,
+      "calmar": 3.488617381640968,
+      "closed_trade_attribution_net": 564.7358427899999,
+      "expectancy": 12.54968539533333,
+      "fees": 81.32344265,
+      "funding": 0.80792544,
+      "gross_pnl_including_mark_change": 661.8077900000036,
+      "largest_month_share": 0.3076321492935714,
+      "largest_symbol_share": 0.48156818151726444,
+      "mae": -15.72441644444447,
+      "maximum_drawdown": 0.003045075027409583,
+      "mfe": 38.60326666666668,
+      "months": {
+        "2025-01": -7.233431919999999,
+        "2025-02": -7.289156229999995,
+        "2025-03": 36.14779441,
+        "2025-04": -19.06725878,
+        "2025-05": 103.64554021999999,
+        "2025-06": 29.46698228,
+        "2025-10": 99.59830110000001,
+        "2025-11": 4.16059102,
+        "2026-01": -42.31562868,
+        "2026-02": 134.03654512,
+        "2026-06": 73.34776520999998,
+        "2026-08": 213.45238234,
+        "2026-09": -53.2145833
+      },
+      "net_ex_top1": 404.9860473599999,
+      "net_ex_top10": -82.82178923000004,
+      "net_ex_top5": 126.6593859699999,
+      "net_pnl": 564.7358427900035,
+      "outcome_quantiles": [
+        -42.31562868,
+        -30.90835369,
+        -9.4329601,
+        6.16690305,
+        29.88212352,
+        72.309347354,
+        159.74979543
+      ],
+      "profile_switches": 0,
+      "profit_factor": 2.7285898728435267,
+      "regime_switches": null,
+      "return": 0.018642302391989496,
+      "return_drawdown": 6.122115949257359,
+      "return_on_allocated_capital": 0.018824528093000118,
+      "return_per_unit_exposure": 19.989958891315894,
+      "sharpe": 1.3160529651065647,
+      "skew": 1.5268838638295177,
+      "slippage": 16.55643,
+      "sortino": 3.5970223022211374,
+      "symbols": {
+        "BTCUSDT": 193.70184513,
+        "ETHUSDT": 99.07518481000001,
+        "SOLUSDT": 271.95881285
+      },
+      "time_in_market": 0.005453239289446186,
+      "time_no_trade": 0.0,
+      "top10_share": 0.7264182978329853,
+      "top1_share": 0.17920439623796164,
+      "top5_share": 0.49142615011919305,
+      "trades": 45,
+      "turnover": 5.421562842666666,
+      "turnover_notional": 162646.88528,
+      "win_rate": 0.6
+    },
+    "policy": "V1_IMMEDIATE",
+    "profile": "VB_LONG"
+  },
+  "classification": "V2_RETROSPECTIVE_NO_EDGE",
+  "evidence_class": "RETROSPECTIVE_EVIDENCE",
+  "hindsight_static_metrics": {
+    "annual_volatility": 0.009734117703914098,
+    "average_entry_notional_exposure": 0.0020498498957408134,
+    "average_exposure": 0.002070943829289664,
+    "calmar": 1.2753665238558507,
+    "closed_trade_attribution_net": 464.91031210000006,
+    "expectancy": 8.301969858928572,
+    "fees": 121.67980439,
+    "funding": 0.30437649,
+    "gross_pnl_including_mark_change": 611.0668900000007,
+    "largest_month_share": 0.38586167437036245,
+    "largest_symbol_share": 0.4445229338676139,
+    "mae": -17.503602500000017,
+    "maximum_drawdown": 0.0068647587351537975,
+    "mfe": 45.956989642857145,
+    "months": {
+      "2025-01": -21.293016339999994,
+      "2025-02": -105.86441145,
+      "2025-03": 5.188496919999999,
+      "2025-04": -17.77087727,
+      "2025-05": 51.98534323999999,
+      "2025-06": 68.9137667,
+      "2025-07": -74.9796078,
+      "2025-10": 121.87295212,
+      "2025-11": 20.51173182,
+      "2026-01": -42.31562868,
+      "2026-02": 122.62301307999999,
+      "2026-06": 73.97696589999998,
+      "2026-07": -5.50399303,
+      "2026-08": 292.20381994,
+      "2026-09": -24.63824305
+    },
+    "net_ex_top1": 283.67665121000005,
+    "net_ex_top10": -240.07251116999998,
+    "net_ex_top5": -45.13420828999995,
+    "net_pnl": 464.91031210000074,
+    "outcome_quantiles": [
+      -42.31562868,
+      -34.767693815,
+      -18.620562035,
+      0.367860155,
+      25.752779,
+      73.87667883750001,
+      181.23366089
+    ],
+    "profile_switches": 0,
+    "profit_factor": 1.8285136361505396,
+    "regime_switches": null,
+    "return": 0.015353475266116856,
+    "return_drawdown": 2.236564438527624,
+    "return_on_allocated_capital": 0.015497010403333358,
+    "return_per_unit_exposure": 7.4830665053087655,
+    "sharpe": 0.9003662003664381,
+    "skew": 1.8446840558339819,
+    "slippage": 24.78115,
+    "sortino": 2.190281642382973,
+    "symbols": {
+      "BTCUSDT": 206.66329592,
+      "ETHUSDT": 83.61631388999997,
+      "SOLUSDT": 174.63070229
+    },
+    "time_in_market": 0.010476532567049808,
+    "time_no_trade": 0.0,
+    "top10_share": 0.6870855476734312,
+    "top1_share": 0.17663271364808236,
+    "top5_share": 0.4970961093839016,
+    "trades": 56,
+    "turnover": 8.111986959333334,
+    "turnover_notional": 243359.60878,
+    "win_rate": 0.5
+  },
+  "maximum_rolling_sample": {
+    "TB_LONG": {
+      "maximum_matured_window_trades": 43,
+      "minimum_required": 60,
+      "windows_passing_sample": 0
+    },
+    "TB_SHORT": {
+      "maximum_matured_window_trades": 30,
+      "minimum_required": 60,
+      "windows_passing_sample": 0
+    },
+    "VB_LONG": {
+      "maximum_matured_window_trades": 46,
+      "minimum_required": 60,
+      "windows_passing_sample": 0
+    },
+    "VB_SHORT": {
+      "maximum_matured_window_trades": 34,
+      "minimum_required": 60,
+      "windows_passing_sample": 0
+    },
+    "VST_LONG": {
+      "maximum_matured_window_trades": 49,
+      "minimum_required": 60,
+      "windows_passing_sample": 0
+    },
+    "VST_SHORT": {
+      "maximum_matured_window_trades": 41,
+      "minimum_required": 60,
+      "windows_passing_sample": 0
+    }
+  },
+  "persistent_shadow_justified": false,
+  "policy_admission_scope": "Central ENTRY_ONLY profiles only; three alternative exit policies are diagnostic controls",
+  "prospective_performance_observed": false,
+  "prospective_shadow_eligible_profiles": [],
+  "static_full_grid_2024_choice": {
+    "policy": "CONFIDENT_80",
+    "profile": "TB_SHORT"
+  },
+  "static_selected_from_2024": "TB_SHORT",
+  "stronger_retrospective_evidence": false,
+  "unproven": [
+    "future profitability",
+    "independent prospective edge",
+    "adaptive benefit beyond reused history",
+    "broader symbol transfer",
+    "real spread/queue/impact and exact funding timing"
+  ]
+}

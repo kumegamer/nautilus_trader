@@ -1,0 +1,13 @@
+test_actual_control_and_near_miss_only_eligibility (__main__.ArtifactReconciliation.test_actual_control_and_near_miss_only_eligibility) ... ok
+test_autopsy_manifest (__main__.ArtifactReconciliation.test_autopsy_manifest) ... ok
+test_buy_hold_accounting_and_same_period_exposure (__main__.ArtifactReconciliation.test_buy_hold_accounting_and_same_period_exposure) ... ok
+test_gate_attribution_and_concentration (__main__.ArtifactReconciliation.test_gate_attribution_and_concentration) ... ok
+test_gate_decisions_exactly_preserve_frozen_evidence (__main__.ArtifactReconciliation.test_gate_decisions_exactly_preserve_frozen_evidence) ... ok
+test_missing_evidence_is_not_invented (__main__.ArtifactReconciliation.test_missing_evidence_is_not_invented) ... ok
+test_original_files_and_frozen_artifacts_unchanged (__main__.ArtifactReconciliation.test_original_files_and_frozen_artifacts_unchanged) ... ok
+test_outer_metrics_reconcile_to_saved_native_results (__main__.ArtifactReconciliation.test_outer_metrics_reconcile_to_saved_native_results) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.736s
+
+OK

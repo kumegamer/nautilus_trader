@@ -1,0 +1,12 @@
+{
+  "runs": 351,
+  "trades_including_repeated_scenarios": 10876,
+  "fills_including_repeated_scenarios": 21752,
+  "decisions": 12048,
+  "switches_including_repeated_scenarios": 0,
+  "maximum_native_reconciliation_difference": "0",
+  "chronology_checks": "PASS",
+  "execution_hash": "b6a26d8251f7be3c6f50a1eb7e0b4bf9bffb2f625e29f2a3ae499463f8b1c8b4",
+  "historical_status": "ALL_CONSUMED_RETROSPECTIVE_EVIDENCE",
+  "live_orders": 0
+}

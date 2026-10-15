@@ -1,0 +1,47 @@
+[
+  {
+    "raw_v1": {
+      "average_duration_hours": 16.425357873210633,
+      "median_duration_hours": 5.0,
+      "short_lived_under_8h": 846,
+      "transitions": 1466
+    },
+    "stable": {
+      "average_duration_hours": 35.59231905465288,
+      "median_duration_hours": 24.0,
+      "short_lived_under_8h": 124,
+      "transitions": 676
+    },
+    "symbol": "BTCUSDT"
+  },
+  {
+    "raw_v1": {
+      "average_duration_hours": 17.704628949301984,
+      "median_duration_hours": 5.0,
+      "short_lived_under_8h": 763,
+      "transitions": 1360
+    },
+    "stable": {
+      "average_duration_hours": 37.35813953488372,
+      "median_duration_hours": 26.0,
+      "short_lived_under_8h": 116,
+      "transitions": 644
+    },
+    "symbol": "ETHUSDT"
+  },
+  {
+    "raw_v1": {
+      "average_duration_hours": 16.504109589041096,
+      "median_duration_hours": 4.375,
+      "short_lived_under_8h": 876,
+      "transitions": 1459
+    },
+    "stable": {
+      "average_duration_hours": 38.92730210016155,
+      "median_duration_hours": 24.0,
+      "short_lived_under_8h": 138,
+      "transitions": 618
+    },
+    "symbol": "SOLUSDT"
+  }
+]

@@ -1,0 +1,5178 @@
+[
+  {
+    "confidence": 0.6529679068446441,
+    "new": "RANGE_LOW_VOL",
+    "old": "UNKNOWN",
+    "persistence_hours": 2,
+    "previous_duration_ns": 2969100000000000,
+    "timestamp": 1703581199999000000
+  },
+  {
+    "confidence": 0.5885967525696418,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 180000000000000,
+    "timestamp": 1703761199999000000
+  },
+  {
+    "confidence": 0.6295680877251879,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 50400000000000,
+    "timestamp": 1703811599999000000
+  },
+  {
+    "confidence": 0.5509731269756565,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 259200000000000,
+    "timestamp": 1704070799999000000
+  },
+  {
+    "confidence": 0.5775799637899799,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 90000000000000,
+    "timestamp": 1704160799999000000
+  },
+  {
+    "confidence": 0.7550966929018829,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 126000000000000,
+    "timestamp": 1704286799999000000
+  },
+  {
+    "confidence": 0.5704071094231518,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 75600000000000,
+    "timestamp": 1704362399999000000
+  },
+  {
+    "confidence": 0.7082821873157877,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 21600000000000,
+    "timestamp": 1704383999999000000
+  },
+  {
+    "confidence": 0.7699164516525381,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 82800000000000,
+    "timestamp": 1704466799999000000
+  },
+  {
+    "confidence": 0.8035317078911751,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 342000000000000,
+    "timestamp": 1704808799999000000
+  },
+  {
+    "confidence": 0.5568443400260398,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 75600000000000,
+    "timestamp": 1704884399999000000
+  },
+  {
+    "confidence": 0.6044158288941397,
+    "new": "RANGE_HIGH_VOL",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 176400000000000,
+    "timestamp": 1705060799999000000
+  },
+  {
+    "confidence": 0.8026577771318532,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 72000000000000,
+    "timestamp": 1705132799999000000
+  },
+  {
+    "confidence": 0.6139090025020678,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 730800000000000,
+    "timestamp": 1705863599999000000
+  },
+  {
+    "confidence": 0.55,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 79200000000000,
+    "timestamp": 1705942799999000000
+  },
+  {
+    "confidence": 0.5977270856766626,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1705957199999000000
+  },
+  {
+    "confidence": 0.7469678241724296,
+    "new": "TREND_HIGH_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 50400000000000,
+    "timestamp": 1706007599999000000
+  },
+  {
+    "confidence": 0.6128244852991802,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 90000000000000,
+    "timestamp": 1706097599999000000
+  },
+  {
+    "confidence": 0.7874619879948167,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 129600000000000,
+    "timestamp": 1706227199999000000
+  },
+  {
+    "confidence": 0.597503024019354,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 417600000000000,
+    "timestamp": 1706644799999000000
+  },
+  {
+    "confidence": 0.6222946580843915,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 18000000000000,
+    "timestamp": 1706662799999000000
+  },
+  {
+    "confidence": 0.7266195968524307,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 93600000000000,
+    "timestamp": 1706756399999000000
+  },
+  {
+    "confidence": 0.7743083534783768,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 115200000000000,
+    "timestamp": 1706871599999000000
+  },
+  {
+    "confidence": 0.566366464971241,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 194400000000000,
+    "timestamp": 1707065999999000000
+  },
+  {
+    "confidence": 0.7120647022460338,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 28800000000000,
+    "timestamp": 1707094799999000000
+  },
+  {
+    "confidence": 0.5868185751370056,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 176400000000000,
+    "timestamp": 1707271199999000000
+  },
+  {
+    "confidence": 0.6545418892167468,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 21600000000000,
+    "timestamp": 1707292799999000000
+  },
+  {
+    "confidence": 0.6173164436595819,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 36000000000000,
+    "timestamp": 1707328799999000000
+  },
+  {
+    "confidence": 0.6266670884474249,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 86400000000000,
+    "timestamp": 1707415199999000000
+  },
+  {
+    "confidence": 0.55,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 64800000000000,
+    "timestamp": 1707479999999000000
+  },
+  {
+    "confidence": 0.5718323037092102,
+    "new": "TREND_HIGH_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1707494399999000000
+  },
+  {
+    "confidence": 0.6762277814351539,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 4,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1707508799999000000
+  },
+  {
+    "confidence": 0.6298255179934549,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 115200000000000,
+    "timestamp": 1707623999999000000
+  },
+  {
+    "confidence": 0.6144497532171938,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 158400000000000,
+    "timestamp": 1707782399999000000
+  },
+  {
+    "confidence": 0.6519271756846303,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 64800000000000,
+    "timestamp": 1707847199999000000
+  },
+  {
+    "confidence": 0.5510253976533961,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 3,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1707861599999000000
+  },
+  {
+    "confidence": 0.5986048681197528,
+    "new": "RANGE_HIGH_VOL",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 86400000000000,
+    "timestamp": 1707947999999000000
+  },
+  {
+    "confidence": 0.5782930326533269,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 82800000000000,
+    "timestamp": 1708030799999000000
+  },
+  {
+    "confidence": 0.739684664325696,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 46800000000000,
+    "timestamp": 1708077599999000000
+  },
+  {
+    "confidence": 0.7027576590494151,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 111600000000000,
+    "timestamp": 1708189199999000000
+  },
+  {
+    "confidence": 0.6318975125085973,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 165600000000000,
+    "timestamp": 1708354799999000000
+  },
+  {
+    "confidence": 0.632313323572474,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 64800000000000,
+    "timestamp": 1708419599999000000
+  },
+  {
+    "confidence": 0.6646117577029717,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 25200000000000,
+    "timestamp": 1708444799999000000
+  },
+  {
+    "confidence": 0.8046314984517795,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 190800000000000,
+    "timestamp": 1708635599999000000
+  },
+  {
+    "confidence": 0.6147598038165831,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 262800000000000,
+    "timestamp": 1708898399999000000
+  },
+  {
+    "confidence": 0.6539184579995234,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 46800000000000,
+    "timestamp": 1708945199999000000
+  },
+  {
+    "confidence": 0.5858367974290017,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 21600000000000,
+    "timestamp": 1708966799999000000
+  },
+  {
+    "confidence": 0.6375156750731508,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 104400000000000,
+    "timestamp": 1709071199999000000
+  },
+  {
+    "confidence": 0.718832232033213,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 43200000000000,
+    "timestamp": 1709114399999000000
+  },
+  {
+    "confidence": 0.6364453088820969,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 32400000000000,
+    "timestamp": 1709146799999000000
+  },
+  {
+    "confidence": 0.824715480295702,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 198000000000000,
+    "timestamp": 1709344799999000000
+  },
+  {
+    "confidence": 0.5814688185561994,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 270000000000000,
+    "timestamp": 1709614799999000000
+  },
+  {
+    "confidence": 0.8070334869139861,
+    "new": "MARKET_STRESS",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 1,
+    "previous_duration_ns": 54000000000000,
+    "timestamp": 1709668799999000000
+  },
+  {
+    "confidence": 0.6469590730796961,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "MARKET_STRESS",
+    "persistence_hours": 3,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1709683199999000000
+  },
+  {
+    "confidence": 0.8529895732107775,
+    "new": "MARKET_STRESS",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 1,
+    "previous_duration_ns": 29700000000000,
+    "timestamp": 1709712899999000000
+  },
+  {
+    "confidence": 0.702501517154804,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "MARKET_STRESS",
+    "persistence_hours": 4,
+    "previous_duration_ns": 17100000000000,
+    "timestamp": 1709729999999000000
+  },
+  {
+    "confidence": 0.5806403759611778,
+    "new": "RANGE_HIGH_VOL",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 122400000000000,
+    "timestamp": 1709852399999000000
+  },
+  {
+    "confidence": 0.6688634335019343,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 28800000000000,
+    "timestamp": 1709881199999000000
+  },
+  {
+    "confidence": 0.5571342227737466,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 208800000000000,
+    "timestamp": 1710089999999000000
+  },
+  {
+    "confidence": 0.7086819291305438,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 32400000000000,
+    "timestamp": 1710122399999000000
+  },
+  {
+    "confidence": 0.579357118328544,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 360000000000000,
+    "timestamp": 1710482399999000000
+  },
+  {
+    "confidence": 0.6249431015993271,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 410400000000000,
+    "timestamp": 1710892799999000000
+  },
+  {
+    "confidence": 0.6110307001593529,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 39600000000000,
+    "timestamp": 1710932399999000000
+  },
+  {
+    "confidence": 0.770625352293699,
+    "new": "MARKET_STRESS",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 1,
+    "previous_duration_ns": 41400000000000,
+    "timestamp": 1710973799999000000
+  },
+  {
+    "confidence": 0.7768034180485328,
+    "new": "RANGE_HIGH_VOL",
+    "old": "MARKET_STRESS",
+    "persistence_hours": 4,
+    "previous_duration_ns": 16200000000000,
+    "timestamp": 1710989999999000000
+  },
+  {
+    "confidence": 0.7962241100627747,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 136800000000000,
+    "timestamp": 1711126799999000000
+  },
+  {
+    "confidence": 0.5539458755828833,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 201600000000000,
+    "timestamp": 1711328399999000000
+  },
+  {
+    "confidence": 0.7144067796610176,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 205200000000000,
+    "timestamp": 1711533599999000000
+  },
+  {
+    "confidence": 0.6253467193758401,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 496800000000000,
+    "timestamp": 1712030399999000000
+  },
+  {
+    "confidence": 0.6196042789687017,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 3,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1712044799999000000
+  },
+  {
+    "confidence": 0.6125989018380154,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 93600000000000,
+    "timestamp": 1712138399999000000
+  },
+  {
+    "confidence": 0.7253373497260314,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 64800000000000,
+    "timestamp": 1712203199999000000
+  },
+  {
+    "confidence": 0.55,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 367200000000000,
+    "timestamp": 1712570399999000000
+  },
+  {
+    "confidence": 0.6767244457028894,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 108000000000000,
+    "timestamp": 1712678399999000000
+  },
+  {
+    "confidence": 0.7251544064403465,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 64800000000000,
+    "timestamp": 1712743199999000000
+  },
+  {
+    "confidence": 0.6069619123079151,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 219600000000000,
+    "timestamp": 1712962799999000000
+  },
+  {
+    "confidence": 0.7760687858086747,
+    "new": "MARKET_STRESS",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 1,
+    "previous_duration_ns": 76500000000000,
+    "timestamp": 1713039299999000000
+  },
+  {
+    "confidence": 0.6430349584117714,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "MARKET_STRESS",
+    "persistence_hours": 2,
+    "previous_duration_ns": 24300000000000,
+    "timestamp": 1713063599999000000
+  },
+  {
+    "confidence": 0.7582900980567555,
+    "new": "RANGE_HIGH_VOL",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 158400000000000,
+    "timestamp": 1713221999999000000
+  },
+  {
+    "confidence": 0.6841487977046656,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 126000000000000,
+    "timestamp": 1713347999999000000
+  },
+  {
+    "confidence": 0.5598046093771922,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 385200000000000,
+    "timestamp": 1713733199999000000
+  },
+  {
+    "confidence": 0.7434257351563959,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 313200000000000,
+    "timestamp": 1714046399999000000
+  },
+  {
+    "confidence": 0.6207495429616099,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 273600000000000,
+    "timestamp": 1714319999999000000
+  },
+  {
+    "confidence": 0.7321316713096304,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 46800000000000,
+    "timestamp": 1714366799999000000
+  },
+  {
+    "confidence": 0.7272447350414355,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 50400000000000,
+    "timestamp": 1714417199999000000
+  },
+  {
+    "confidence": 0.677484377883829,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 36000000000000,
+    "timestamp": 1714453199999000000
+  },
+  {
+    "confidence": 0.5812136260476826,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 36000000000000,
+    "timestamp": 1714489199999000000
+  },
+  {
+    "confidence": 0.6232571640889885,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 50400000000000,
+    "timestamp": 1714539599999000000
+  },
+  {
+    "confidence": 0.5730672730123877,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1714553999999000000
+  },
+  {
+    "confidence": 0.5524902420445159,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 43200000000000,
+    "timestamp": 1714597199999000000
+  },
+  {
+    "confidence": 0.7400653324781772,
+    "new": "RANGE_HIGH_VOL",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 46800000000000,
+    "timestamp": 1714643999999000000
+  },
+  {
+    "confidence": 0.6073070716816671,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 122400000000000,
+    "timestamp": 1714766399999000000
+  },
+  {
+    "confidence": 0.583349936492915,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 734400000000000,
+    "timestamp": 1715500799999000000
+  },
+  {
+    "confidence": 0.579980736160638,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 28800000000000,
+    "timestamp": 1715529599999000000
+  },
+  {
+    "confidence": 0.769795689547776,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 57600000000000,
+    "timestamp": 1715587199999000000
+  },
+  {
+    "confidence": 0.5908118473851065,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 460800000000000,
+    "timestamp": 1716047999999000000
+  },
+  {
+    "confidence": 0.6519952612545201,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 61200000000000,
+    "timestamp": 1716109199999000000
+  },
+  {
+    "confidence": 0.5704384612244358,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 25200000000000,
+    "timestamp": 1716134399999000000
+  },
+  {
+    "confidence": 0.8257428297574274,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 57600000000000,
+    "timestamp": 1716191999999000000
+  },
+  {
+    "confidence": 0.8824004470088516,
+    "new": "MARKET_STRESS",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 1,
+    "previous_duration_ns": 43200000000000,
+    "timestamp": 1716235199999000000
+  },
+  {
+    "confidence": 0.5736069246630406,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "MARKET_STRESS",
+    "persistence_hours": 2,
+    "previous_duration_ns": 176400000000000,
+    "timestamp": 1716411599999000000
+  },
+  {
+    "confidence": 0.7717899832912043,
+    "new": "RANGE_HIGH_VOL",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 4,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1716425999999000000
+  },
+  {
+    "confidence": 0.5612374768691978,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 108000000000000,
+    "timestamp": 1716533999999000000
+  },
+  {
+    "confidence": 0.788817610973381,
+    "new": "RANGE_HIGH_VOL",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 32400000000000,
+    "timestamp": 1716566399999000000
+  },
+  {
+    "confidence": 0.837855731948204,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 104400000000000,
+    "timestamp": 1716670799999000000
+  },
+  {
+    "confidence": 0.555296264167386,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 702000000000000,
+    "timestamp": 1717372799999000000
+  },
+  {
+    "confidence": 0.843999924049671,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 57600000000000,
+    "timestamp": 1717430399999000000
+  },
+  {
+    "confidence": 0.6013829285280963,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 370800000000000,
+    "timestamp": 1717801199999000000
+  },
+  {
+    "confidence": 0.7737575483579286,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 154800000000000,
+    "timestamp": 1717955999999000000
+  },
+  {
+    "confidence": 0.5761560170400124,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 4,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1717970399999000000
+  },
+  {
+    "confidence": 0.6667124123208292,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 104400000000000,
+    "timestamp": 1718074799999000000
+  },
+  {
+    "confidence": 0.6203649563903924,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 18000000000000,
+    "timestamp": 1718092799999000000
+  },
+  {
+    "confidence": 0.7614514475853769,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 108000000000000,
+    "timestamp": 1718200799999000000
+  },
+  {
+    "confidence": 0.5619309641782505,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 21600000000000,
+    "timestamp": 1718222399999000000
+  },
+  {
+    "confidence": 0.672778968188562,
+    "new": "RANGE_HIGH_VOL",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 151200000000000,
+    "timestamp": 1718373599999000000
+  },
+  {
+    "confidence": 0.6176507893144979,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 198000000000000,
+    "timestamp": 1718571599999000000
+  },
+  {
+    "confidence": 0.5884462944579112,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 583200000000000,
+    "timestamp": 1719154799999000000
+  },
+  {
+    "confidence": 0.6778533129069331,
+    "new": "TREND_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 72000000000000,
+    "timestamp": 1719226799999000000
+  },
+  {
+    "confidence": 0.6337933588843438,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 68400000000000,
+    "timestamp": 1719295199999000000
+  },
+  {
+    "confidence": 0.730476040982905,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 43200000000000,
+    "timestamp": 1719338399999000000
+  },
+  {
+    "confidence": 0.7574781482680482,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 61200000000000,
+    "timestamp": 1719399599999000000
+  },
+  {
+    "confidence": 0.5571363466008311,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 320400000000000,
+    "timestamp": 1719719999999000000
+  },
+  {
+    "confidence": 0.5710470844873627,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 82800000000000,
+    "timestamp": 1719802799999000000
+  },
+  {
+    "confidence": 0.5770783213044612,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 183600000000000,
+    "timestamp": 1719986399999000000
+  },
+  {
+    "confidence": 0.6256265505544014,
+    "new": "TREND_HIGH_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 75600000000000,
+    "timestamp": 1720061999999000000
+  },
+  {
+    "confidence": 0.6770959090105719,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 90000000000000,
+    "timestamp": 1720151999999000000
+  },
+  {
+    "confidence": 0.8488944417748882,
+    "new": "MARKET_STRESS",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 1,
+    "previous_duration_ns": 3600000000000,
+    "timestamp": 1720155599999000000
+  },
+  {
+    "confidence": 0.7074669769764202,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "MARKET_STRESS",
+    "persistence_hours": 4,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1720169999999000000
+  },
+  {
+    "confidence": 0.6657980756931913,
+    "new": "RANGE_HIGH_VOL",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 154800000000000,
+    "timestamp": 1720324799999000000
+  },
+  {
+    "confidence": 0.6970549209047755,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 32400000000000,
+    "timestamp": 1720357199999000000
+  },
+  {
+    "confidence": 0.753298166906172,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 61200000000000,
+    "timestamp": 1720418399999000000
+  },
+  {
+    "confidence": 0.5716996027588562,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1720432799999000000
+  },
+  {
+    "confidence": 0.5937384455643625,
+    "new": "RANGE_HIGH_VOL",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 144000000000000,
+    "timestamp": 1720576799999000000
+  },
+  {
+    "confidence": 0.7939277734162693,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 28800000000000,
+    "timestamp": 1720605599999000000
+  },
+  {
+    "confidence": 0.578594033068087,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 403200000000000,
+    "timestamp": 1721008799999000000
+  },
+  {
+    "confidence": 0.6223358612563074,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 180000000000000,
+    "timestamp": 1721188799999000000
+  },
+  {
+    "confidence": 0.5544787383964733,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 388800000000000,
+    "timestamp": 1721577599999000000
+  },
+  {
+    "confidence": 0.7735488664142265,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1721591999999000000
+  },
+  {
+    "confidence": 0.8210447917211098,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 154800000000000,
+    "timestamp": 1721746799999000000
+  },
+  {
+    "confidence": 0.5926897975121332,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 133200000000000,
+    "timestamp": 1721879999999000000
+  },
+  {
+    "confidence": 0.6272798279085252,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 97200000000000,
+    "timestamp": 1721977199999000000
+  },
+  {
+    "confidence": 0.7259104710391395,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 72000000000000,
+    "timestamp": 1722049199999000000
+  },
+  {
+    "confidence": 0.55,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 568800000000000,
+    "timestamp": 1722617999999000000
+  },
+  {
+    "confidence": 0.5762332554367953,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 32400000000000,
+    "timestamp": 1722650399999000000
+  },
+  {
+    "confidence": 0.6071971552612475,
+    "new": "TREND_LOW_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 136800000000000,
+    "timestamp": 1722787199999000000
+  },
+  {
+    "confidence": 0.5900899998664697,
+    "new": "TREND_HIGH_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 3,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1722801599999000000
+  },
+  {
+    "confidence": 0.8226442557320117,
+    "new": "MARKET_STRESS",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 1,
+    "previous_duration_ns": 18900000000000,
+    "timestamp": 1722820499999000000
+  },
+  {
+    "confidence": 0.7324502807963541,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "MARKET_STRESS",
+    "persistence_hours": 2,
+    "previous_duration_ns": 179100000000000,
+    "timestamp": 1722999599999000000
+  },
+  {
+    "confidence": 0.7889852431065907,
+    "new": "RANGE_HIGH_VOL",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 86400000000000,
+    "timestamp": 1723085999999000000
+  },
+  {
+    "confidence": 0.6745334842215702,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 172800000000000,
+    "timestamp": 1723258799999000000
+  },
+  {
+    "confidence": 0.5937574200560287,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 75600000000000,
+    "timestamp": 1723334399999000000
+  },
+  {
+    "confidence": 0.7248039763817113,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 140400000000000,
+    "timestamp": 1723474799999000000
+  },
+  {
+    "confidence": 0.5641146572154248,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 450000000000000,
+    "timestamp": 1723924799999000000
+  },
+  {
+    "confidence": 0.784890272161389,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 154800000000000,
+    "timestamp": 1724079599999000000
+  },
+  {
+    "confidence": 0.6034282564331119,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 414000000000000,
+    "timestamp": 1724493599999000000
+  },
+  {
+    "confidence": 0.6211652253072373,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 57600000000000,
+    "timestamp": 1724551199999000000
+  },
+  {
+    "confidence": 0.7538509440542023,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 61200000000000,
+    "timestamp": 1724612399999000000
+  },
+  {
+    "confidence": 0.7310106125087548,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 158400000000000,
+    "timestamp": 1724770799999000000
+  },
+  {
+    "confidence": 0.8730060120240484,
+    "new": "TREND_HIGH_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 28800000000000,
+    "timestamp": 1724799599999000000
+  },
+  {
+    "confidence": 0.5511669130603907,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 61200000000000,
+    "timestamp": 1724860799999000000
+  },
+  {
+    "confidence": 0.7399843505477307,
+    "new": "RANGE_HIGH_VOL",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 115200000000000,
+    "timestamp": 1724975999999000000
+  },
+  {
+    "confidence": 0.7789983825976893,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 201600000000000,
+    "timestamp": 1725177599999000000
+  },
+  {
+    "confidence": 0.6074245106114502,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 468000000000000,
+    "timestamp": 1725645599999000000
+  },
+  {
+    "confidence": 0.5632726320112147,
+    "new": "TREND_HIGH_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 25200000000000,
+    "timestamp": 1725670799999000000
+  },
+  {
+    "confidence": 0.55,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 21600000000000,
+    "timestamp": 1725692399999000000
+  },
+  {
+    "confidence": 0.7144609358895078,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 111600000000000,
+    "timestamp": 1725803999999000000
+  },
+  {
+    "confidence": 0.5506062886155708,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 601200000000000,
+    "timestamp": 1726405199999000000
+  },
+  {
+    "confidence": 0.5899480712166183,
+    "new": "TREND_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 79200000000000,
+    "timestamp": 1726484399999000000
+  },
+  {
+    "confidence": 0.6347133204423494,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 82800000000000,
+    "timestamp": 1726567199999000000
+  },
+  {
+    "confidence": 0.6582817778115153,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 241200000000000,
+    "timestamp": 1726808399999000000
+  },
+  {
+    "confidence": 0.6436466091082845,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 133200000000000,
+    "timestamp": 1726941599999000000
+  },
+  {
+    "confidence": 0.5827329367514091,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 691200000000000,
+    "timestamp": 1727632799999000000
+  },
+  {
+    "confidence": 0.6312755262331146,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 61200000000000,
+    "timestamp": 1727693999999000000
+  },
+  {
+    "confidence": 0.5910991009899598,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 126000000000000,
+    "timestamp": 1727819999999000000
+  },
+  {
+    "confidence": 0.6432199900495814,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 18000000000000,
+    "timestamp": 1727837999999000000
+  },
+  {
+    "confidence": 0.6074422914305231,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 36000000000000,
+    "timestamp": 1727873999999000000
+  },
+  {
+    "confidence": 0.6747468778945356,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 115200000000000,
+    "timestamp": 1727989199999000000
+  },
+  {
+    "confidence": 0.6937580800601743,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 162000000000000,
+    "timestamp": 1728151199999000000
+  },
+  {
+    "confidence": 0.8460002364392258,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 190800000000000,
+    "timestamp": 1728341999999000000
+  },
+  {
+    "confidence": 0.7865724964273937,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 97200000000000,
+    "timestamp": 1728439199999000000
+  },
+  {
+    "confidence": 0.5540630075679274,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 302400000000000,
+    "timestamp": 1728741599999000000
+  },
+  {
+    "confidence": 0.5513575222888403,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 140400000000000,
+    "timestamp": 1728881999999000000
+  },
+  {
+    "confidence": 0.6261205724425605,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 39600000000000,
+    "timestamp": 1728921599999000000
+  },
+  {
+    "confidence": 0.6611905942347192,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 86400000000000,
+    "timestamp": 1729007999999000000
+  },
+  {
+    "confidence": 0.718130612617965,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 172800000000000,
+    "timestamp": 1729180799999000000
+  },
+  {
+    "confidence": 0.573673898997338,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 219600000000000,
+    "timestamp": 1729400399999000000
+  },
+  {
+    "confidence": 0.663320792837982,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 39600000000000,
+    "timestamp": 1729439999999000000
+  },
+  {
+    "confidence": 0.5983367880762032,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 28800000000000,
+    "timestamp": 1729468799999000000
+  },
+  {
+    "confidence": 0.626822091444091,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 36000000000000,
+    "timestamp": 1729504799999000000
+  },
+  {
+    "confidence": 0.5767687257994218,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 183600000000000,
+    "timestamp": 1729688399999000000
+  },
+  {
+    "confidence": 0.6322860919809812,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 46800000000000,
+    "timestamp": 1729735199999000000
+  },
+  {
+    "confidence": 0.5808653401203141,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 446400000000000,
+    "timestamp": 1730181599999000000
+  },
+  {
+    "confidence": 0.55,
+    "new": "TREND_HIGH_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 54000000000000,
+    "timestamp": 1730235599999000000
+  },
+  {
+    "confidence": 0.55,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 93600000000000,
+    "timestamp": 1730329199999000000
+  },
+  {
+    "confidence": 0.7536594761171032,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 18000000000000,
+    "timestamp": 1730347199999000000
+  },
+  {
+    "confidence": 0.5736243407069207,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 111600000000000,
+    "timestamp": 1730458799999000000
+  },
+  {
+    "confidence": 0.55,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 18000000000000,
+    "timestamp": 1730476799999000000
+  },
+  {
+    "confidence": 0.5846652373063065,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 169200000000000,
+    "timestamp": 1730645999999000000
+  },
+  {
+    "confidence": 0.6198208317352469,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 4,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1730660399999000000
+  },
+  {
+    "confidence": 0.7869651173007646,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 190800000000000,
+    "timestamp": 1730851199999000000
+  },
+  {
+    "confidence": 0.580960133130743,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 64800000000000,
+    "timestamp": 1730915999999000000
+  },
+  {
+    "confidence": 0.5533103202017768,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 68400000000000,
+    "timestamp": 1730984399999000000
+  },
+  {
+    "confidence": 0.7802374771656562,
+    "new": "TREND_HIGH_VOL",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 46800000000000,
+    "timestamp": 1731031199999000000
+  },
+  {
+    "confidence": 0.6951566238246262,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 93600000000000,
+    "timestamp": 1731124799999000000
+  },
+  {
+    "confidence": 0.5941723148571663,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 39600000000000,
+    "timestamp": 1731164399999000000
+  },
+  {
+    "confidence": 0.6983305706843475,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 144000000000000,
+    "timestamp": 1731308399999000000
+  },
+  {
+    "confidence": 0.7765948834901597,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 100800000000000,
+    "timestamp": 1731409199999000000
+  },
+  {
+    "confidence": 0.7742961865398115,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 295200000000000,
+    "timestamp": 1731704399999000000
+  },
+  {
+    "confidence": 0.5725660572388409,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 496800000000000,
+    "timestamp": 1732201199999000000
+  },
+  {
+    "confidence": 0.6151019440493124,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 39600000000000,
+    "timestamp": 1732240799999000000
+  },
+  {
+    "confidence": 0.8285457517776001,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 453600000000000,
+    "timestamp": 1732694399999000000
+  },
+  {
+    "confidence": 0.7703186823791803,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 32400000000000,
+    "timestamp": 1732726799999000000
+  },
+  {
+    "confidence": 0.6084710246158305,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 68400000000000,
+    "timestamp": 1732795199999000000
+  },
+  {
+    "confidence": 0.615007311000751,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 64800000000000,
+    "timestamp": 1732859999999000000
+  },
+  {
+    "confidence": 0.8017330677290837,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 417600000000000,
+    "timestamp": 1733277599999000000
+  },
+  {
+    "confidence": 0.55,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 133200000000000,
+    "timestamp": 1733410799999000000
+  },
+  {
+    "confidence": 0.6511375509944483,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 21600000000000,
+    "timestamp": 1733432399999000000
+  },
+  {
+    "confidence": 0.7816096923174257,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 133200000000000,
+    "timestamp": 1733565599999000000
+  },
+  {
+    "confidence": 0.5757456102276415,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 108000000000000,
+    "timestamp": 1733673599999000000
+  },
+  {
+    "confidence": 0.6559911129271156,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 90000000000000,
+    "timestamp": 1733763599999000000
+  },
+  {
+    "confidence": 0.5852692744589761,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 97200000000000,
+    "timestamp": 1733860799999000000
+  },
+  {
+    "confidence": 0.5755764674153836,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 169200000000000,
+    "timestamp": 1734029999999000000
+  },
+  {
+    "confidence": 0.6167487268148766,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 4,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1734044399999000000
+  },
+  {
+    "confidence": 0.5557036417246866,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 237600000000000,
+    "timestamp": 1734281999999000000
+  },
+  {
+    "confidence": 0.7216417103627226,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 28800000000000,
+    "timestamp": 1734310799999000000
+  },
+  {
+    "confidence": 0.5870537807874845,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 255600000000000,
+    "timestamp": 1734566399999000000
+  },
+  {
+    "confidence": 0.601122898575523,
+    "new": "TREND_HIGH_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 68400000000000,
+    "timestamp": 1734634799999000000
+  },
+  {
+    "confidence": 0.6045599436025639,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 64800000000000,
+    "timestamp": 1734699599999000000
+  },
+  {
+    "confidence": 0.8157325361248795,
+    "new": "MARKET_STRESS",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 1,
+    "previous_duration_ns": 16200000000000,
+    "timestamp": 1734715799999000000
+  },
+  {
+    "confidence": 0.6072447308740225,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "MARKET_STRESS",
+    "persistence_hours": 4,
+    "previous_duration_ns": 16200000000000,
+    "timestamp": 1734731999999000000
+  },
+  {
+    "confidence": 0.7546360876343643,
+    "new": "RANGE_HIGH_VOL",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 129600000000000,
+    "timestamp": 1734861599999000000
+  },
+  {
+    "confidence": 0.766662884117834,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1734875999999000000
+  },
+  {
+    "confidence": 0.8080112920024118,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 100800000000000,
+    "timestamp": 1734976799999000000
+  },
+  {
+    "confidence": 0.7063203869477328,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 97200000000000,
+    "timestamp": 1735073999999000000
+  },
+  {
+    "confidence": 0.5613338614090336,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 122400000000000,
+    "timestamp": 1735196399999000000
+  },
+  {
+    "confidence": 0.6862409047076354,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 100800000000000,
+    "timestamp": 1735297199999000000
+  },
+  {
+    "confidence": 0.6080472032040934,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 169200000000000,
+    "timestamp": 1735466399999000000
+  },
+  {
+    "confidence": 0.7613171570643438,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 111600000000000,
+    "timestamp": 1735577999999000000
+  },
+  {
+    "confidence": 0.6563439616718995,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 345600000000000,
+    "timestamp": 1735923599999000000
+  },
+  {
+    "confidence": 0.6381109784564938,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 64800000000000,
+    "timestamp": 1735988399999000000
+  },
+  {
+    "confidence": 0.6001460230200995,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 39600000000000,
+    "timestamp": 1736027999999000000
+  },
+  {
+    "confidence": 0.7042466874247149,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 64800000000000,
+    "timestamp": 1736092799999000000
+  },
+  {
+    "confidence": 0.5883575324575546,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 176400000000000,
+    "timestamp": 1736269199999000000
+  },
+  {
+    "confidence": 0.6286295784659557,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 18000000000000,
+    "timestamp": 1736287199999000000
+  },
+  {
+    "confidence": 0.5541743023212119,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 147600000000000,
+    "timestamp": 1736434799999000000
+  },
+  {
+    "confidence": 0.8097185735422898,
+    "new": "RANGE_HIGH_VOL",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 180000000000000,
+    "timestamp": 1736614799999000000
+  },
+  {
+    "confidence": 0.8238348670539839,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 79200000000000,
+    "timestamp": 1736693999999000000
+  },
+  {
+    "confidence": 0.6179906161415403,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 79200000000000,
+    "timestamp": 1736773199999000000
+  },
+  {
+    "confidence": 0.55,
+    "new": "TREND_HIGH_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 32400000000000,
+    "timestamp": 1736805599999000000
+  },
+  {
+    "confidence": 0.6557902648903642,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 4,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1736819999999000000
+  },
+  {
+    "confidence": 0.8134894455189436,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 108000000000000,
+    "timestamp": 1736927999999000000
+  },
+  {
+    "confidence": 0.6558268258194365,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 50400000000000,
+    "timestamp": 1736978399999000000
+  },
+  {
+    "confidence": 0.6122745402562566,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 25200000000000,
+    "timestamp": 1737003599999000000
+  },
+  {
+    "confidence": 0.8134756337235738,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 295200000000000,
+    "timestamp": 1737298799999000000
+  },
+  {
+    "confidence": 0.5519577931876603,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 118800000000000,
+    "timestamp": 1737417599999000000
+  },
+  {
+    "confidence": 0.7882378714801248,
+    "new": "RANGE_HIGH_VOL",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 57600000000000,
+    "timestamp": 1737475199999000000
+  },
+  {
+    "confidence": 0.7560951026887013,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 57600000000000,
+    "timestamp": 1737532799999000000
+  },
+  {
+    "confidence": 0.6151369186581888,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 342000000000000,
+    "timestamp": 1737874799999000000
+  },
+  {
+    "confidence": 0.5793827628709587,
+    "new": "TREND_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 111600000000000,
+    "timestamp": 1737986399999000000
+  },
+  {
+    "confidence": 0.6276668269290043,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 28800000000000,
+    "timestamp": 1738015199999000000
+  },
+  {
+    "confidence": 0.6105137437802137,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 320400000000000,
+    "timestamp": 1738335599999000000
+  },
+  {
+    "confidence": 0.6445577604862099,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 25200000000000,
+    "timestamp": 1738360799999000000
+  },
+  {
+    "confidence": 0.6943004735749749,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 154800000000000,
+    "timestamp": 1738515599999000000
+  },
+  {
+    "confidence": 0.8592721528634639,
+    "new": "MARKET_STRESS",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 1,
+    "previous_duration_ns": 32400000000000,
+    "timestamp": 1738547999999000000
+  },
+  {
+    "confidence": 0.7654771958542071,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "MARKET_STRESS",
+    "persistence_hours": 2,
+    "previous_duration_ns": 25200000000000,
+    "timestamp": 1738573199999000000
+  },
+  {
+    "confidence": 0.9002217371895971,
+    "new": "MARKET_STRESS",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 1,
+    "previous_duration_ns": 25200000000000,
+    "timestamp": 1738598399999000000
+  },
+  {
+    "confidence": 0.6503565607698942,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "MARKET_STRESS",
+    "persistence_hours": 2,
+    "previous_duration_ns": 126000000000000,
+    "timestamp": 1738724399999000000
+  },
+  {
+    "confidence": 0.7427559898956392,
+    "new": "RANGE_HIGH_VOL",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 100800000000000,
+    "timestamp": 1738825199999000000
+  },
+  {
+    "confidence": 0.7946661952877313,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 86400000000000,
+    "timestamp": 1738911599999000000
+  },
+  {
+    "confidence": 0.5565645186238426,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 712800000000000,
+    "timestamp": 1739624399999000000
+  },
+  {
+    "confidence": 0.7852619509613685,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 187200000000000,
+    "timestamp": 1739811599999000000
+  },
+  {
+    "confidence": 0.7741507677989762,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 489600000000000,
+    "timestamp": 1740301199999000000
+  },
+  {
+    "confidence": 0.7320373514431245,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 28800000000000,
+    "timestamp": 1740329999999000000
+  },
+  {
+    "confidence": 0.6048043869700452,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1740344399999000000
+  },
+  {
+    "confidence": 0.6627235158547238,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 21600000000000,
+    "timestamp": 1740365999999000000
+  },
+  {
+    "confidence": 0.6091107787875315,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 75600000000000,
+    "timestamp": 1740441599999000000
+  },
+  {
+    "confidence": 0.5584586614019986,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 46800000000000,
+    "timestamp": 1740488399999000000
+  },
+  {
+    "confidence": 0.6704675514428349,
+    "new": "RANGE_HIGH_VOL",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 126000000000000,
+    "timestamp": 1740614399999000000
+  },
+  {
+    "confidence": 0.6099907740373018,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 100800000000000,
+    "timestamp": 1740715199999000000
+  },
+  {
+    "confidence": 0.6619156384750036,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 46800000000000,
+    "timestamp": 1740761999999000000
+  },
+  {
+    "confidence": 0.7870193740685547,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 122400000000000,
+    "timestamp": 1740884399999000000
+  },
+  {
+    "confidence": 0.7624192044459611,
+    "new": "MARKET_STRESS",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 1,
+    "previous_duration_ns": 50400000000000,
+    "timestamp": 1740934799999000000
+  },
+  {
+    "confidence": 0.5853335644357311,
+    "new": "RANGE_HIGH_VOL",
+    "old": "MARKET_STRESS",
+    "persistence_hours": 2,
+    "previous_duration_ns": 25200000000000,
+    "timestamp": 1740959999999000000
+  },
+  {
+    "confidence": 0.7654424623332415,
+    "new": "MARKET_STRESS",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 1,
+    "previous_duration_ns": 70200000000000,
+    "timestamp": 1741030199999000000
+  },
+  {
+    "confidence": 0.7915994807324405,
+    "new": "RANGE_HIGH_VOL",
+    "old": "MARKET_STRESS",
+    "persistence_hours": 4,
+    "previous_duration_ns": 16200000000000,
+    "timestamp": 1741046399999000000
+  },
+  {
+    "confidence": 0.5823293910232867,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 64800000000000,
+    "timestamp": 1741111199999000000
+  },
+  {
+    "confidence": 0.6794293674543394,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 46800000000000,
+    "timestamp": 1741157999999000000
+  },
+  {
+    "confidence": 0.7208672423800895,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 46800000000000,
+    "timestamp": 1741204799999000000
+  },
+  {
+    "confidence": 0.55,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 428400000000000,
+    "timestamp": 1741633199999000000
+  },
+  {
+    "confidence": 0.6259678806997411,
+    "new": "TREND_HIGH_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 4,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1741647599999000000
+  },
+  {
+    "confidence": 0.6111396831927591,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 46800000000000,
+    "timestamp": 1741694399999000000
+  },
+  {
+    "confidence": 0.838976907072613,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 115200000000000,
+    "timestamp": 1741809599999000000
+  },
+  {
+    "confidence": 0.5547680878929462,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 201600000000000,
+    "timestamp": 1742011199999000000
+  },
+  {
+    "confidence": 0.8228767410200024,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 255600000000000,
+    "timestamp": 1742266799999000000
+  },
+  {
+    "confidence": 0.5602378168277498,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 399600000000000,
+    "timestamp": 1742666399999000000
+  },
+  {
+    "confidence": 0.6715658436926486,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 126000000000000,
+    "timestamp": 1742792399999000000
+  },
+  {
+    "confidence": 0.6072688647601072,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 349200000000000,
+    "timestamp": 1743141599999000000
+  },
+  {
+    "confidence": 0.6388299216578222,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 4,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1743155999999000000
+  },
+  {
+    "confidence": 0.6187010573143614,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 162000000000000,
+    "timestamp": 1743317999999000000
+  },
+  {
+    "confidence": 0.8366828087167071,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 115200000000000,
+    "timestamp": 1743433199999000000
+  },
+  {
+    "confidence": 0.7670862535738685,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 432000000000000,
+    "timestamp": 1743865199999000000
+  },
+  {
+    "confidence": 0.7081027865011703,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 104400000000000,
+    "timestamp": 1743969599999000000
+  },
+  {
+    "confidence": 0.8260109149825224,
+    "new": "MARKET_STRESS",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 1,
+    "previous_duration_ns": 39600000000000,
+    "timestamp": 1744009199999000000
+  },
+  {
+    "confidence": 0.6723230221971384,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "MARKET_STRESS",
+    "persistence_hours": 3,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1744023599999000000
+  },
+  {
+    "confidence": 0.854895155822164,
+    "new": "MARKET_STRESS",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 1,
+    "previous_duration_ns": 11700000000000,
+    "timestamp": 1744035299999000000
+  },
+  {
+    "confidence": 0.7214512649032828,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "MARKET_STRESS",
+    "persistence_hours": 5,
+    "previous_duration_ns": 17100000000000,
+    "timestamp": 1744052399999000000
+  },
+  {
+    "confidence": 0.8426041605280217,
+    "new": "RANGE_HIGH_VOL",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 140400000000000,
+    "timestamp": 1744192799999000000
+  },
+  {
+    "confidence": 0.8020359675844753,
+    "new": "MARKET_STRESS",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 1,
+    "previous_duration_ns": 28800000000000,
+    "timestamp": 1744221599999000000
+  },
+  {
+    "confidence": 0.5839118451574901,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "MARKET_STRESS",
+    "persistence_hours": 2,
+    "previous_duration_ns": 25200000000000,
+    "timestamp": 1744246799999000000
+  },
+  {
+    "confidence": 0.7076010691613766,
+    "new": "RANGE_HIGH_VOL",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 136800000000000,
+    "timestamp": 1744383599999000000
+  },
+  {
+    "confidence": 0.7103797468354432,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1744397999999000000
+  },
+  {
+    "confidence": 0.5573886020207198,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 424800000000000,
+    "timestamp": 1744822799999000000
+  },
+  {
+    "confidence": 0.7014751496790018,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 4,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1744837199999000000
+  },
+  {
+    "confidence": 0.565564320942304,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 172800000000000,
+    "timestamp": 1745009999999000000
+  },
+  {
+    "confidence": 0.7215873976617502,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 248400000000000,
+    "timestamp": 1745258399999000000
+  },
+  {
+    "confidence": 0.5874157233871468,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 104400000000000,
+    "timestamp": 1745362799999000000
+  },
+  {
+    "confidence": 0.55,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 126000000000000,
+    "timestamp": 1745488799999000000
+  },
+  {
+    "confidence": 0.681564672708096,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 25200000000000,
+    "timestamp": 1745513999999000000
+  },
+  {
+    "confidence": 0.5516100718282513,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 853200000000000,
+    "timestamp": 1746367199999000000
+  },
+  {
+    "confidence": 0.7805128418252849,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 57600000000000,
+    "timestamp": 1746424799999000000
+  },
+  {
+    "confidence": 0.65480736830282,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 255600000000000,
+    "timestamp": 1746680399999000000
+  },
+  {
+    "confidence": 0.6545077105575322,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 25200000000000,
+    "timestamp": 1746705599999000000
+  },
+  {
+    "confidence": 0.770644782076394,
+    "new": "MARKET_STRESS",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 1,
+    "previous_duration_ns": 31500000000000,
+    "timestamp": 1746737099999000000
+  },
+  {
+    "confidence": 0.5527836352816653,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "MARKET_STRESS",
+    "persistence_hours": 4,
+    "previous_duration_ns": 15300000000000,
+    "timestamp": 1746752399999000000
+  },
+  {
+    "confidence": 0.8168681713381198,
+    "new": "MARKET_STRESS",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 1,
+    "previous_duration_ns": 27000000000000,
+    "timestamp": 1746779399999000000
+  },
+  {
+    "confidence": 0.6629646548626764,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "MARKET_STRESS",
+    "persistence_hours": 4,
+    "previous_duration_ns": 16200000000000,
+    "timestamp": 1746795599999000000
+  },
+  {
+    "confidence": 0.6513697783382169,
+    "new": "RANGE_HIGH_VOL",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 183600000000000,
+    "timestamp": 1746979199999000000
+  },
+  {
+    "confidence": 0.777161840539468,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 169200000000000,
+    "timestamp": 1747148399999000000
+  },
+  {
+    "confidence": 0.8393905967650741,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 856800000000000,
+    "timestamp": 1748005199999000000
+  },
+  {
+    "confidence": 0.7418771348393081,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 21600000000000,
+    "timestamp": 1748026799999000000
+  },
+  {
+    "confidence": 0.5705812369890306,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 151200000000000,
+    "timestamp": 1748177999999000000
+  },
+  {
+    "confidence": 0.55,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 306000000000000,
+    "timestamp": 1748483999999000000
+  },
+  {
+    "confidence": 0.5949053887573874,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 180000000000000,
+    "timestamp": 1748663999999000000
+  },
+  {
+    "confidence": 0.6494404891005398,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 36000000000000,
+    "timestamp": 1748699999999000000
+  },
+  {
+    "confidence": 0.5628416031358601,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 140400000000000,
+    "timestamp": 1748840399999000000
+  },
+  {
+    "confidence": 0.7202975314302263,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 64800000000000,
+    "timestamp": 1748905199999000000
+  },
+  {
+    "confidence": 0.5521939150482846,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 259200000000000,
+    "timestamp": 1749164399999000000
+  },
+  {
+    "confidence": 0.7290440496798366,
+    "new": "RANGE_HIGH_VOL",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 144000000000000,
+    "timestamp": 1749308399999000000
+  },
+  {
+    "confidence": 0.6132842198729134,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 25200000000000,
+    "timestamp": 1749333599999000000
+  },
+  {
+    "confidence": 0.5568594337179583,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 3,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1749347999999000000
+  },
+  {
+    "confidence": 0.8062217325756686,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 133200000000000,
+    "timestamp": 1749481199999000000
+  },
+  {
+    "confidence": 0.6449860966284313,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 36000000000000,
+    "timestamp": 1749517199999000000
+  },
+  {
+    "confidence": 0.627829979913525,
+    "new": "TREND_HIGH_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 50400000000000,
+    "timestamp": 1749567599999000000
+  },
+  {
+    "confidence": 0.7069849215367137,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 115200000000000,
+    "timestamp": 1749682799999000000
+  },
+  {
+    "confidence": 0.8002760524499651,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 50400000000000,
+    "timestamp": 1749733199999000000
+  },
+  {
+    "confidence": 0.662118283466892,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 32400000000000,
+    "timestamp": 1749765599999000000
+  },
+  {
+    "confidence": 0.7689617908400561,
+    "new": "MARKET_STRESS",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 1,
+    "previous_duration_ns": 11700000000000,
+    "timestamp": 1749777299999000000
+  },
+  {
+    "confidence": 0.5812127603176256,
+    "new": "TREND_HIGH_VOL",
+    "old": "MARKET_STRESS",
+    "persistence_hours": 2,
+    "previous_duration_ns": 17100000000000,
+    "timestamp": 1749794399999000000
+  },
+  {
+    "confidence": 0.55,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 144000000000000,
+    "timestamp": 1749938399999000000
+  },
+  {
+    "confidence": 0.7774396872759242,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1749952799999000000
+  },
+  {
+    "confidence": 0.5589068616457322,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 3,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1749967199999000000
+  },
+  {
+    "confidence": 0.6392167739072557,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 97200000000000,
+    "timestamp": 1750064399999000000
+  },
+  {
+    "confidence": 0.6055491547204921,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 43200000000000,
+    "timestamp": 1750107599999000000
+  },
+  {
+    "confidence": 0.7645537353001154,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 3,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1750121999999000000
+  },
+  {
+    "confidence": 0.6613652113652102,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 424800000000000,
+    "timestamp": 1750546799999000000
+  },
+  {
+    "confidence": 0.6441863924185122,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 144000000000000,
+    "timestamp": 1750690799999000000
+  },
+  {
+    "confidence": 0.601014884979703,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 172800000000000,
+    "timestamp": 1750863599999000000
+  },
+  {
+    "confidence": 0.5639240403266741,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 302400000000000,
+    "timestamp": 1751165999999000000
+  },
+  {
+    "confidence": 0.5603365094680982,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 75600000000000,
+    "timestamp": 1751241599999000000
+  },
+  {
+    "confidence": 0.5751408659549229,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 313200000000000,
+    "timestamp": 1751554799999000000
+  },
+  {
+    "confidence": 0.6831060089414261,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 61200000000000,
+    "timestamp": 1751615999999000000
+  },
+  {
+    "confidence": 0.5500788255305455,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 180000000000000,
+    "timestamp": 1751795999999000000
+  },
+  {
+    "confidence": 0.6461304660435329,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 46800000000000,
+    "timestamp": 1751842799999000000
+  },
+  {
+    "confidence": 0.6604519248651657,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 248400000000000,
+    "timestamp": 1752091199999000000
+  },
+  {
+    "confidence": 0.6094504455174475,
+    "new": "TREND_HIGH_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 18000000000000,
+    "timestamp": 1752109199999000000
+  },
+  {
+    "confidence": 0.5738396495494061,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 79200000000000,
+    "timestamp": 1752188399999000000
+  },
+  {
+    "confidence": 0.7895002553079344,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 172800000000000,
+    "timestamp": 1752361199999000000
+  },
+  {
+    "confidence": 0.7831235028689211,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 234000000000000,
+    "timestamp": 1752595199999000000
+  },
+  {
+    "confidence": 0.6485081660096322,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 97200000000000,
+    "timestamp": 1752692399999000000
+  },
+  {
+    "confidence": 0.55,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 176400000000000,
+    "timestamp": 1752868799999000000
+  },
+  {
+    "confidence": 0.6442014365642019,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 25200000000000,
+    "timestamp": 1752893999999000000
+  },
+  {
+    "confidence": 0.5916132549666242,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 205200000000000,
+    "timestamp": 1753099199999000000
+  },
+  {
+    "confidence": 0.6459809132172085,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 28800000000000,
+    "timestamp": 1753127999999000000
+  },
+  {
+    "confidence": 0.556593122763568,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 504000000000000,
+    "timestamp": 1753631999999000000
+  },
+  {
+    "confidence": 0.8272184300341298,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 136800000000000,
+    "timestamp": 1753768799999000000
+  },
+  {
+    "confidence": 0.6076065606516263,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 324000000000000,
+    "timestamp": 1754092799999000000
+  },
+  {
+    "confidence": 0.6839040515341586,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 118800000000000,
+    "timestamp": 1754211599999000000
+  },
+  {
+    "confidence": 0.8156395103419163,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 136800000000000,
+    "timestamp": 1754348399999000000
+  },
+  {
+    "confidence": 0.6000832897053923,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 32400000000000,
+    "timestamp": 1754380799999000000
+  },
+  {
+    "confidence": 0.622216516794829,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 219600000000000,
+    "timestamp": 1754600399999000000
+  },
+  {
+    "confidence": 0.6925122052757062,
+    "new": "TREND_HIGH_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 122400000000000,
+    "timestamp": 1754722799999000000
+  },
+  {
+    "confidence": 0.6275931008937301,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 115200000000000,
+    "timestamp": 1754837999999000000
+  },
+  {
+    "confidence": 0.5651835072783316,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 223200000000000,
+    "timestamp": 1755061199999000000
+  },
+  {
+    "confidence": 0.6041378537708503,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 21600000000000,
+    "timestamp": 1755082799999000000
+  },
+  {
+    "confidence": 0.6800097636024738,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 97200000000000,
+    "timestamp": 1755179999999000000
+  },
+  {
+    "confidence": 0.6714556142679187,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 172800000000000,
+    "timestamp": 1755352799999000000
+  },
+  {
+    "confidence": 0.5620972508426378,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 525600000000000,
+    "timestamp": 1755878399999000000
+  },
+  {
+    "confidence": 0.7568126245313851,
+    "new": "MARKET_STRESS",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 1,
+    "previous_duration_ns": 900000000000,
+    "timestamp": 1755879299999000000
+  },
+  {
+    "confidence": 0.645802180262965,
+    "new": "TREND_HIGH_VOL",
+    "old": "MARKET_STRESS",
+    "persistence_hours": 2,
+    "previous_duration_ns": 20700000000000,
+    "timestamp": 1755899999999000000
+  },
+  {
+    "confidence": 0.6523927437445137,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 151200000000000,
+    "timestamp": 1756051199999000000
+  },
+  {
+    "confidence": 0.6023678005185061,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 126000000000000,
+    "timestamp": 1756177199999000000
+  },
+  {
+    "confidence": 0.8436255283500249,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 118800000000000,
+    "timestamp": 1756295999999000000
+  },
+  {
+    "confidence": 0.6273270248374989,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 964800000000000,
+    "timestamp": 1757260799999000000
+  },
+  {
+    "confidence": 0.7699528196627238,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 255600000000000,
+    "timestamp": 1757516399999000000
+  },
+  {
+    "confidence": 0.6336908028883717,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 140400000000000,
+    "timestamp": 1757656799999000000
+  },
+  {
+    "confidence": 0.6487775594848284,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 169200000000000,
+    "timestamp": 1757825999999000000
+  },
+  {
+    "confidence": 0.7620931212472344,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 327600000000000,
+    "timestamp": 1758153599999000000
+  },
+  {
+    "confidence": 0.7882437753414219,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 162000000000000,
+    "timestamp": 1758315599999000000
+  },
+  {
+    "confidence": 0.5548683468306482,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 122400000000000,
+    "timestamp": 1758437999999000000
+  },
+  {
+    "confidence": 0.55,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 68400000000000,
+    "timestamp": 1758506399999000000
+  },
+  {
+    "confidence": 0.7019370227340263,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 4,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1758520799999000000
+  },
+  {
+    "confidence": 0.704662947026655,
+    "new": "TREND_HIGH_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 21600000000000,
+    "timestamp": 1758542399999000000
+  },
+  {
+    "confidence": 0.6675265503696554,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 136800000000000,
+    "timestamp": 1758679199999000000
+  },
+  {
+    "confidence": 0.8234382830694856,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 21600000000000,
+    "timestamp": 1758700799999000000
+  },
+  {
+    "confidence": 0.6001321859934694,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 129600000000000,
+    "timestamp": 1758830399999000000
+  },
+  {
+    "confidence": 0.7276721124928882,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 172800000000000,
+    "timestamp": 1759003199999000000
+  },
+  {
+    "confidence": 0.5669800973394178,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 82800000000000,
+    "timestamp": 1759085999999000000
+  },
+  {
+    "confidence": 0.6111998952056582,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 18000000000000,
+    "timestamp": 1759103999999000000
+  },
+  {
+    "confidence": 0.6526073274893232,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 208800000000000,
+    "timestamp": 1759312799999000000
+  },
+  {
+    "confidence": 0.6013784364550907,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 115200000000000,
+    "timestamp": 1759427999999000000
+  },
+  {
+    "confidence": 0.6436732528172229,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 57600000000000,
+    "timestamp": 1759485599999000000
+  },
+  {
+    "confidence": 0.5890759592795597,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 295200000000000,
+    "timestamp": 1759780799999000000
+  },
+  {
+    "confidence": 0.6233546709341875,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 28800000000000,
+    "timestamp": 1759809599999000000
+  },
+  {
+    "confidence": 0.8169719863609011,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 46800000000000,
+    "timestamp": 1759856399999000000
+  },
+  {
+    "confidence": 0.6367543014339483,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 266400000000000,
+    "timestamp": 1760122799999000000
+  },
+  {
+    "confidence": 0.7652985666271238,
+    "new": "MARKET_STRESS",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 1,
+    "previous_duration_ns": 7200000000000,
+    "timestamp": 1760129999999000000
+  },
+  {
+    "confidence": 0.6867176993896761,
+    "new": "TREND_HIGH_VOL",
+    "old": "MARKET_STRESS",
+    "persistence_hours": 4,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1760144399999000000
+  },
+  {
+    "confidence": 0.5811467218003478,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 4,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1760158799999000000
+  },
+  {
+    "confidence": 0.806107473559986,
+    "new": "MARKET_STRESS",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 1,
+    "previous_duration_ns": 130500000000000,
+    "timestamp": 1760289299999000000
+  },
+  {
+    "confidence": 0.5545616535920024,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "MARKET_STRESS",
+    "persistence_hours": 2,
+    "previous_duration_ns": 17100000000000,
+    "timestamp": 1760306399999000000
+  },
+  {
+    "confidence": 0.5579376500807405,
+    "new": "RANGE_HIGH_VOL",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 21600000000000,
+    "timestamp": 1760327999999000000
+  },
+  {
+    "confidence": 0.7230123438490744,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 216000000000000,
+    "timestamp": 1760543999999000000
+  },
+  {
+    "confidence": 0.597848826449739,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 151200000000000,
+    "timestamp": 1760695199999000000
+  },
+  {
+    "confidence": 0.6351794045859829,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 18000000000000,
+    "timestamp": 1760713199999000000
+  },
+  {
+    "confidence": 0.5618465835728341,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 165600000000000,
+    "timestamp": 1760878799999000000
+  },
+  {
+    "confidence": 0.8126972090812377,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 147600000000000,
+    "timestamp": 1761026399999000000
+  },
+  {
+    "confidence": 0.5905849041111741,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 432000000000000,
+    "timestamp": 1761458399999000000
+  },
+  {
+    "confidence": 0.6534929129302852,
+    "new": "TREND_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 64800000000000,
+    "timestamp": 1761523199999000000
+  },
+  {
+    "confidence": 0.6438049181364174,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 79200000000000,
+    "timestamp": 1761602399999000000
+  },
+  {
+    "confidence": 0.7051131764638662,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 201600000000000,
+    "timestamp": 1761803999999000000
+  },
+  {
+    "confidence": 0.5951548056918636,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 46800000000000,
+    "timestamp": 1761850799999000000
+  },
+  {
+    "confidence": 0.6613226103516407,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 3,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1761865199999000000
+  },
+  {
+    "confidence": 0.807866552425833,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 122400000000000,
+    "timestamp": 1761987599999000000
+  },
+  {
+    "confidence": 0.564481416536162,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 118800000000000,
+    "timestamp": 1762106399999000000
+  },
+  {
+    "confidence": 0.6341772479024171,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 36000000000000,
+    "timestamp": 1762142399999000000
+  },
+  {
+    "confidence": 0.58339039002323,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 46800000000000,
+    "timestamp": 1762189199999000000
+  },
+  {
+    "confidence": 0.5639384952112378,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 97200000000000,
+    "timestamp": 1762286399999000000
+  },
+  {
+    "confidence": 0.7869692476056189,
+    "new": "MARKET_STRESS",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 1,
+    "previous_duration_ns": 1800000000000,
+    "timestamp": 1762288199999000000
+  },
+  {
+    "confidence": 0.5669265433522346,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "MARKET_STRESS",
+    "persistence_hours": 3,
+    "previous_duration_ns": 16200000000000,
+    "timestamp": 1762304399999000000
+  },
+  {
+    "confidence": 0.6841550271040238,
+    "new": "RANGE_HIGH_VOL",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 97200000000000,
+    "timestamp": 1762401599999000000
+  },
+  {
+    "confidence": 0.7610210131659252,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 79200000000000,
+    "timestamp": 1762480799999000000
+  },
+  {
+    "confidence": 0.6613433583063637,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 612000000000000,
+    "timestamp": 1763092799999000000
+  },
+  {
+    "confidence": 0.5974369139970405,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 32400000000000,
+    "timestamp": 1763125199999000000
+  },
+  {
+    "confidence": 0.7024733974893196,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1763139599999000000
+  },
+  {
+    "confidence": 0.7417287483634764,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 190800000000000,
+    "timestamp": 1763330399999000000
+  },
+  {
+    "confidence": 0.6731153603658709,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 129600000000000,
+    "timestamp": 1763459999999000000
+  },
+  {
+    "confidence": 0.7398407771943625,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 64800000000000,
+    "timestamp": 1763524799999000000
+  },
+  {
+    "confidence": 0.6292047192119058,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 172800000000000,
+    "timestamp": 1763697599999000000
+  },
+  {
+    "confidence": 0.8336216889194181,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 172800000000000,
+    "timestamp": 1763870399999000000
+  },
+  {
+    "confidence": 0.581640642348092,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 655200000000000,
+    "timestamp": 1764525599999000000
+  },
+  {
+    "confidence": 0.55,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 28800000000000,
+    "timestamp": 1764554399999000000
+  },
+  {
+    "confidence": 0.55,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1764568799999000000
+  },
+  {
+    "confidence": 0.6605224941760215,
+    "new": "TREND_HIGH_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 39600000000000,
+    "timestamp": 1764608399999000000
+  },
+  {
+    "confidence": 0.8213878819264631,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 82800000000000,
+    "timestamp": 1764691199999000000
+  },
+  {
+    "confidence": 0.55,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 50400000000000,
+    "timestamp": 1764741599999000000
+  },
+  {
+    "confidence": 0.8193674405227911,
+    "new": "TREND_LOW_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 39600000000000,
+    "timestamp": 1764781199999000000
+  },
+  {
+    "confidence": 0.6674989966171665,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 93600000000000,
+    "timestamp": 1764874799999000000
+  },
+  {
+    "confidence": 0.7951577296229596,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 277200000000000,
+    "timestamp": 1765151999999000000
+  },
+  {
+    "confidence": 0.5897846770155233,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 244800000000000,
+    "timestamp": 1765396799999000000
+  },
+  {
+    "confidence": 0.6826638981550819,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 21600000000000,
+    "timestamp": 1765418399999000000
+  },
+  {
+    "confidence": 0.55,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 158400000000000,
+    "timestamp": 1765576799999000000
+  },
+  {
+    "confidence": 0.6885801682385926,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 21600000000000,
+    "timestamp": 1765598399999000000
+  },
+  {
+    "confidence": 0.6307287105591398,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 97200000000000,
+    "timestamp": 1765695599999000000
+  },
+  {
+    "confidence": 0.7030586540040984,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 36000000000000,
+    "timestamp": 1765731599999000000
+  },
+  {
+    "confidence": 0.5560171099259043,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 93600000000000,
+    "timestamp": 1765825199999000000
+  },
+  {
+    "confidence": 0.642377281998023,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 266400000000000,
+    "timestamp": 1766091599999000000
+  },
+  {
+    "confidence": 0.8029682407821583,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 151200000000000,
+    "timestamp": 1766242799999000000
+  },
+  {
+    "confidence": 0.6379820654283743,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 50400000000000,
+    "timestamp": 1766293199999000000
+  },
+  {
+    "confidence": 0.7793469817541563,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 223200000000000,
+    "timestamp": 1766516399999000000
+  },
+  {
+    "confidence": 0.5567537137510505,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 183600000000000,
+    "timestamp": 1766699999999000000
+  },
+  {
+    "confidence": 0.801879661735724,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 21600000000000,
+    "timestamp": 1766721599999000000
+  },
+  {
+    "confidence": 0.6688261171118126,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 216000000000000,
+    "timestamp": 1766937599999000000
+  },
+  {
+    "confidence": 0.7282317316855726,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 68400000000000,
+    "timestamp": 1767005999999000000
+  },
+  {
+    "confidence": 0.5719103038296252,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 255600000000000,
+    "timestamp": 1767261599999000000
+  },
+  {
+    "confidence": 0.6998885734346858,
+    "new": "TREND_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 115200000000000,
+    "timestamp": 1767376799999000000
+  },
+  {
+    "confidence": 0.6940232772601523,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 165600000000000,
+    "timestamp": 1767542399999000000
+  },
+  {
+    "confidence": 0.7015170278637768,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 183600000000000,
+    "timestamp": 1767725999999000000
+  },
+  {
+    "confidence": 0.8293165255536427,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 334800000000000,
+    "timestamp": 1768060799999000000
+  },
+  {
+    "confidence": 0.5925426576131332,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 97200000000000,
+    "timestamp": 1768157999999000000
+  },
+  {
+    "confidence": 0.7614100508817165,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 50400000000000,
+    "timestamp": 1768208399999000000
+  },
+  {
+    "confidence": 0.6109730904169124,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 140400000000000,
+    "timestamp": 1768348799999000000
+  },
+  {
+    "confidence": 0.649114972612719,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 147600000000000,
+    "timestamp": 1768496399999000000
+  },
+  {
+    "confidence": 0.8380928417695058,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 25200000000000,
+    "timestamp": 1768521599999000000
+  },
+  {
+    "confidence": 0.5547948516030172,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 158400000000000,
+    "timestamp": 1768679999999000000
+  },
+  {
+    "confidence": 0.55,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 104400000000000,
+    "timestamp": 1768784399999000000
+  },
+  {
+    "confidence": 0.55,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 104400000000000,
+    "timestamp": 1768888799999000000
+  },
+  {
+    "confidence": 0.7229581374153309,
+    "new": "TREND_HIGH_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 4,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1768903199999000000
+  },
+  {
+    "confidence": 0.6965079272670804,
+    "new": "TREND_LOW_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 64800000000000,
+    "timestamp": 1768967999999000000
+  },
+  {
+    "confidence": 0.6815654463834948,
+    "new": "TREND_HIGH_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 50400000000000,
+    "timestamp": 1769018399999000000
+  },
+  {
+    "confidence": 0.6186196240230594,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 3,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1769032799999000000
+  },
+  {
+    "confidence": 0.7018740386950535,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 169200000000000,
+    "timestamp": 1769201999999000000
+  },
+  {
+    "confidence": 0.6667626132908216,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 165600000000000,
+    "timestamp": 1769367599999000000
+  },
+  {
+    "confidence": 0.6186138613861378,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 28800000000000,
+    "timestamp": 1769396399999000000
+  },
+  {
+    "confidence": 0.663535695489524,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 144000000000000,
+    "timestamp": 1769540399999000000
+  },
+  {
+    "confidence": 0.6812586701193006,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 100800000000000,
+    "timestamp": 1769641199999000000
+  },
+  {
+    "confidence": 0.5813268291033297,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 82800000000000,
+    "timestamp": 1769723999999000000
+  },
+  {
+    "confidence": 0.6229729729729734,
+    "new": "TREND_HIGH_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 39600000000000,
+    "timestamp": 1769763599999000000
+  },
+  {
+    "confidence": 0.7617087513473804,
+    "new": "MARKET_STRESS",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 1,
+    "previous_duration_ns": 118800000000000,
+    "timestamp": 1769882399999000000
+  },
+  {
+    "confidence": 0.7527303882800445,
+    "new": "TREND_HIGH_VOL",
+    "old": "MARKET_STRESS",
+    "persistence_hours": 2,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1769896799999000000
+  },
+  {
+    "confidence": 0.5634380823390489,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 118800000000000,
+    "timestamp": 1770015599999000000
+  },
+  {
+    "confidence": 0.7616444139747643,
+    "new": "MARKET_STRESS",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 1,
+    "previous_duration_ns": 289800000000000,
+    "timestamp": 1770305399999000000
+  },
+  {
+    "confidence": 0.5701704688904373,
+    "new": "RANGE_HIGH_VOL",
+    "old": "MARKET_STRESS",
+    "persistence_hours": 4,
+    "previous_duration_ns": 16200000000000,
+    "timestamp": 1770321599999000000
+  },
+  {
+    "confidence": 0.668659155856171,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 4,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1770335999999000000
+  },
+  {
+    "confidence": 0.6847830566980653,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 54000000000000,
+    "timestamp": 1770389999999000000
+  },
+  {
+    "confidence": 0.6505974063820481,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 126000000000000,
+    "timestamp": 1770515999999000000
+  },
+  {
+    "confidence": 0.6376470588235283,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 316800000000000,
+    "timestamp": 1770832799999000000
+  },
+  {
+    "confidence": 0.6431034482758623,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 39600000000000,
+    "timestamp": 1770872399999000000
+  },
+  {
+    "confidence": 0.5705981444413223,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 3,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1770886799999000000
+  },
+  {
+    "confidence": 0.8194252737961818,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 90000000000000,
+    "timestamp": 1770976799999000000
+  },
+  {
+    "confidence": 0.5635967575455207,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 727200000000000,
+    "timestamp": 1771703999999000000
+  },
+  {
+    "confidence": 0.6094293667362574,
+    "new": "TREND_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 111600000000000,
+    "timestamp": 1771815599999000000
+  },
+  {
+    "confidence": 0.6724862564284446,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 28800000000000,
+    "timestamp": 1771844399999000000
+  },
+  {
+    "confidence": 0.55,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 28800000000000,
+    "timestamp": 1771873199999000000
+  },
+  {
+    "confidence": 0.585823895207245,
+    "new": "TREND_HIGH_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 50400000000000,
+    "timestamp": 1771923599999000000
+  },
+  {
+    "confidence": 0.6535201482167674,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 32400000000000,
+    "timestamp": 1771955999999000000
+  },
+  {
+    "confidence": 0.6826366725007713,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 86400000000000,
+    "timestamp": 1772042399999000000
+  },
+  {
+    "confidence": 0.6290581827842716,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 86400000000000,
+    "timestamp": 1772128799999000000
+  },
+  {
+    "confidence": 0.5788856668638034,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 86400000000000,
+    "timestamp": 1772215199999000000
+  },
+  {
+    "confidence": 0.5895760743321721,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 50400000000000,
+    "timestamp": 1772265599999000000
+  },
+  {
+    "confidence": 0.694969040247678,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 32400000000000,
+    "timestamp": 1772297999999000000
+  },
+  {
+    "confidence": 0.6876551306629001,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 144000000000000,
+    "timestamp": 1772441999999000000
+  },
+  {
+    "confidence": 0.6111127640583163,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 28800000000000,
+    "timestamp": 1772470799999000000
+  },
+  {
+    "confidence": 0.6251345895020192,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 180000000000000,
+    "timestamp": 1772650799999000000
+  },
+  {
+    "confidence": 0.6192935791166658,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 234000000000000,
+    "timestamp": 1772884799999000000
+  },
+  {
+    "confidence": 0.5663615607736423,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 18000000000000,
+    "timestamp": 1772902799999000000
+  },
+  {
+    "confidence": 0.7967845766600585,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 198000000000000,
+    "timestamp": 1773100799999000000
+  },
+  {
+    "confidence": 0.5628424461655901,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 493200000000000,
+    "timestamp": 1773593999999000000
+  },
+  {
+    "confidence": 0.580163669176676,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 25200000000000,
+    "timestamp": 1773619199999000000
+  },
+  {
+    "confidence": 0.6844571170175363,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 18000000000000,
+    "timestamp": 1773637199999000000
+  },
+  {
+    "confidence": 0.7273588516746411,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 172800000000000,
+    "timestamp": 1773809999999000000
+  },
+  {
+    "confidence": 0.5601886148870374,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 291600000000000,
+    "timestamp": 1774101599999000000
+  },
+  {
+    "confidence": 0.6660894136962084,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 39600000000000,
+    "timestamp": 1774141199999000000
+  },
+  {
+    "confidence": 0.5724350293415879,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 90000000000000,
+    "timestamp": 1774231199999000000
+  },
+  {
+    "confidence": 0.8204044234476626,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 39600000000000,
+    "timestamp": 1774270799999000000
+  },
+  {
+    "confidence": 0.7593804819499579,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 172800000000000,
+    "timestamp": 1774443599999000000
+  },
+  {
+    "confidence": 0.6671976350381734,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 162000000000000,
+    "timestamp": 1774605599999000000
+  },
+  {
+    "confidence": 0.6763736263736249,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 104400000000000,
+    "timestamp": 1774709999999000000
+  },
+  {
+    "confidence": 0.6592806523638477,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 270000000000000,
+    "timestamp": 1774979999999000000
+  },
+  {
+    "confidence": 0.6866471930396413,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 223200000000000,
+    "timestamp": 1775203199999000000
+  },
+  {
+    "confidence": 0.5621181455877976,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 75600000000000,
+    "timestamp": 1775278799999000000
+  },
+  {
+    "confidence": 0.55,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 169200000000000,
+    "timestamp": 1775447999999000000
+  },
+  {
+    "confidence": 0.6172992700729917,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 21600000000000,
+    "timestamp": 1775469599999000000
+  },
+  {
+    "confidence": 0.7499888442659524,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 46800000000000,
+    "timestamp": 1775516399999000000
+  },
+  {
+    "confidence": 0.5927004850367121,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 86400000000000,
+    "timestamp": 1775602799999000000
+  },
+  {
+    "confidence": 0.7540869342344061,
+    "new": "MARKET_STRESS",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 1,
+    "previous_duration_ns": 1800000000000,
+    "timestamp": 1775604599999000000
+  },
+  {
+    "confidence": 0.6333870537272368,
+    "new": "RANGE_HIGH_VOL",
+    "old": "MARKET_STRESS",
+    "persistence_hours": 5,
+    "previous_duration_ns": 16200000000000,
+    "timestamp": 1775620799999000000
+  },
+  {
+    "confidence": 0.7325428010103849,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 158400000000000,
+    "timestamp": 1775779199999000000
+  },
+  {
+    "confidence": 0.6836824793938567,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 345600000000000,
+    "timestamp": 1776124799999000000
+  },
+  {
+    "confidence": 0.5902071058739495,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 18000000000000,
+    "timestamp": 1776142799999000000
+  },
+  {
+    "confidence": 0.6410474809713665,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 54000000000000,
+    "timestamp": 1776196799999000000
+  },
+  {
+    "confidence": 0.8257999658811194,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 100800000000000,
+    "timestamp": 1776297599999000000
+  },
+  {
+    "confidence": 0.584179964302985,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 313200000000000,
+    "timestamp": 1776610799999000000
+  },
+  {
+    "confidence": 0.6909871584843841,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 93600000000000,
+    "timestamp": 1776704399999000000
+  },
+  {
+    "confidence": 0.5696671412932188,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 424800000000000,
+    "timestamp": 1777129199999000000
+  },
+  {
+    "confidence": 0.8330404420228683,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 144000000000000,
+    "timestamp": 1777273199999000000
+  },
+  {
+    "confidence": 0.5568916023660753,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 558000000000000,
+    "timestamp": 1777831199999000000
+  },
+  {
+    "confidence": 0.5657318089793962,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 32400000000000,
+    "timestamp": 1777863599999000000
+  },
+  {
+    "confidence": 0.7374841274222937,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 46800000000000,
+    "timestamp": 1777910399999000000
+  },
+  {
+    "confidence": 0.7402069908221061,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 118800000000000,
+    "timestamp": 1778029199999000000
+  },
+  {
+    "confidence": 0.7430507563541464,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 205200000000000,
+    "timestamp": 1778234399999000000
+  },
+  {
+    "confidence": 0.732419403434768,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 32400000000000,
+    "timestamp": 1778266799999000000
+  },
+  {
+    "confidence": 0.5598311583837615,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 75600000000000,
+    "timestamp": 1778342399999000000
+  },
+  {
+    "confidence": 0.7672392575120475,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 108000000000000,
+    "timestamp": 1778450399999000000
+  },
+  {
+    "confidence": 0.5946565566458525,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 180000000000000,
+    "timestamp": 1778630399999000000
+  },
+  {
+    "confidence": 0.7366369622648948,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1778644799999000000
+  },
+  {
+    "confidence": 0.8091773583109182,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 169200000000000,
+    "timestamp": 1778813999999000000
+  },
+  {
+    "confidence": 0.6415545120862424,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 133200000000000,
+    "timestamp": 1778947199999000000
+  },
+  {
+    "confidence": 0.6989362902770722,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 82800000000000,
+    "timestamp": 1779029999999000000
+  },
+  {
+    "confidence": 0.7249054438825372,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 36000000000000,
+    "timestamp": 1779065999999000000
+  },
+  {
+    "confidence": 0.7428240155156424,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 43200000000000,
+    "timestamp": 1779109199999000000
+  },
+  {
+    "confidence": 0.6724891558224894,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 28800000000000,
+    "timestamp": 1779137999999000000
+  },
+  {
+    "confidence": 0.7530875040938473,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 162000000000000,
+    "timestamp": 1779299999999000000
+  },
+  {
+    "confidence": 0.584471837545798,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 226800000000000,
+    "timestamp": 1779526799999000000
+  },
+  {
+    "confidence": 0.6248396182131122,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 25200000000000,
+    "timestamp": 1779551999999000000
+  },
+  {
+    "confidence": 0.7993990286784067,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 21600000000000,
+    "timestamp": 1779573599999000000
+  },
+  {
+    "confidence": 0.8250717882558567,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 172800000000000,
+    "timestamp": 1779746399999000000
+  },
+  {
+    "confidence": 0.5729664378999795,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 198000000000000,
+    "timestamp": 1779944399999000000
+  },
+  {
+    "confidence": 0.690332485577818,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 46800000000000,
+    "timestamp": 1779991199999000000
+  },
+  {
+    "confidence": 0.578856856751229,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 255600000000000,
+    "timestamp": 1780246799999000000
+  },
+  {
+    "confidence": 0.5959902370990224,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 79200000000000,
+    "timestamp": 1780325999999000000
+  },
+  {
+    "confidence": 0.601192887956717,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 118800000000000,
+    "timestamp": 1780444799999000000
+  },
+  {
+    "confidence": 0.6162776203966008,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 43200000000000,
+    "timestamp": 1780487999999000000
+  },
+  {
+    "confidence": 0.61907628697351,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 21600000000000,
+    "timestamp": 1780509599999000000
+  },
+  {
+    "confidence": 0.5983690117522497,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 18000000000000,
+    "timestamp": 1780527599999000000
+  },
+  {
+    "confidence": 0.7679082429409528,
+    "new": "RANGE_HIGH_VOL",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 334800000000000,
+    "timestamp": 1780862399999000000
+  },
+  {
+    "confidence": 0.55,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 57600000000000,
+    "timestamp": 1780919999999000000
+  },
+  {
+    "confidence": 0.5761416577393556,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1780934399999000000
+  },
+  {
+    "confidence": 0.6624150106162182,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 36000000000000,
+    "timestamp": 1780970399999000000
+  },
+  {
+    "confidence": 0.6116823295390941,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 478800000000000,
+    "timestamp": 1781449199999000000
+  },
+  {
+    "confidence": 0.6417071619964576,
+    "new": "TREND_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 75600000000000,
+    "timestamp": 1781524799999000000
+  },
+  {
+    "confidence": 0.6268432259781747,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 64800000000000,
+    "timestamp": 1781589599999000000
+  },
+  {
+    "confidence": 0.5508231959505754,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 385200000000000,
+    "timestamp": 1781974799999000000
+  },
+  {
+    "confidence": 0.8339605421569776,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 169200000000000,
+    "timestamp": 1782143999999000000
+  },
+  {
+    "confidence": 0.583069107155725,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 162000000000000,
+    "timestamp": 1782305999999000000
+  },
+  {
+    "confidence": 0.55,
+    "new": "TREND_HIGH_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 32400000000000,
+    "timestamp": 1782338399999000000
+  },
+  {
+    "confidence": 0.6802019139235432,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 28800000000000,
+    "timestamp": 1782367199999000000
+  },
+  {
+    "confidence": 0.5607864384673261,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 36000000000000,
+    "timestamp": 1782403199999000000
+  },
+  {
+    "confidence": 0.7764869681443531,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 169200000000000,
+    "timestamp": 1782572399999000000
+  },
+  {
+    "confidence": 0.5956380565930782,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 90000000000000,
+    "timestamp": 1782662399999000000
+  },
+  {
+    "confidence": 0.8077452777896216,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 75600000000000,
+    "timestamp": 1782737999999000000
+  },
+  {
+    "confidence": 0.6090890183028285,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 266400000000000,
+    "timestamp": 1783004399999000000
+  },
+  {
+    "confidence": 0.6369926129007693,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 216000000000000,
+    "timestamp": 1783220399999000000
+  },
+  {
+    "confidence": 0.5737502225733391,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 68400000000000,
+    "timestamp": 1783288799999000000
+  },
+  {
+    "confidence": 0.8296779001708652,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 68400000000000,
+    "timestamp": 1783357199999000000
+  },
+  {
+    "confidence": 0.6145134772638781,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 432000000000000,
+    "timestamp": 1783789199999000000
+  },
+  {
+    "confidence": 0.6705028107432847,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 28800000000000,
+    "timestamp": 1783817999999000000
+  },
+  {
+    "confidence": 0.6595718963248561,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 162000000000000,
+    "timestamp": 1783979999999000000
+  },
+  {
+    "confidence": 0.6588460824113143,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 144000000000000,
+    "timestamp": 1784123999999000000
+  },
+  {
+    "confidence": 0.8124416233638095,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 86400000000000,
+    "timestamp": 1784210399999000000
+  },
+  {
+    "confidence": 0.598645171101435,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 234000000000000,
+    "timestamp": 1784444399999000000
+  },
+  {
+    "confidence": 0.7262296157041044,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 108000000000000,
+    "timestamp": 1784552399999000000
+  },
+  {
+    "confidence": 0.5646346626214751,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 500400000000000,
+    "timestamp": 1785052799999000000
+  },
+  {
+    "confidence": 0.851264189886475,
+    "new": "TREND_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 57600000000000,
+    "timestamp": 1785110399999000000
+  },
+  {
+    "confidence": 0.7911567139114666,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 86400000000000,
+    "timestamp": 1785196799999000000
+  },
+  {
+    "confidence": 0.681778929188256,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 327600000000000,
+    "timestamp": 1785524399999000000
+  },
+  {
+    "confidence": 0.6550781051239002,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 86400000000000,
+    "timestamp": 1785610799999000000
+  },
+  {
+    "confidence": 0.690284529962642,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 32400000000000,
+    "timestamp": 1785643199999000000
+  },
+  {
+    "confidence": 0.6054828785951996,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 640800000000000,
+    "timestamp": 1786283999999000000
+  },
+  {
+    "confidence": 0.5597853681052376,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 97200000000000,
+    "timestamp": 1786381199999000000
+  },
+  {
+    "confidence": 0.5572850140202712,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 507600000000000,
+    "timestamp": 1786888799999000000
+  },
+  {
+    "confidence": 0.7300854624766313,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 72000000000000,
+    "timestamp": 1786960799999000000
+  },
+  {
+    "confidence": 0.9313893488053668,
+    "new": "MARKET_STRESS",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 1,
+    "previous_duration_ns": 194400000000000,
+    "timestamp": 1787155199999000000
+  },
+  {
+    "confidence": 0.7807023669391889,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "MARKET_STRESS",
+    "persistence_hours": 2,
+    "previous_duration_ns": 201600000000000,
+    "timestamp": 1787356799999000000
+  },
+  {
+    "confidence": 0.9355277801449688,
+    "new": "MARKET_STRESS",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 1,
+    "previous_duration_ns": 21600000000000,
+    "timestamp": 1787378399999000000
+  },
+  {
+    "confidence": 0.7320488086350269,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "MARKET_STRESS",
+    "persistence_hours": 2,
+    "previous_duration_ns": 100800000000000,
+    "timestamp": 1787479199999000000
+  },
+  {
+    "confidence": 0.7530829261433534,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 111600000000000,
+    "timestamp": 1787590799999000000
+  },
+  {
+    "confidence": 0.5938620071684584,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 928800000000000,
+    "timestamp": 1788519599999000000
+  },
+  {
+    "confidence": 0.756594874535029,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 3,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1788533999999000000
+  },
+  {
+    "confidence": 0.7785736248193587,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 93600000000000,
+    "timestamp": 1788627599999000000
+  },
+  {
+    "confidence": 0.5936150603092213,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 75600000000000,
+    "timestamp": 1788703199999000000
+  },
+  {
+    "confidence": 0.7949099888481759,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 151200000000000,
+    "timestamp": 1788854399999000000
+  },
+  {
+    "confidence": 0.5982068183203711,
+    "new": "VOLATILITY_EXPANSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 284400000000000,
+    "timestamp": 1789138799999000000
+  },
+  {
+    "confidence": 0.6046758603706195,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_EXPANSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 172800000000000,
+    "timestamp": 1789311599999000000
+  },
+  {
+    "confidence": 0.5732914893815085,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 18000000000000,
+    "timestamp": 1789329599999000000
+  },
+  {
+    "confidence": 0.8500000000000001,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 28800000000000,
+    "timestamp": 1789358399999000000
+  },
+  {
+    "confidence": 0.6295531118873892,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 140400000000000,
+    "timestamp": 1789498799999000000
+  },
+  {
+    "confidence": 0.55,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 97200000000000,
+    "timestamp": 1789595999999000000
+  },
+  {
+    "confidence": 0.6539048855850617,
+    "new": "RANGE_HIGH_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 3,
+    "previous_duration_ns": 14400000000000,
+    "timestamp": 1789610399999000000
+  },
+  {
+    "confidence": 0.7202856019545621,
+    "new": "RANGE_LOW_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 50400000000000,
+    "timestamp": 1789660799999000000
+  },
+  {
+    "confidence": 0.7410422707156982,
+    "new": "TREND_LOW_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 79200000000000,
+    "timestamp": 1789739999999000000
+  },
+  {
+    "confidence": 0.6129987614444962,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 144000000000000,
+    "timestamp": 1789883999999000000
+  },
+  {
+    "confidence": 0.6045215702699622,
+    "new": "RANGE_HIGH_VOL",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 158400000000000,
+    "timestamp": 1790042399999000000
+  },
+  {
+    "confidence": 0.55,
+    "new": "TREND_HIGH_VOL",
+    "old": "RANGE_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 18000000000000,
+    "timestamp": 1790060399999000000
+  },
+  {
+    "confidence": 0.55,
+    "new": "TREND_LOW_VOL",
+    "old": "TREND_HIGH_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 43200000000000,
+    "timestamp": 1790103599999000000
+  },
+  {
+    "confidence": 0.6244411160349567,
+    "new": "RANGE_LOW_VOL",
+    "old": "TREND_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 43200000000000,
+    "timestamp": 1790146799999000000
+  },
+  {
+    "confidence": 0.5738112097402319,
+    "new": "VOLATILITY_COMPRESSION",
+    "old": "RANGE_LOW_VOL",
+    "persistence_hours": 2,
+    "previous_duration_ns": 306000000000000,
+    "timestamp": 1790452799999000000
+  },
+  {
+    "confidence": 0.8365738765059247,
+    "new": "RANGE_LOW_VOL",
+    "old": "VOLATILITY_COMPRESSION",
+    "persistence_hours": 2,
+    "previous_duration_ns": 151200000000000,
+    "timestamp": 1790603999999000000
+  }
+]

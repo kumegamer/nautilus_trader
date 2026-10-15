@@ -1,0 +1,238 @@
+[
+  {
+    "activation": "PROHIBITED",
+    "evidence_sha256": "aca7e76744f073c8eaf77e34d125396ba48b182cfda0d0bb816f4d0b29a6e7e3",
+    "proposal": {
+      "evidence_references": [
+        "results/exit_policy_results.csv",
+        "results/validation_gates.csv"
+      ],
+      "experiment": "Review four predeclared exits without adding thresholds",
+      "explanation": "Review complete policy simulations, including null or adverse effects, before proposing a new version",
+      "hypothesis": "The value of regime invalidation may depend on the profile",
+      "proposed_change": "No executable change; review as a new-version hypothesis"
+    },
+    "proposal_sha256": "0b8866ad334eff8bbb1bde721db8ce7b06fd6fcfb79ee16148ba1c59f950752f",
+    "required_pipeline": [
+      "RESEARCH",
+      "BACKTEST",
+      "WALK_FORWARD",
+      "COST_STRESS",
+      "STABILITY",
+      "SHADOW_ELIGIBLE"
+    ],
+    "requires_new_version": true,
+    "stage": "RESEARCH",
+    "structured_evidence": {
+      "exit_policy_evidence": [
+        {
+          "net_pnl": 187.6089253700011,
+          "pnl_delta_vs_entry_only": 0.0,
+          "policy": "ENTRY_ONLY",
+          "profile": "TB_SHORT",
+          "sharpe": 0.44778665395428474,
+          "trades": 45
+        },
+        {
+          "net_pnl": 275.327733189999,
+          "pnl_delta_vs_entry_only": 87.71880781999789,
+          "policy": "PERSIST_4",
+          "profile": "TB_SHORT",
+          "sharpe": 0.6826120304120863,
+          "trades": 45
+        },
+        {
+          "net_pnl": 136.07136160999653,
+          "pnl_delta_vs_entry_only": -51.53756376000456,
+          "policy": "CONFIDENT_80",
+          "profile": "TB_SHORT",
+          "sharpe": 0.32779801230253053,
+          "trades": 45
+        },
+        {
+          "net_pnl": 457.3886206800016,
+          "pnl_delta_vs_entry_only": 269.77969531000053,
+          "policy": "V1_IMMEDIATE",
+          "profile": "TB_SHORT",
+          "sharpe": 1.0719592771716113,
+          "trades": 95
+        },
+        {
+          "net_pnl": -239.02853192000111,
+          "pnl_delta_vs_entry_only": 0.0,
+          "policy": "ENTRY_ONLY",
+          "profile": "TB_LONG",
+          "sharpe": -0.5076081636973516,
+          "trades": 58
+        },
+        {
+          "net_pnl": -186.9195882699969,
+          "pnl_delta_vs_entry_only": 52.10894365000422,
+          "policy": "PERSIST_4",
+          "profile": "TB_LONG",
+          "sharpe": -0.4510681701994921,
+          "trades": 58
+        },
+        {
+          "net_pnl": -248.47392410999964,
+          "pnl_delta_vs_entry_only": -9.445392189998529,
+          "policy": "CONFIDENT_80",
+          "profile": "TB_LONG",
+          "sharpe": -0.5302946103491988,
+          "trades": 58
+        },
+        {
+          "net_pnl": -398.27574654000637,
+          "pnl_delta_vs_entry_only": -159.24721462000525,
+          "policy": "V1_IMMEDIATE",
+          "profile": "TB_LONG",
+          "sharpe": -1.0147437397862555,
+          "trades": 128
+        },
+        {
+          "net_pnl": 38.92212735999783,
+          "pnl_delta_vs_entry_only": 0.0,
+          "policy": "ENTRY_ONLY",
+          "profile": "VB_SHORT",
+          "sharpe": 0.10259722519425564,
+          "trades": 54
+        },
+        {
+          "net_pnl": -96.95885859999908,
+          "pnl_delta_vs_entry_only": -135.8809859599969,
+          "policy": "PERSIST_4",
+          "profile": "VB_SHORT",
+          "sharpe": -0.2940705270112866,
+          "trades": 54
+        },
+        {
+          "net_pnl": -41.022022779994586,
+          "pnl_delta_vs_entry_only": -79.94415013999242,
+          "policy": "CONFIDENT_80",
+          "profile": "VB_SHORT",
+          "sharpe": -0.10368567594168564,
+          "trades": 54
+        },
+        {
+          "net_pnl": -116.77138168000238,
+          "pnl_delta_vs_entry_only": -155.6935090400002,
+          "policy": "V1_IMMEDIATE",
+          "profile": "VB_SHORT",
+          "sharpe": -0.49299191241072254,
+          "trades": 37
+        },
+        {
+          "net_pnl": 464.91031210000074,
+          "pnl_delta_vs_entry_only": 0.0,
+          "policy": "ENTRY_ONLY",
+          "profile": "VB_LONG",
+          "sharpe": 0.9003662003664381,
+          "trades": 56
+        },
+        {
+          "net_pnl": 368.4754980900034,
+          "pnl_delta_vs_entry_only": -96.43481400999735,
+          "policy": "PERSIST_4",
+          "profile": "VB_LONG",
+          "sharpe": 0.8731903415877704,
+          "trades": 56
+        },
+        {
+          "net_pnl": 386.38373193999723,
+          "pnl_delta_vs_entry_only": -78.5265801600035,
+          "policy": "CONFIDENT_80",
+          "profile": "VB_LONG",
+          "sharpe": 0.9020772520765975,
+          "trades": 56
+        },
+        {
+          "net_pnl": 564.7358427900035,
+          "pnl_delta_vs_entry_only": 99.82553069000278,
+          "policy": "V1_IMMEDIATE",
+          "profile": "VB_LONG",
+          "sharpe": 1.3160529651065647,
+          "trades": 45
+        },
+        {
+          "net_pnl": 156.94119372000569,
+          "pnl_delta_vs_entry_only": 0.0,
+          "policy": "ENTRY_ONLY",
+          "profile": "VST_SHORT",
+          "sharpe": 0.3722149573580991,
+          "trades": 62
+        },
+        {
+          "net_pnl": 333.2125581099972,
+          "pnl_delta_vs_entry_only": 176.2713643899915,
+          "policy": "PERSIST_4",
+          "profile": "VST_SHORT",
+          "sharpe": 0.9293862361461244,
+          "trades": 65
+        },
+        {
+          "net_pnl": 269.09838927999954,
+          "pnl_delta_vs_entry_only": 112.15719555999385,
+          "policy": "CONFIDENT_80",
+          "profile": "VST_SHORT",
+          "sharpe": 0.6613914571372955,
+          "trades": 62
+        },
+        {
+          "net_pnl": 366.7653536800026,
+          "pnl_delta_vs_entry_only": 209.8241599599969,
+          "policy": "V1_IMMEDIATE",
+          "profile": "VST_SHORT",
+          "sharpe": 0.8887678496681223,
+          "trades": 144
+        },
+        {
+          "net_pnl": 63.09491433999938,
+          "pnl_delta_vs_entry_only": 0.0,
+          "policy": "ENTRY_ONLY",
+          "profile": "VST_LONG",
+          "sharpe": 0.13880060561837415,
+          "trades": 73
+        },
+        {
+          "net_pnl": 13.559371759998612,
+          "pnl_delta_vs_entry_only": -49.535542580000765,
+          "policy": "PERSIST_4",
+          "profile": "VST_LONG",
+          "sharpe": 0.04284637217975831,
+          "trades": 73
+        },
+        {
+          "net_pnl": 55.56866353999794,
+          "pnl_delta_vs_entry_only": -7.526250800001435,
+          "policy": "CONFIDENT_80",
+          "profile": "VST_LONG",
+          "sharpe": 0.1355370717032329,
+          "trades": 73
+        },
+        {
+          "net_pnl": -60.75955638999949,
+          "pnl_delta_vs_entry_only": -123.85447072999887,
+          "policy": "V1_IMMEDIATE",
+          "profile": "VST_LONG",
+          "sharpe": -0.15873680038283863,
+          "trades": 152
+        }
+      ],
+      "gate_failures": {
+        "chronology": 75,
+        "concentration": 103,
+        "cost": 66,
+        "economics": 55,
+        "resampling": 99,
+        "sample": 132,
+        "stability": 47,
+        "transfer": 99
+      },
+      "references": [
+        "results/exit_policy_results.csv",
+        "results/validation_gates.csv"
+      ],
+      "scope": "RETROSPECTIVE_EVIDENCE_ONLY"
+    }
+  }
+]

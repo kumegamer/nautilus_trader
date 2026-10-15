@@ -1,0 +1,21 @@
+{
+  "event_cache_comparison": {
+    "before_cached_execution_file_sha256": "1e1dbd00e06aebf5b4ed72cd5f6a65f094a1892b3e7b00481d3771d2353488a9",
+    "canonical_full_result_sha256_excluding_source_fingerprint": "a5f6acf9e36280575bd37ec48c915cc02fed517a935aee74c78a60b860451974",
+    "exact_financial_event_equality": true,
+    "scope": "TB_SHORT ENTRY_ONLY base BTCUSDT complete 2024-Sep2026 native path"
+  },
+  "gate_defensive_correction": {
+    "reason": "Missing positive month/symbol concentration shares fail closed rather than raising",
+    "static_execution_affected": false,
+    "thresholds_changed": false
+  },
+  "prospective_economic_observations": 0,
+  "real_money_orders": 0,
+  "stress_exception_correction": {
+    "affected_feature_paths_rebuilt": true,
+    "reason": "MARKET_STRESS must bypass hourly persistence as predeclared",
+    "superseded_runs_excluded": true,
+    "thresholds_changed": false
+  }
+}

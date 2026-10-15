@@ -1,0 +1,16 @@
+{
+  "actual_month_boundary": "2026-10-01",
+  "classification": "ENGINEERING_EVIDENCE_ONLY",
+  "continuous_path_from": "2024-01-01",
+  "exact_historical_prefix_matches": {
+    "fills": 38,
+    "funding_events": 46,
+    "trades": 19
+  },
+  "future_profitability_claim": false,
+  "live_public_market_access": false,
+  "matured_cutoff": "2026-09-24",
+  "midmonth_initialization": true,
+  "status": "PASS",
+  "terminal_liquidation": false
+}

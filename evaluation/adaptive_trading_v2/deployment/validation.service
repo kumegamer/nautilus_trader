@@ -1,0 +1,10 @@
+[Unit]
+Description=Revalidate unchanged frozen V2 profiles using matured public observations
+
+[Service]
+Type=oneshot
+WorkingDirectory=/path/to/nautilus_trader
+Environment=PYTHONPATH=evaluation/adaptive_trading_v2
+ExecStart=/path/to/nautilus_trader/python/.venv/bin/python -m ats.shadow validate --state /path/to/persistent/v2-state
+NoNewPrivileges=true
+

@@ -1,0 +1,14 @@
+{
+  "nautilus_native_binary_sha256": "34cc655ee6bf35cfe8e31282c44b51af428520858909b7c272400015346efbe9",
+  "nautilus_source_commit": "de794053685c3a3b7ae74eb995e2b31215786b25",
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "plotly": "7.1.0",
+    "pyarrow": "25.0.1",
+    "pytest": "9.1.1",
+    "ruff": "0.16.10"
+  },
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "python": "3.13.16"
+}

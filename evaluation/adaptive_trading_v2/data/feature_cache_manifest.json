@@ -1,0 +1,11 @@
+{
+  "BTCUSDT_bars.parquet": "6f605ed64499b315ea3fb686fa6e8cc8940f38e114f282a808c57a0a0325fe21",
+  "BTCUSDT_features.parquet": "a89105035f77070b2dcb57e1df142319e8d35039e057599fa3573eb092a9afd4",
+  "BTCUSDT_rates.parquet": "2888c46b3973cb05cdc79b0a53eb1e930a3582e6b42c705b34e6ae28704fa904",
+  "ETHUSDT_bars.parquet": "325278be6331604e2e3489d652a3940bcffadf71c3fead762f705a2ca4dbd0bd",
+  "ETHUSDT_features.parquet": "40f5d1581a4b4998a64277f0506fcf260a257a25e01eb1941b36b131ebdc2157",
+  "ETHUSDT_rates.parquet": "568d44e7ebe8d4b3351093883fc4aa154a7b231cbcab95f80ec4b3ad0fb6fc14",
+  "SOLUSDT_bars.parquet": "a5cb2a3ec4a720e59a70db92d96ef9caca11904b1a94032942c06ed6e0100103",
+  "SOLUSDT_features.parquet": "661cc517bd2b25f933dadbcee17b0de05fa3d236005d30cb7eee9f188d231221",
+  "SOLUSDT_rates.parquet": "bdb5cbaf03a7a3c2582f77b3bdb4858e15e5049be81ec19febb21c91ac4cc561"
+}

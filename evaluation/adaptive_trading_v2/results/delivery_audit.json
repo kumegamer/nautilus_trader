@@ -1,0 +1,20 @@
+{
+  "commit_or_push_performed": false,
+  "eligibility_records": 132,
+  "eligible_records": 0,
+  "freeze_verification": "Separate ats.freeze verify required after one-time freeze",
+  "matrix_paths": 351,
+  "maximum_monthly_pnl_sum_error": 0,
+  "monthly_folds_per_series": 21,
+  "monthly_system_scenario_series": 21,
+  "required_existing_artifacts_checked": 38,
+  "source_branch": "evaluation/adaptive-trading-v2",
+  "status": "PASS",
+  "tracked_core_edits": 0,
+  "unresolved": [
+    "No eligible trading profile; adaptive economic benefit untested",
+    "Public Binance forward smoke blocked HTTP451",
+    "No independent prospective economic evidence",
+    "Alternative exit treatments have no policy-specific promotion pipeline"
+  ]
+}

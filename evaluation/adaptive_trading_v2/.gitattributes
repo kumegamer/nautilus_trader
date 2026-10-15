@@ -1,0 +1,6 @@
+* text eol=lf
+*.csv -text
+*.json.gz -text -diff
+*.parquet -text -diff
+*.zip -text -diff
+*.sqlite -text -diff

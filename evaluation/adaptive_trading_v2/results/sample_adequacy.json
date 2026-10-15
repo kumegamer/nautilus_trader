@@ -1,0 +1,32 @@
+{
+  "TB_LONG": {
+    "maximum_matured_window_trades": 43,
+    "minimum_required": 60,
+    "windows_passing_sample": 0
+  },
+  "TB_SHORT": {
+    "maximum_matured_window_trades": 30,
+    "minimum_required": 60,
+    "windows_passing_sample": 0
+  },
+  "VB_LONG": {
+    "maximum_matured_window_trades": 46,
+    "minimum_required": 60,
+    "windows_passing_sample": 0
+  },
+  "VB_SHORT": {
+    "maximum_matured_window_trades": 34,
+    "minimum_required": 60,
+    "windows_passing_sample": 0
+  },
+  "VST_LONG": {
+    "maximum_matured_window_trades": 49,
+    "minimum_required": 60,
+    "windows_passing_sample": 0
+  },
+  "VST_SHORT": {
+    "maximum_matured_window_trades": 41,
+    "minimum_required": 60,
+    "windows_passing_sample": 0
+  }
+}
